@@ -627,3 +627,284 @@ These are just some examples of the Master's programs available at UTS. For deta
 2024-05-17 21:28:28 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-05-17 21:28:28 - INFO - Chatbot response: Hello! How can I help you today?
 2024-05-17 21:28:28 - INFO - 192.168.255.122 - - [17/May/2024 21:28:28] "POST /api HTTP/1.1" 200 -
+2024-05-17 22:41:44 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.255.122:5000
+2024-05-17 22:41:44 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-17 22:41:44 - INFO -  * Restarting with stat
+2024-05-17 22:41:46 - WARNING -  * Debugger is active!
+2024-05-17 22:41:46 - INFO -  * Debugger PIN: 241-841-614
+2024-05-17 22:41:51 - INFO - 192.168.255.122 - - [17/May/2024 22:41:51] "GET / HTTP/1.1" 200 -
+2024-05-17 22:41:52 - INFO - 192.168.255.122 - - [17/May/2024 22:41:52] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-17 22:41:52 - INFO - 192.168.255.122 - - [17/May/2024 22:41:52] "GET /static/images/favicon-32x32.png HTTP/1.1" 200 -
+2024-05-17 22:41:52 - INFO - 192.168.255.122 - - [17/May/2024 22:41:52] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 22:41:52 - INFO - 192.168.255.122 - - [17/May/2024 22:41:52] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-17 22:41:56 - INFO - Received user input: tell me degree
+2024-05-17 22:41:56 - INFO - 192.168.255.122 - - [17/May/2024 22:41:56] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-17 22:41:56 - INFO - 192.168.255.122 - - [17/May/2024 22:41:56] "GET /static/images/favicon-16x16.png HTTP/1.1" 200 -
+2024-05-17 22:41:59 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-05-17 22:41:59 - ERROR - Error occurred: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 24763 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-05-17 22:41:59 - INFO - 192.168.255.122 - - [17/May/2024 22:41:59] "POST /api HTTP/1.1" 200 -
+2024-05-17 22:42:53 - INFO - Received user input: tell me master
+2024-05-17 22:43:00 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 22:43:00 - INFO - Chatbot response: The University of Technology Sarawak (UTS) offers a variety of Master's and PhD programs through its different schools. Here are some of the Master's and PhD programs available at UTS:
+
+1. School of Business and Management:
+   - Master of Business Administration (MBA)
+   - Master of Project Management
+   - Master of Science in Business Management (Research Mode)
+   - Doctor of Philosophy (PhD) in Business Management
+
+2. School of Built Environment:
+   - Master of Architecture
+   - Master of Construction Management (Coursework)
+
+3. School of Engineering & Technology:
+   - Master of Engineering (Research Mode)
+   - Master of Science in Applied Sciences (Research Mode)
+   - Doctor of Philosophy (PhD) in Engineering
+   - Doctor of Philosophy (PhD) in Applied Science
+
+4. School of Computing & Creative Media:
+   - Master in Computing
+   - Doctor of Philosophy (PhD) in Computing
+
+Each program has specific entry requirements, duration of study, and objectives. Students interested in pursuing a Master's or PhD program at University of Technology Sarawak are encouraged to visit the UTS website or contact the respective departments for more detailed information on individual programs.
+2024-05-17 22:43:00 - INFO - 192.168.255.122 - - [17/May/2024 22:43:00] "POST /api HTTP/1.1" 200 -
+2024-05-17 22:44:01 - INFO - 192.168.255.122 - - [17/May/2024 22:44:01] "GET / HTTP/1.1" 200 -
+2024-05-17 22:44:01 - INFO - 192.168.255.122 - - [17/May/2024 22:44:01] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 22:44:01 - INFO - 192.168.255.122 - - [17/May/2024 22:44:01] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 22:44:01 - INFO - 192.168.255.122 - - [17/May/2024 22:44:01] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 22:44:01 - INFO - 192.168.255.122 - - [17/May/2024 22:44:01] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 22:44:01 - INFO - 192.168.255.122 - - [17/May/2024 22:44:01] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 22:44:04 - INFO - Received user input: tell me degree
+2024-05-17 22:44:04 - INFO - 192.168.255.122 - - [17/May/2024 22:44:04] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-17 22:44:04 - INFO - 192.168.255.122 - - [17/May/2024 22:44:04] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-17 22:44:07 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-05-17 22:44:07 - ERROR - Error occurred: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, you requested 20149 tokens (16053 in the messages, 4096 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2024-05-17 22:44:07 - INFO - 192.168.255.122 - - [17/May/2024 22:44:07] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:08:20 - INFO - 192.168.255.122 - - [17/May/2024 23:08:20] "GET / HTTP/1.1" 200 -
+2024-05-17 23:08:20 - INFO - 192.168.255.122 - - [17/May/2024 23:08:20] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 23:08:20 - INFO - 192.168.255.122 - - [17/May/2024 23:08:20] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 23:08:20 - INFO - 192.168.255.122 - - [17/May/2024 23:08:20] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:08:20 - INFO - 192.168.255.122 - - [17/May/2024 23:08:20] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:08:20 - INFO - 192.168.255.122 - - [17/May/2024 23:08:20] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:08:26 - INFO - Received user input: tell me degree program
+2024-05-17 23:08:26 - INFO - 192.168.255.122 - - [17/May/2024 23:08:26] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:08:26 - INFO - 192.168.255.122 - - [17/May/2024 23:08:26] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:08:36 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:08:36 - INFO - Chatbot response: University of Technology Sarawak offers a variety of degree programs across different schools:
+
+1. School of Business and Management
+    - Bachelor of Business Administration (Hons)
+    - Bachelor of Accountancy (Hons)
+    - Bachelor of Business (Hons) in Marketing
+    - Bachelor of Technology Management (Hons)
+
+2. School of Built Environment
+    - Bachelor of Quantity Surveying (Hons)
+    - Bachelor of Science (Hons) in Architecture
+    - Bachelor of Arts (Hons) in Interior Design
+    - Bachelor of Science (Hons) in Property and Construction Management
+
+3. School of Computing and Creative Media
+    - Bachelor of Computer Science (Hons)
+    - Bachelor of Arts (Hons) in Industrial Design
+    - Bachelor of Arts (Hons) in Creative Digital Media
+    - Bachelor of Mobile Game Development (Hons)
+
+4. School of Engineering and Technology
+    - Bachelor of Civil Engineering (Hons)
+    - Bachelor of Mechanical Engineering (Hons)
+    - Bachelor of Electrical Engineering (Hons)
+    - Bachelor of Food Technology (Hons)
+    - Bachelor of Science in Occupational Safety and Health (Honours) 
+
+These degree programs cover a range of fields including business, accounting, marketing, technology management, quantity surveying, architecture, interior design, property and construction management, computer science, industrial design, creative digital media, mobile game development, civil engineering, mechanical engineering, electrical engineering, food technology, and occupational safety and health.
+2024-05-17 23:08:36 - INFO - 192.168.255.122 - - [17/May/2024 23:08:36] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:09:36 - INFO - Received user input: tell me full information of Bachelor of Accountancy (Hons)
+2024-05-17 23:09:44 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:09:44 - INFO - Chatbot response: The Bachelor of Accountancy (Hons) program at the University of Technology Sarawak is designed to prepare students for careers in accounting and finance. Here is some key information about the program:
+
+1. **Duration**: The program is typically a 4-year full-time undergraduate degree.
+
+2. **Entry Requirements**: Students must meet the minimum entry requirements set by the university, which may include specific academic qualifications and English language proficiency.
+
+3. **Curriculum**: The curriculum covers a wide range of accounting and finance subjects, including financial accounting, management accounting, auditing, taxation, and financial management. Students will also learn about business law, ethics, economics, and information technology as they relate to the field of accounting.
+
+4. **Professional Accreditation**: The program may be accredited or recognized by professional accounting bodies such as the Malaysian Institute of Accountants (MIA), which could allow graduates to pursue professional certifications like the Certified Public Accountant (CPA) designation.
+
+5. **Career Opportunities**: Graduates of the Bachelor of Accountancy program may pursue careers in public accounting firms, corporations, government agencies, non-profit organizations, and other industries. Job roles could include accountant, auditor, tax consultant, financial analyst, and more.
+
+6. **Internship Opportunities**: The program may offer internships or work placement opportunities to give students practical experience in the field and enhance their employability.
+
+7. **Further Studies**: Graduates may choose to pursue further studies such as a Master's degree in accounting, finance, or related fields to deepen their knowledge and enhance their career prospects.
+
+Overall, the Bachelor of Accountancy (Hons) program at the University of Technology Sarawak provides students with a solid foundation in accounting principles, practices, and skills to kickstart a successful career in the field of accounting and finance.
+2024-05-17 23:09:44 - INFO - 192.168.255.122 - - [17/May/2024 23:09:44] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:10:49 - INFO - Received user input: tell me degree Bachelor of Accountancy (Hons)
+2024-05-17 23:11:01 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:11:01 - INFO - Chatbot response: As requested, here is the full information about the Bachelor of Accountancy (Hons) degree program at the University of Technology Sarawak:
+
+- **Overview**: The Bachelor of Accountancy (Hons) program aligns with the standards set by the Malaysian Qualification Agency (MQA) and professional bodies, combining theoretical content with practical experience in accounting, finance, management, and entrepreneurship.
+
+- **Accreditation**: The program is accredited by the Ministry of Higher Education (MQA) and recognized by professional bodies such as the Chartered Tax Institute of Malaysia (CTIM), Association of Chartered Certified Accountants (ACCA), and CPA Australia.
+
+- **Learning Outcomes**:
+    - Knowledge of accounting principles.
+    - Preparation and evaluation of financial information.
+    - Entrepreneurship and management skills.
+    - Effective communication.
+    - Leadership and teamwork.
+    - Critical and innovative thinking.
+    - Lifelong learning.
+    - Professional values and ethics.
+
+- **Duration**: The Bachelor of Accountancy (Hons) program is typically a 3-year full-time undergraduate degree.
+
+- **Entry Requirements**: Interested students need to meet specific qualification requirements with subject grades and CGPA set by the university. MUET Band 2 might also be required for graduation.
+
+- **Financial Aid**: The program may offer financial aid in the form of PTPTN study loans to assist students in funding their education.
+
+- **Contact**: For more information or inquiries about the Bachelor of Accountancy (Hons) program, you can reach the university at (+6) 084-367300 or send an email to enquiry@uts.edu.my.
+
+This program equips students with the necessary knowledge and skills in accounting, finance, and management, preparing them for careers in various sectors such as public accounting firms, corporations, government agencies, and more.
+2024-05-17 23:11:01 - INFO - 192.168.255.122 - - [17/May/2024 23:11:01] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:13:43 - INFO - 192.168.255.122 - - [17/May/2024 23:13:43] "GET / HTTP/1.1" 200 -
+2024-05-17 23:13:43 - INFO - 192.168.255.122 - - [17/May/2024 23:13:43] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 23:13:43 - INFO - 192.168.255.122 - - [17/May/2024 23:13:43] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:13:43 - INFO - 192.168.255.122 - - [17/May/2024 23:13:43] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 23:13:43 - INFO - 192.168.255.122 - - [17/May/2024 23:13:43] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:13:43 - INFO - 192.168.255.122 - - [17/May/2024 23:13:43] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:13:54 - INFO - Received user input: tell me master program
+2024-05-17 23:13:54 - INFO - 192.168.255.122 - - [17/May/2024 23:13:54] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:13:54 - INFO - 192.168.255.122 - - [17/May/2024 23:13:54] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:14:09 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:14:09 - INFO - Chatbot response: The University of Technology Sarawak (UTS) offers a range of Master programs across various disciplines. Here are some of the Master programs available at UTS:
+
+1. Master of Business Administration (MBA)
+   - Intakes: February & September
+   - Duration: Full-time (1.5-3 years), Part-time (2-4 years)
+   - Entry Requirements: Bachelor’s degree with minimum CGPA of 2.50 or relevant work experience
+
+2. Master of Project Management
+   - Intakes: February & September
+   - Duration: Full-time (1.5-3 years), Part-time (2.5-5 years)
+   - Entry Requirements: Bachelor’s degree with minimum CGPA of 2.50 or relevant work experience
+
+3. Master of Science in Business Management (Research Mode)
+   - Intakes: March, June, September, December
+   - Duration: Full-time (2-4 years), Part-time (3-6 years)
+   - Entry Requirements: Bachelor’s degree in business related field with minimum CGPA of 2.75 or equivalent qualifications
+
+4. Doctor of Philosophy (PhD) in Business Management
+   - Intakes: March, June, September, December
+   - Duration: Full-time (3-6 years), Part-time (4-8 years)
+   - Entry Requirements: Master’s degree in business or related field
+
+5. Master of Architecture
+   - Intakes: February & September
+   - Duration: 2 years full-time
+   - Entry Requirements: Bachelor’s degree in Architecture with relevant working experience
+
+6. Master of Construction Management (Coursework)
+   - Intakes: February & September
+   - Duration: Full-time (1.5-3 years), Part-time (3-6 years)
+   - Entry Requirements: Bachelor Degree in Construction Management or related field
+
+7. Master of Engineering (Research Mode)
+   - Intakes: March, June, September, December
+   - Duration: Full-time (2-4 years), Part-time (3-6 years)
+   - Entry Requirements: Bachelor’s degree in Engineering with minimum CGPA of 2.75
+
+8. Master of Science in Applied Sciences (Research Mode)
+   - Intakes: March, June, September, December
+   - Duration: Full-time (2-4 years), Part-time (3-6 years)
+   - Entry Requirements: Bachelor’s degree with minimum CGPA of 2.75 or equivalent
+
+9. Master in Computing
+   - Intakes: March, June, September, December
+   - Duration: Full-time (2-4 years), Part-time (3-6 years)
+   - Entry Requirements: Bachelor’s Degree of Computing with minimum CGPA of 3.00 or equivalent
+
+10. Doctor of Philosophy (PhD) in Computing
+    - Duration: Full-time (3-6 years), Part-time (4-8 years)
+    - Entry Requirements: Master's Degree in Computing or equivalent
+
+These are some of the Master programs available at University of Technology Sarawak. For more detailed information, it is recommended to visit the official website of the University.
+2024-05-17 23:14:09 - INFO - 192.168.255.122 - - [17/May/2024 23:14:09] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:14:18 - INFO - Received user input: bold apple
+2024-05-17 23:14:19 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:14:19 - INFO - Chatbot response: Apple
+2024-05-17 23:14:19 - INFO - 192.168.255.122 - - [17/May/2024 23:14:19] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:14:33 - INFO - Received user input: bold the word apple
+2024-05-17 23:14:34 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:14:34 - INFO - Chatbot response: **apple**
+2024-05-17 23:14:34 - INFO - 192.168.255.122 - - [17/May/2024 23:14:34] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:14:58 - INFO - Received user input: tell me degree  Bachelor of Business Administration (Hons)
+2024-05-17 23:15:03 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:15:03 - INFO - Chatbot response: The Bachelor of Business Administration (Hons) program at the University of Technology Sarawak prepares students for business careers with knowledge in business administration, leadership, teamwork, contemporary business environment, and analytical decision-making. The program is accredited by the Ministry of Education and Malaysian Qualification Agency. Students are equipped with multidisciplinary business practices, leadership capabilities, effective communication skills, and critical thinking in decision-making. The duration of the program is 3 years full-time, and entry requirements include various qualifications with a minimum CGPA of 2.0, specific credits, and recognition by the Malaysian Government. Financial aid in the form of PTPTN study loans is available for eligible students. For more information, you can contact the university at (+6) 084-367300 or via email at enquiry@uts.edu.my.
+2024-05-17 23:15:03 - INFO - 192.168.255.122 - - [17/May/2024 23:15:03] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:15:27 - INFO - Received user input: tell me about computer
+2024-05-17 23:15:34 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:15:34 - INFO - Chatbot response: Computers are electronic devices that can perform a variety of tasks by following instructions given to them in the form of programs. They consist of hardware components such as the central processing unit (CPU), memory (RAM), storage devices (hard drive, SSD), input devices (keyboard, mouse), output devices (monitor, printer), and other peripherals.
+
+Computers can execute a wide range of functions, including data processing, communication, multimedia operations, calculations, gaming, and much more. They operate on the basis of binary code, which consists of a series of ones and zeros representing electrical signals.
+
+Computers can be categorized into various types based on their size, functionality, and usage, such as personal computers (PCs), laptops, tablets, servers, supercomputers, and embedded systems. They run on operating systems like Windows, macOS, Linux, and others, which provide the necessary interface for users to interact with the computer and its applications.
+
+The field of computer science involves the study of computers and computational systems, including software development, computer programming, algorithm design, artificial intelligence, data structures, networking, and cybersecurity.
+
+Overall, computers play a crucial role in modern society and have revolutionized numerous aspects of our lives, from communication and entertainment to education and business operations.
+2024-05-17 23:15:34 - INFO - 192.168.255.122 - - [17/May/2024 23:15:34] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:15:49 - INFO - Received user input: how many type of computer
+2024-05-17 23:15:57 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:15:57 - INFO - Chatbot response: Computers can be classified into several different types based on their size, functionality, and purpose. Here are some common types of computers:
+
+1. Personal Computers (PCs): These are commonly used by individuals for general computing tasks such as web browsing, word processing, and entertainment. PCs come in desktop and laptop form factors.
+
+2. Laptops: Portable computers that combine the functionality of a desktop computer in a compact design. They are popular for their portability and convenience.
+
+3. Tablets: Touchscreen devices that offer a more mobile and versatile computing experience compared to traditional laptops. They are used for browsing, media consumption, and basic productivity tasks.
+
+4. Servers: Computers designed to provide services or resources to other computers on a network. They are used for data storage, processing, and hosting websites or applications.
+
+5. Mainframe Computers: Large, powerful computers used by organizations for handling critical and complex computing tasks such as processing large volumes of data and running multiple applications simultaneously.
+
+6. Supercomputers: High-performance computers that are capable of executing complex calculations and simulations at extraordinary speeds. They are used for scientific research, weather forecasting, and other demanding applications.
+
+7. Embedded Systems: Computers integrated into other devices or systems to perform specific functions. They are found in appliances, automobiles, medical devices, and industrial equipment.
+
+8. Workstations: High-performance computers optimized for demanding professional tasks such as graphic design, video editing, and engineering simulations.
+
+9. Mobile Devices: Smartphones, smartwatches, and other portable gadgets with computing capabilities. They are widely used for communication, entertainment, and productivity on the go.
+
+These are some of the common types of computers, each serving different purposes and catering to diverse computing needs.
+2024-05-17 23:15:57 - INFO - 192.168.255.122 - - [17/May/2024 23:15:57] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:16:25 - INFO - 192.168.255.122 - - [17/May/2024 23:16:25] "GET / HTTP/1.1" 200 -
+2024-05-17 23:16:25 - INFO - 192.168.255.122 - - [17/May/2024 23:16:25] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 23:16:25 - INFO - 192.168.255.122 - - [17/May/2024 23:16:25] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:16:25 - INFO - 192.168.255.122 - - [17/May/2024 23:16:25] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 23:16:26 - INFO - 192.168.255.122 - - [17/May/2024 23:16:26] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:16:26 - INFO - 192.168.255.122 - - [17/May/2024 23:16:26] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:16:31 - INFO - 192.168.255.122 - - [17/May/2024 23:16:31] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:16:31 - INFO - 192.168.255.122 - - [17/May/2024 23:16:31] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:16:31 - INFO - Received user input: tell me degree  Bachelor of Business Administration (Hons)
+2024-05-17 23:16:38 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:16:38 - INFO - Chatbot response: The University of Technology Sarawak offers various degree programs in different fields of study through its different schools. Under the School of Business and Management, the Bachelor of Business Administration (Hons) program is designed to prepare students for careers in business. The program covers areas such as business administration, leadership, teamwork, the contemporary business environment, and analytical decision-making. The degree is accredited by the Malaysian Qualification Agency and the Ministry of Education. 
+
+Here are some key details about the Bachelor of Business Administration (Hons) program:
+
+- Credit Transfers: Up to 30% for relevant Diploma holders.
+- Duration: 3 years full-time.
+- Entry Requirements: Various qualifications with a minimum CGPA of 2.0, specific credits, and recognition by the Malaysian Government.
+- Accreditation: Ministry of Education (N/345/6/0358) and Malaysian Qualification Agency.
+- Educational Objectives: Multidisciplinary business practices, leadership capabilities, effective communication.
+- Learning Outcomes: Evaluate business theories, communicate innovative ideas, critical thinking in decision-making, display entrepreneurial skills, leadership and ethical practices, lifelong learning skills.
+- Financial Aid: PTPTN study loans available.
+
+For more information or inquiries, you can contact the university at (+6) 084-367300 or email at enquiry@uts.edu.my.
+2024-05-17 23:16:38 - INFO - 192.168.255.122 - - [17/May/2024 23:16:38] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:17:02 - INFO - 192.168.255.122 - - [17/May/2024 23:17:02] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 23:17:20 - INFO - 192.168.255.122 - - [17/May/2024 23:17:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
