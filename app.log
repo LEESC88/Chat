@@ -908,3 +908,79 @@ For more information or inquiries, you can contact the university at (+6) 084-36
 2024-05-17 23:16:38 - INFO - 192.168.255.122 - - [17/May/2024 23:16:38] "POST /api HTTP/1.1" 200 -
 2024-05-17 23:17:02 - INFO - 192.168.255.122 - - [17/May/2024 23:17:02] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
 2024-05-17 23:17:20 - INFO - 192.168.255.122 - - [17/May/2024 23:17:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-17 23:18:02 - INFO - 192.168.255.122 - - [17/May/2024 23:18:02] "GET / HTTP/1.1" 200 -
+2024-05-17 23:18:02 - INFO - 192.168.255.122 - - [17/May/2024 23:18:02] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-17 23:18:02 - INFO - 192.168.255.122 - - [17/May/2024 23:18:02] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:18:02 - INFO - 192.168.255.122 - - [17/May/2024 23:18:02] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 23:18:02 - INFO - 192.168.255.122 - - [17/May/2024 23:18:02] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:18:02 - INFO - 192.168.255.122 - - [17/May/2024 23:18:02] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:18:19 - INFO - 192.168.255.122 - - [17/May/2024 23:18:19] "GET / HTTP/1.1" 200 -
+2024-05-17 23:18:19 - INFO - 192.168.255.122 - - [17/May/2024 23:18:19] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 23:18:19 - INFO - 192.168.255.122 - - [17/May/2024 23:18:19] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-17 23:18:19 - INFO - 192.168.255.122 - - [17/May/2024 23:18:19] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:18:19 - INFO - 192.168.255.122 - - [17/May/2024 23:18:19] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:18:19 - INFO - 192.168.255.122 - - [17/May/2024 23:18:19] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:19:20 - INFO - 192.168.255.122 - - [17/May/2024 23:19:20] "GET / HTTP/1.1" 200 -
+2024-05-17 23:19:20 - INFO - 192.168.255.122 - - [17/May/2024 23:19:20] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 23:19:20 - INFO - 192.168.255.122 - - [17/May/2024 23:19:20] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:19:20 - INFO - 192.168.255.122 - - [17/May/2024 23:19:20] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-17 23:19:20 - INFO - 192.168.255.122 - - [17/May/2024 23:19:20] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:19:20 - INFO - 192.168.255.122 - - [17/May/2024 23:19:20] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:19:41 - INFO - 192.168.255.122 - - [17/May/2024 23:19:41] "GET / HTTP/1.1" 200 -
+2024-05-17 23:19:41 - INFO - 192.168.255.122 - - [17/May/2024 23:19:41] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:19:41 - INFO - 192.168.255.122 - - [17/May/2024 23:19:41] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 23:19:41 - INFO - 192.168.255.122 - - [17/May/2024 23:19:41] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-17 23:19:41 - INFO - 192.168.255.122 - - [17/May/2024 23:19:41] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:19:41 - INFO - 192.168.255.122 - - [17/May/2024 23:19:41] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:20:00 - INFO - 192.168.255.122 - - [17/May/2024 23:20:00] "GET / HTTP/1.1" 200 -
+2024-05-17 23:20:00 - INFO - 192.168.255.122 - - [17/May/2024 23:20:00] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:20:00 - INFO - 192.168.255.122 - - [17/May/2024 23:20:00] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-17 23:20:00 - INFO - 192.168.255.122 - - [17/May/2024 23:20:00] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 23:20:01 - INFO - 192.168.255.122 - - [17/May/2024 23:20:01] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:20:01 - INFO - 192.168.255.122 - - [17/May/2024 23:20:01] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:20:17 - INFO - Received user input: tell me television
+2024-05-17 23:20:17 - INFO - 192.168.255.122 - - [17/May/2024 23:20:17] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:20:17 - INFO - 192.168.255.122 - - [17/May/2024 23:20:17] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:20:21 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:20:21 - INFO - Chatbot response: Television, sometimes shortened to TV, is a system for transmitting visual and audio content to viewers in their homes. It typically involves the broadcasting of programs, shows, and news across various channels. Television sets receive these broadcasts through antennas or cable connections and display the content on screens for viewers to watch. Television has evolved over the years with the advent of high-definition displays, smart TVs, and streaming services, providing a wide variety of content for viewers to enjoy.
+2024-05-17 23:20:21 - INFO - 192.168.255.122 - - [17/May/2024 23:20:21] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:20:29 - INFO - Received user input: how many type
+2024-05-17 23:20:33 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:20:33 - INFO - Chatbot response: There are several types of televisions available in the market, each with its own unique features and technology. Some common types of televisions include:
+
+1. LED (Light Emitting Diode) TV
+2. LCD (Liquid Crystal Display) TV
+3. OLED (Organic Light Emitting Diode) TV
+4. Plasma TV
+5. Smart TV
+6. 4K TV
+7. Curved TV
+8. QLED (Quantum Dot LED) TV
+
+These TV types vary in terms of display technology, resolution, features, and price range, allowing consumers to choose the one that best suits their preferences and viewing needs.
+2024-05-17 23:20:33 - INFO - 192.168.255.122 - - [17/May/2024 23:20:33] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:20:59 - INFO - 192.168.255.122 - - [17/May/2024 23:20:59] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 23:29:37 - INFO - 192.168.255.122 - - [17/May/2024 23:29:37] "GET / HTTP/1.1" 200 -
+2024-05-17 23:29:38 - INFO - 192.168.255.122 - - [17/May/2024 23:29:38] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 23:29:38 - INFO - 192.168.255.122 - - [17/May/2024 23:29:38] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 23:29:38 - INFO - 192.168.255.122 - - [17/May/2024 23:29:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:29:38 - INFO - 192.168.255.122 - - [17/May/2024 23:29:38] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:29:38 - INFO - 192.168.255.122 - - [17/May/2024 23:29:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:29:40 - INFO - Received user input: hi
+2024-05-17 23:29:40 - INFO - 192.168.255.122 - - [17/May/2024 23:29:40] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-17 23:29:40 - INFO - 192.168.255.122 - - [17/May/2024 23:29:40] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:29:42 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:29:42 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-17 23:29:42 - INFO - 192.168.255.122 - - [17/May/2024 23:29:42] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:34:27 - INFO - 192.168.255.122 - - [17/May/2024 23:34:27] "GET / HTTP/1.1" 200 -
+2024-05-17 23:34:27 - INFO - 192.168.255.122 - - [17/May/2024 23:34:27] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 23:34:27 - INFO - 192.168.255.122 - - [17/May/2024 23:34:27] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:34:27 - INFO - 192.168.255.122 - - [17/May/2024 23:34:27] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 23:34:27 - INFO - 192.168.255.122 - - [17/May/2024 23:34:27] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:34:27 - INFO - 192.168.255.122 - - [17/May/2024 23:34:27] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:34:29 - INFO - Received user input: hi
+2024-05-17 23:34:29 - INFO - 192.168.255.122 - - [17/May/2024 23:34:29] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-17 23:34:29 - INFO - 192.168.255.122 - - [17/May/2024 23:34:29] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:34:31 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:34:31 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-17 23:34:31 - INFO - 192.168.255.122 - - [17/May/2024 23:34:31] "POST /api HTTP/1.1" 200 -
