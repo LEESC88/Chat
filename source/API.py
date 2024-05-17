@@ -4,7 +4,7 @@ import logging
 from moderation import moderate_content
 from harmful import harmful_word
 from textFile import read_text_files
-from key import OPENAI_API_KEY
+import os
 
 app = Flask(__name__, template_folder='templates')
 
@@ -14,6 +14,10 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',  
     datefmt='%Y-%m-%d %H:%M:%S'
 )
+
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+if OPENAI_API_KEY is None:
+    raise ValueError("OPENAI_API_KEY environment variable is not set.")
 
 openai.api_key = OPENAI_API_KEY
 

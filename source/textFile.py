@@ -1,7 +1,10 @@
 import os
 import openai
-from key import OPENAI_API_KEY
 from moderation import moderate_content
+
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+if not OPENAI_API_KEY:
+    raise ValueError("OpenAI API key not found. Set the OPENAI_API_KEY environment variable.")
 
 openai.api_key = OPENAI_API_KEY
 
