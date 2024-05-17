@@ -1,10 +1,10 @@
+import os
 from flask import Flask, render_template, request, jsonify
 import openai
 import logging
 from moderation import moderate_content
 from harmful import harmful_word
 from textFile import read_text_files
-import os
 
 app = Flask(__name__, template_folder='templates')
 
@@ -92,6 +92,5 @@ def api():
         return jsonify({"error": str(e)})
 
 if __name__ == '__main__':
-    server_url = 'http://192.168.255.122:5000'  
-    print(f"Server running at {server_url}")
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
