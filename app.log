@@ -1,0 +1,629 @@
+2024-05-17 20:38:17 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.255.122:5000
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a prod
+uction WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1
+:5000
+ * Running on http://192.168.255.122:5000
+2024-05-17 20:38:17 - INFO - [33mPress CTRL+C to quit[0m
+[33mPress CTRL+C to quit[0m
+2024-05-17 20:38:17 - INFO -  * Restarting with stat
+ * Restarting with stat
+2024-05-17 20:38:17 - WARNING -  * Debugger is active!
+ * Debugger is active!
+2024-05-17 20:38:17 - INFO -  * Debugger PIN: 241-841-614
+ * Debugger PIN: 241-841-614
+2024-05-17 20:38:23 - INFO - 192.168.255.122 - - [17/May/2024 20:38:23] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:38:23] "GET / HTTP/1.1" 200 -
+2024-05-17 20:38:23 - INFO - 192.168.255.122 - - [17/May/2024 20:38:23] "GET /static/images/favicon-32x32.png HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:38:23] "GET /static/images/favicon-32x32.png HTTP/1.1" 200 -
+2024-05-17 20:38:23 - INFO - 192.168.255.122 - - [17/May/2024 20:38:23] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:38:23] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-17 20:38:23 - INFO - 192.168.255.122 - - [17/May/2024 20:38:23] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:38:23] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 20:38:23 - INFO - 192.168.255.122 - - [17/May/2024 20:38:23] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:38:23] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-17 20:38:57 - INFO - 192.168.255.122 - - [17/May/2024 20:38:57] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:38:57] "GET / HTTP/1.1" 200 -
+2024-05-17 20:38:57 - INFO - 192.168.255.122 - - [17/May/2024 20:38:57] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:38:57] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:38:57 - INFO - 192.168.255.122 - - [17/May/2024 20:38:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:38:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:38:57 - INFO - 192.168.255.122 - - [17/May/2024 20:38:57] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:38:57] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 20:38:57 - INFO - 192.168.255.122 - - [17/May/2024 20:38:57] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:38:57] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:38:57 - INFO - 192.168.255.122 - - [17/May/2024 20:38:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:38:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:39:30 - INFO - 192.168.255.122 - - [17/May/2024 20:39:30] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:39:30] "GET / HTTP/1.1" 200 -
+2024-05-17 20:39:30 - INFO - 192.168.255.122 - - [17/May/2024 20:39:30] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:39:30] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:39:30 - INFO - 192.168.255.122 - - [17/May/2024 20:39:30] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:39:30] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:39:30 - INFO - 192.168.255.122 - - [17/May/2024 20:39:30] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:39:30] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 20:39:30 - INFO - 192.168.255.122 - - [17/May/2024 20:39:30] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:39:30] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:39:31 - INFO - 192.168.255.122 - - [17/May/2024 20:39:31] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:39:31] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:39:45 - INFO - 192.168.255.122 - - [17/May/2024 20:39:45] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:39:45] "GET / HTTP/1.1" 200 -
+2024-05-17 20:39:45 - INFO - 192.168.255.122 - - [17/May/2024 20:39:45] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:39:45] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:39:45 - INFO - 192.168.255.122 - - [17/May/2024 20:39:45] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:39:45] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:39:45 - INFO - 192.168.255.122 - - [17/May/2024 20:39:45] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:39:45] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 20:39:45 - INFO - 192.168.255.122 - - [17/May/2024 20:39:45] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:39:45] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:39:45 - INFO - 192.168.255.122 - - [17/May/2024 20:39:45] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:39:45] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:39:48 - INFO - Received user input: hi
+Received user input: hi
+2024-05-17 20:39:48 - INFO - 192.168.255.122 - - [17/May/2024 20:39:48] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:39:48] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-17 20:39:48 - INFO - 192.168.255.122 - - [17/May/2024 20:39:48] "GET /static/images/favicon-16x16.png HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:39:48] "GET /static/images/favicon-16x16.png HTTP/1.1" 200 -
+2024-05-17 20:39:49 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 20:39:49 - INFO - Chatbot response: Hello! How can I help you today?
+Chatbot response: Hello! How can I help you today?
+2024-05-17 20:39:49 - INFO - 192.168.255.122 - - [17/May/2024 20:39:49] "POST /api HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:39:49] "POST /api HTTP/1.1" 200 -
+2024-05-17 20:40:02 - INFO - 192.168.255.122 - - [17/May/2024 20:40:02] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:40:02] "GET / HTTP/1.1" 200 -
+2024-05-17 20:40:02 - INFO - 192.168.255.122 - - [17/May/2024 20:40:02] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:02] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:40:02 - INFO - 192.168.255.122 - - [17/May/2024 20:40:02] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:02] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:40:02 - INFO - 192.168.255.122 - - [17/May/2024 20:40:02] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:02] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 20:40:02 - INFO - 192.168.255.122 - - [17/May/2024 20:40:02] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:02] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:40:02 - INFO - 192.168.255.122 - - [17/May/2024 20:40:02] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:02] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:40:18 - INFO - 192.168.255.122 - - [17/May/2024 20:40:18] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:40:18] "GET / HTTP/1.1" 200 -
+2024-05-17 20:40:18 - INFO - 192.168.255.122 - - [17/May/2024 20:40:18] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:18] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:40:18 - INFO - 192.168.255.122 - - [17/May/2024 20:40:18] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:18] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:40:18 - INFO - 192.168.255.122 - - [17/May/2024 20:40:18] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:18] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 20:40:18 - INFO - 192.168.255.122 - - [17/May/2024 20:40:18] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:18] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:40:18 - INFO - 192.168.255.122 - - [17/May/2024 20:40:18] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:18] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:40:51 - INFO - 192.168.255.122 - - [17/May/2024 20:40:51] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:40:51] "GET / HTTP/1.1" 200 -
+2024-05-17 20:40:51 - INFO - 192.168.255.122 - - [17/May/2024 20:40:51] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:51] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:40:51 - INFO - 192.168.255.122 - - [17/May/2024 20:40:51] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:51] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:40:51 - INFO - 192.168.255.122 - - [17/May/2024 20:40:51] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:51] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 20:40:51 - INFO - 192.168.255.122 - - [17/May/2024 20:40:51] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:51] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:40:51 - INFO - 192.168.255.122 - - [17/May/2024 20:40:51] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:40:51] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:41:32 - INFO - 192.168.255.122 - - [17/May/2024 20:41:32] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:41:32] "GET / HTTP/1.1" 200 -
+2024-05-17 20:41:32 - INFO - 192.168.255.122 - - [17/May/2024 20:41:32] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:41:32] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:41:32 - INFO - 192.168.255.122 - - [17/May/2024 20:41:32] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:41:32] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:41:32 - INFO - 192.168.255.122 - - [17/May/2024 20:41:32] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:41:32] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 20:41:32 - INFO - 192.168.255.122 - - [17/May/2024 20:41:32] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:41:32] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:41:33 - INFO - 192.168.255.122 - - [17/May/2024 20:41:33] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:41:33] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:42:36 - INFO - 192.168.255.122 - - [17/May/2024 20:42:36] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:42:36] "GET / HTTP/1.1" 200 -
+2024-05-17 20:42:37 - INFO - 192.168.255.122 - - [17/May/2024 20:42:37] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:37] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:42:37 - INFO - 192.168.255.122 - - [17/May/2024 20:42:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:42:37 - INFO - 192.168.255.122 - - [17/May/2024 20:42:37] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:37] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 20:42:37 - INFO - 192.168.255.122 - - [17/May/2024 20:42:37] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:37] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:42:37 - INFO - 192.168.255.122 - - [17/May/2024 20:42:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:42:39 - INFO - Received user input: hi
+Received user input: hi
+2024-05-17 20:42:39 - INFO - 192.168.255.122 - - [17/May/2024 20:42:39] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:39] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 3
+04 -
+2024-05-17 20:42:39 - INFO - 192.168.255.122 - - [17/May/2024 20:42:39] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:39] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:42:40 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 20:42:40 - INFO - Chatbot response: Hello! How can I help you today?
+Chatbot response: Hello! How can I help you today?
+2024-05-17 20:42:40 - INFO - 192.168.255.122 - - [17/May/2024 20:42:40] "POST /api HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:42:40] "POST /api HTTP/1.1" 200 -
+2024-05-17 20:42:48 - INFO - 192.168.255.122 - - [17/May/2024 20:42:48] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:42:48] "GET / HTTP/1.1" 200 -
+2024-05-17 20:42:48 - INFO - 192.168.255.122 - - [17/May/2024 20:42:48] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:48] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:42:48 - INFO - 192.168.255.122 - - [17/May/2024 20:42:48] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:48] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 20:42:48 - INFO - 192.168.255.122 - - [17/May/2024 20:42:48] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:48] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:42:48 - INFO - 192.168.255.122 - - [17/May/2024 20:42:48] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:48] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:42:48 - INFO - 192.168.255.122 - - [17/May/2024 20:42:48] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:42:48] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:43:34 - INFO - 192.168.255.122 - - [17/May/2024 20:43:34] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:43:34] "GET / HTTP/1.1" 200 -
+2024-05-17 20:43:34 - INFO - 192.168.255.122 - - [17/May/2024 20:43:34] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:43:34] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:43:34 - INFO - 192.168.255.122 - - [17/May/2024 20:43:34] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:43:34] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:43:34 - INFO - 192.168.255.122 - - [17/May/2024 20:43:34] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:43:34] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 20:43:34 - INFO - 192.168.255.122 - - [17/May/2024 20:43:34] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:43:34] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:43:35 - INFO - 192.168.255.122 - - [17/May/2024 20:43:35] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:43:35] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:44:03 - INFO - 192.168.255.122 - - [17/May/2024 20:44:03] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:44:03] "GET / HTTP/1.1" 200 -
+2024-05-17 20:44:03 - INFO - 192.168.255.122 - - [17/May/2024 20:44:03] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:03] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:44:03 - INFO - 192.168.255.122 - - [17/May/2024 20:44:03] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:03] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:44:03 - INFO - 192.168.255.122 - - [17/May/2024 20:44:03] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:44:03] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 20:44:03 - INFO - 192.168.255.122 - - [17/May/2024 20:44:03] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:03] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:44:03 - INFO - 192.168.255.122 - - [17/May/2024 20:44:03] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:03] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:44:37 - INFO - 192.168.255.122 - - [17/May/2024 20:44:37] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:44:37] "GET / HTTP/1.1" 200 -
+2024-05-17 20:44:37 - INFO - 192.168.255.122 - - [17/May/2024 20:44:37] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:37] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:44:37 - INFO - 192.168.255.122 - - [17/May/2024 20:44:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:44:37 - INFO - 192.168.255.122 - - [17/May/2024 20:44:37] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:37] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 20:44:37 - INFO - 192.168.255.122 - - [17/May/2024 20:44:37] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:37] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:44:37 - INFO - 192.168.255.122 - - [17/May/2024 20:44:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:44:50 - INFO - 192.168.255.122 - - [17/May/2024 20:44:50] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:44:50] "GET / HTTP/1.1" 200 -
+2024-05-17 20:44:50 - INFO - 192.168.255.122 - - [17/May/2024 20:44:50] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:50] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:44:50 - INFO - 192.168.255.122 - - [17/May/2024 20:44:50] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:50] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:44:50 - INFO - 192.168.255.122 - - [17/May/2024 20:44:50] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:50] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 20:44:50 - INFO - 192.168.255.122 - - [17/May/2024 20:44:50] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:50] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:44:50 - INFO - 192.168.255.122 - - [17/May/2024 20:44:50] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:44:50] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:45:08 - INFO - 192.168.255.122 - - [17/May/2024 20:45:08] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:45:08] "GET / HTTP/1.1" 200 -
+2024-05-17 20:45:08 - INFO - 192.168.255.122 - - [17/May/2024 20:45:08] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:08] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:45:08 - INFO - 192.168.255.122 - - [17/May/2024 20:45:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:45:08 - INFO - 192.168.255.122 - - [17/May/2024 20:45:08] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:45:08] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 20:45:08 - INFO - 192.168.255.122 - - [17/May/2024 20:45:08] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:08] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:45:08 - INFO - 192.168.255.122 - - [17/May/2024 20:45:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:45:10 - INFO - Received user input: hu
+Received user input: hu
+2024-05-17 20:45:10 - INFO - 192.168.255.122 - - [17/May/2024 20:45:10] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:10] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 3
+04 -
+2024-05-17 20:45:10 - INFO - 192.168.255.122 - - [17/May/2024 20:45:10] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:10] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:45:12 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 20:45:12 - INFO - Chatbot response: Hello! How can I help you today?
+Chatbot response: Hello! How can I help you today?
+2024-05-17 20:45:12 - INFO - 192.168.255.122 - - [17/May/2024 20:45:12] "POST /api HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:45:12] "POST /api HTTP/1.1" 200 -
+2024-05-17 20:45:37 - INFO - 192.168.255.122 - - [17/May/2024 20:45:37] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:45:37] "GET / HTTP/1.1" 200 -
+2024-05-17 20:45:37 - INFO - 192.168.255.122 - - [17/May/2024 20:45:37] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:37] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:45:37 - INFO - 192.168.255.122 - - [17/May/2024 20:45:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:45:37 - INFO - 192.168.255.122 - - [17/May/2024 20:45:37] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:45:37] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 20:45:37 - INFO - 192.168.255.122 - - [17/May/2024 20:45:37] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:37] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:45:37 - INFO - 192.168.255.122 - - [17/May/2024 20:45:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:45:41 - INFO - Received user input: gggfg
+Received user input: gggfg
+2024-05-17 20:45:41 - INFO - 192.168.255.122 - - [17/May/2024 20:45:41] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:41] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 3
+04 -
+2024-05-17 20:45:41 - INFO - 192.168.255.122 - - [17/May/2024 20:45:41] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:45:41] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:45:42 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 20:45:42 - INFO - Chatbot response: It looks like you entered a random series of letters. Is there anything specific you would like to ask or talk about? Feel free to share more details or ask a question!
+Chatbot response: It looks like you entered a random series of letters. Is there anything specific y
+ou would like to ask or talk about? Feel free to share more details or ask a question!
+2024-05-17 20:45:42 - INFO - 192.168.255.122 - - [17/May/2024 20:45:42] "POST /api HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:45:42] "POST /api HTTP/1.1" 200 -
+2024-05-17 20:51:38 - INFO - 192.168.255.122 - - [17/May/2024 20:51:38] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:51:38] "GET / HTTP/1.1" 200 -
+2024-05-17 20:51:38 - INFO - 192.168.255.122 - - [17/May/2024 20:51:38] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:51:38] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:51:38 - INFO - 192.168.255.122 - - [17/May/2024 20:51:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:51:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:51:38 - INFO - 192.168.255.122 - - [17/May/2024 20:51:38] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:51:38] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 20:51:38 - INFO - 192.168.255.122 - - [17/May/2024 20:51:38] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:51:38] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:51:38 - INFO - 192.168.255.122 - - [17/May/2024 20:51:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:51:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:51:56 - INFO - 192.168.255.122 - - [17/May/2024 20:51:56] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:51:56] "GET / HTTP/1.1" 200 -
+2024-05-17 20:51:56 - INFO - 192.168.255.122 - - [17/May/2024 20:51:56] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:51:56] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 20:51:56 - INFO - 192.168.255.122 - - [17/May/2024 20:51:56] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:51:56] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:51:56 - INFO - 192.168.255.122 - - [17/May/2024 20:51:56] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 20:51:56] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 20:51:56 - INFO - 192.168.255.122 - - [17/May/2024 20:51:56] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:51:56] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 20:51:56 - INFO - 192.168.255.122 - - [17/May/2024 20:51:56] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:51:56] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 20:52:01 - INFO - 192.168.255.122 - - [17/May/2024 20:52:01] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 20:52:01] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:00:45 - INFO - 192.168.255.122 - - [17/May/2024 21:00:45] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:00:45] "GET / HTTP/1.1" 200 -
+2024-05-17 21:00:46 - INFO - 192.168.255.122 - - [17/May/2024 21:00:46] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:00:46] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:00:46 - INFO - 192.168.255.122 - - [17/May/2024 21:00:46] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:00:46] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:00:46 - INFO - 192.168.255.122 - - [17/May/2024 21:00:46] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:00:46] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 21:00:46 - INFO - 192.168.255.122 - - [17/May/2024 21:00:46] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:00:46] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 21:00:46 - INFO - 192.168.255.122 - - [17/May/2024 21:00:46] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:00:46] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:01:55 - INFO - 192.168.255.122 - - [17/May/2024 21:01:55] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:01:55] "GET / HTTP/1.1" 200 -
+2024-05-17 21:01:55 - INFO - 192.168.255.122 - - [17/May/2024 21:01:55] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:01:55] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:01:55 - INFO - 192.168.255.122 - - [17/May/2024 21:01:55] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:01:55] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:01:55 - INFO - 192.168.255.122 - - [17/May/2024 21:01:55] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:01:55] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 21:01:55 - INFO - 192.168.255.122 - - [17/May/2024 21:01:55] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:01:55] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 21:01:56 - INFO - 192.168.255.122 - - [17/May/2024 21:01:56] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:01:56] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:02:49 - INFO - 192.168.255.122 - - [17/May/2024 21:02:49] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:02:49] "GET / HTTP/1.1" 200 -
+2024-05-17 21:02:49 - INFO - 192.168.255.122 - - [17/May/2024 21:02:49] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:02:49] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:02:49 - INFO - 192.168.255.122 - - [17/May/2024 21:02:49] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:02:49] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:02:49 - INFO - 192.168.255.122 - - [17/May/2024 21:02:49] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:02:49] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 21:02:49 - INFO - 192.168.255.122 - - [17/May/2024 21:02:49] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:02:49] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 21:02:49 - INFO - 192.168.255.122 - - [17/May/2024 21:02:49] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:02:49] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:02:54 - INFO - 192.168.255.122 - - [17/May/2024 21:02:54] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:02:54] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:04:25 - INFO - 192.168.255.122 - - [17/May/2024 21:04:25] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:04:25] "GET / HTTP/1.1" 200 -
+2024-05-17 21:04:25 - INFO - 192.168.255.122 - - [17/May/2024 21:04:25] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:04:25] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:04:25 - INFO - 192.168.255.122 - - [17/May/2024 21:04:25] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:04:25] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:04:25 - INFO - 192.168.255.122 - - [17/May/2024 21:04:25] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:04:25] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 21:04:25 - INFO - 192.168.255.122 - - [17/May/2024 21:04:25] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:04:25] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 21:04:26 - INFO - 192.168.255.122 - - [17/May/2024 21:04:26] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:04:26] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:05:05 - INFO - 192.168.255.122 - - [17/May/2024 21:05:05] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:05:05] "GET / HTTP/1.1" 200 -
+2024-05-17 21:05:05 - INFO - 192.168.255.122 - - [17/May/2024 21:05:05] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:05:05] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:05:05 - INFO - 192.168.255.122 - - [17/May/2024 21:05:05] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:05:05] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:05:05 - INFO - 192.168.255.122 - - [17/May/2024 21:05:05] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:05:05] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 21:05:05 - INFO - 192.168.255.122 - - [17/May/2024 21:05:05] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:05:05] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 21:05:05 - INFO - 192.168.255.122 - - [17/May/2024 21:05:05] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:05:05] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:07:13 - INFO - 192.168.255.122 - - [17/May/2024 21:07:13] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:07:13] "GET / HTTP/1.1" 200 -
+2024-05-17 21:07:13 - INFO - 192.168.255.122 - - [17/May/2024 21:07:13] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:07:13] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:07:13 - INFO - 192.168.255.122 - - [17/May/2024 21:07:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:07:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:07:13 - INFO - 192.168.255.122 - - [17/May/2024 21:07:13] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:07:13] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 21:07:13 - INFO - 192.168.255.122 - - [17/May/2024 21:07:13] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:07:13] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 21:07:13 - INFO - 192.168.255.122 - - [17/May/2024 21:07:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:07:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:12:20 - INFO - 192.168.255.122 - - [17/May/2024 21:12:20] "GET / HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:12:20] "GET / HTTP/1.1" 200 -
+2024-05-17 21:12:20 - INFO - 192.168.255.122 - - [17/May/2024 21:12:20] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:12:20] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:12:20 - INFO - 192.168.255.122 - - [17/May/2024 21:12:20] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:12:20] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:12:20 - INFO - 192.168.255.122 - - [17/May/2024 21:12:20] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:12:20] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-17 21:12:20 - INFO - 192.168.255.122 - - [17/May/2024 21:12:20] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:12:20] "[36mGET /static/images/Final_Background.png HTTP/1.1[0
+m" 304 -
+2024-05-17 21:12:20 - INFO - 192.168.255.122 - - [17/May/2024 21:12:20] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:12:20] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:12:26 - INFO - Received user input: hi
+Received user input: hi
+2024-05-17 21:12:26 - INFO - 192.168.255.122 - - [17/May/2024 21:12:26] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:12:26] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 3
+04 -
+2024-05-17 21:12:26 - INFO - 192.168.255.122 - - [17/May/2024 21:12:26] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+192.168.255.122 - - [17/May/2024 21:12:26] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 
+304 -
+2024-05-17 21:12:33 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 21:12:33 - INFO - Chatbot response: Hello! How can I assist you today?
+Chatbot response: Hello! How can I assist you today?
+2024-05-17 21:12:33 - INFO - 192.168.255.122 - - [17/May/2024 21:12:33] "POST /api HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:12:33] "POST /api HTTP/1.1" 200 -
+2024-05-17 21:12:42 - INFO - Received user input: tell me shark
+Received user input: tell me shark
+2024-05-17 21:12:45 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 21:12:45 - INFO - Chatbot response: Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, a streamlined body, and multiple rows of teeth. They are found in oceans around the world and play a crucial role in maintaining marine ecosystems. Sharks have a diverse range of species, with some being as small as a few inches long, while others can grow to be over 40 feet in length. They are known for their powerful jaws, swift swimming ability, and keen sense of smell. Sharks are top predators in their food chain and feed on a variety of marine animals. Despite their intimidating reputation, shark attacks on humans are rare, and most shark species are not aggressive towards people.
+Chatbot response: Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton,
+ a streamlined body, and multiple rows of teeth. They are found in oceans around the world and play 
+a crucial role in maintaining marine ecosystems. Sharks have a diverse range of species, with some b
+eing as small as a few inches long, while others can grow to be over 40 feet in length. They are kno
+wn for their powerful jaws, swift swimming ability, and keen sense of smell. Sharks are top predator
+s in their food chain and feed on a variety of marine animals. Despite their intimidating reputation
+, shark attacks on humans are rare, and most shark species are not aggressive towards people.
+2024-05-17 21:12:45 - INFO - 192.168.255.122 - - [17/May/2024 21:12:45] "POST /api HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:12:45] "POST /api HTTP/1.1" 200 -
+2024-05-17 21:12:59 - INFO - Received user input: tell me more information
+Received user input: tell me more information
+2024-05-17 21:13:05 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 21:13:05 - INFO - Chatbot response: Here are some more interesting facts about sharks:
+
+1. Diversity: There are over 500 different species of sharks, ranging from the tiny dwarf lantern shark, which is only about 8 inches long, to the massive whale shark, which can grow up to 40 feet in length.
+
+2. Lifespan: The lifespan of sharks varies depending on the species. Some species can live up to 100 years or more, while others have a shorter lifespan.
+
+3. Senses: Sharks have highly developed senses that help them hunt and survive in their environment. They have a keen sense of smell, excellent vision (especially in low light conditions), and can feel vibrations in the water with special organs called the lateral line system.
+
+4. Reproduction: Sharks have different methods of reproduction, including oviparous (laying eggs), ovoviviparous (eggs hatch inside the mother), and viviparous (live birth). The gestation period can range from a few months to over a year, depending on the species.
+
+5. Conservation: Many shark species are threatened by overfishing, habitat loss, and climate change. Conservation efforts are being made to protect sharks and their habitats, including the establishment of marine protected areas and regulations on shark fishing.
+
+6. Mythbusting: Contrary to popular belief, not all sharks are aggressive towards humans. In fact, the vast majority of shark species are not considered a threat to people. Shark attacks are rare, and most occur due to mistaken identity or provocation.
+
+Overall, sharks are fascinating and important creatures that play a crucial role in marine ecosystems.
+Chatbot response: Here are some more interesting facts about sharks:
+
+1. Diversity: There are over 5
+00 different species of sharks, ranging from the tiny dwarf lantern shark, which is only about 8 inc
+hes long, to the massive whale shark, which can grow up to 40 feet in length.
+
+2. Lifespan: The life
+span of sharks varies depending on the species. Some species can live up to 100 years or more, while
+ others have a shorter lifespan.
+
+3. Senses: Sharks have highly developed senses that help them hunt
+ and survive in their environment. They have a keen sense of smell, excellent vision (especially in 
+low light conditions), and can feel vibrations in the water with special organs called the lateral l
+ine system.
+
+4. Reproduction: Sharks have different methods of reproduction, including oviparous (la
+ying eggs), ovoviviparous (eggs hatch inside the mother), and viviparous (live birth). The gestation
+ period can range from a few months to over a year, depending on the species.
+
+5. Conservation: Many
+ shark species are threatened by overfishing, habitat loss, and climate change. Conservation efforts
+ are being made to protect sharks and their habitats, including the establishment of marine protecte
+d areas and regulations on shark fishing.
+
+6. Mythbusting: Contrary to popular belief, not all shark
+s are aggressive towards humans. In fact, the vast majority of shark species are not considered a th
+reat to people. Shark attacks are rare, and most occur due to mistaken identity or provocation.
+
+Ove
+rall, sharks are fascinating and important creatures that play a crucial role in marine ecosystems.
+2024-05-17 21:13:05 - INFO - 192.168.255.122 - - [17/May/2024 21:13:05] "POST /api HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:13:05] "POST /api HTTP/1.1" 200 -
+2024-05-17 21:14:42 - INFO - Received user input: tell me foundation 
+Received user input: tell me foundation 
+2024-05-17 21:14:49 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 21:14:49 - INFO - Chatbot response: I apologize for the error. Here is the information about Foundation Programme at the University of Technology Sarawak:
+
+Foundation Programme:
+- The Foundation Programme at University of Technology Sarawak is designed to prepare students for undergraduate studies by providing them with a solid academic foundation.
+- The programme typically lasts for one year and offers courses in subjects such as Mathematics, Science, English, and other relevant topics depending on the chosen field of study.
+- Upon successful completion of the Foundation Programme, students can progress to their chosen degree programmes at the university.
+- The Foundation Programme is a great option for students who need additional academic support before starting their undergraduate studies or for those who want to explore different academic disciplines before choosing a specific major.
+Chatbot response: I apologize for the error. Here is the information about Foundation Programme at t
+he University of Technology Sarawak:
+
+Foundation Programme:
+- The Foundation Programme at University
+ of Technology Sarawak is designed to prepare students for undergraduate studies by providing them w
+ith a solid academic foundation.
+- The programme typically lasts for one year and offers courses in 
+subjects such as Mathematics, Science, English, and other relevant topics depending on the chosen fi
+eld of study.
+- Upon successful completion of the Foundation Programme, students can progress to the
+ir chosen degree programmes at the university.
+- The Foundation Programme is a great option for stud
+ents who need additional academic support before starting their undergraduate studies or for those w
+ho want to explore different academic disciplines before choosing a specific major.
+2024-05-17 21:14:49 - INFO - 192.168.255.122 - - [17/May/2024 21:14:49] "POST /api HTTP/1.1" 200 -
+192.168.255.122 - - [17/May/2024 21:14:49] "POST /api HTTP/1.1" 200 -
+2024-05-17 21:17:41 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\Chat\\source\\API.py', reloading
+ * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\Chat\\source\\API.py', reloading
+2024-05-17 21:17:41 - INFO -  * Restarting with stat
+ * Restarting with stat
+2024-05-17 21:17:43 - WARNING -  * Debugger is active!
+2024-05-17 21:17:43 - INFO -  * Debugger PIN: 241-841-614
+2024-05-17 21:17:45 - INFO - 192.168.255.122 - - [17/May/2024 21:17:45] "GET / HTTP/1.1" 200 -
+2024-05-17 21:17:46 - INFO - 192.168.255.122 - - [17/May/2024 21:17:46] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:17:46 - INFO - 192.168.255.122 - - [17/May/2024 21:17:46] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 21:17:46 - INFO - 192.168.255.122 - - [17/May/2024 21:17:46] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 21:17:46 - INFO - 192.168.255.122 - - [17/May/2024 21:17:46] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 21:17:46 - INFO - 192.168.255.122 - - [17/May/2024 21:17:46] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 21:17:48 - INFO - Received user input: hi
+2024-05-17 21:17:48 - INFO - 192.168.255.122 - - [17/May/2024 21:17:48] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-17 21:17:48 - INFO - 192.168.255.122 - - [17/May/2024 21:17:48] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-17 21:17:50 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 21:17:50 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-17 21:17:50 - INFO - 192.168.255.122 - - [17/May/2024 21:17:50] "POST /api HTTP/1.1" 200 -
+2024-05-17 21:18:13 - INFO - Received user input: tell me master program
+2024-05-17 21:18:20 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 21:18:20 - INFO - Chatbot response: The University of Technology Sarawak (UTS) offers various Master's programs in different disciplines through its Faculty of Engineering and Faculty of Computing and Informatics. Some of the Master's programs available at UTS include:
+
+1. Master of Engineering Science (Civil)
+2. Master of Engineering Science (Mechanical)
+3. Master of Engineering (Electrical and Electronics)
+4. Master of Engineering (Manufacturing Systems)
+5. Master of Information Systems
+6. Master of Science (Computer Science)
+7. Master of Science (Geotechnical Engineering)
+8. Master of Science (Renewable Energy)
+
+These are just some examples of the Master's programs available at UTS. For detailed information on specific programs, admission requirements, and application procedures, it is recommended to visit the official website of the University of Technology Sarawak or contact the admissions office directly.
+2024-05-17 21:18:20 - INFO - 192.168.255.122 - - [17/May/2024 21:18:20] "POST /api HTTP/1.1" 200 -
+2024-05-17 21:25:37 - INFO - 192.168.255.122 - - [17/May/2024 21:25:37] "GET / HTTP/1.1" 200 -
+2024-05-17 21:25:37 - INFO - 192.168.255.122 - - [17/May/2024 21:25:37] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 21:25:37 - INFO - 192.168.255.122 - - [17/May/2024 21:25:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 21:25:37 - INFO - 192.168.255.122 - - [17/May/2024 21:25:37] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-17 21:25:37 - INFO - 192.168.255.122 - - [17/May/2024 21:25:37] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 21:25:37 - INFO - 192.168.255.122 - - [17/May/2024 21:25:37] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 21:26:00 - INFO - 192.168.255.122 - - [17/May/2024 21:26:00] "GET / HTTP/1.1" 200 -
+2024-05-17 21:26:00 - INFO - 192.168.255.122 - - [17/May/2024 21:26:00] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:26:00 - INFO - 192.168.255.122 - - [17/May/2024 21:26:00] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 21:26:00 - INFO - 192.168.255.122 - - [17/May/2024 21:26:00] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 21:26:00 - INFO - 192.168.255.122 - - [17/May/2024 21:26:00] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 21:26:00 - INFO - 192.168.255.122 - - [17/May/2024 21:26:00] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 21:27:25 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\Chat\\source\\API.py', reloading
+2024-05-17 21:27:26 - INFO -  * Restarting with stat
+ * Restarting with stat
+2024-05-17 21:27:27 - WARNING -  * Debugger is active!
+2024-05-17 21:27:27 - INFO -  * Debugger PIN: 241-841-614
+2024-05-17 21:27:31 - INFO - 192.168.255.122 - - [17/May/2024 21:27:31] "GET / HTTP/1.1" 200 -
+2024-05-17 21:27:32 - INFO - 192.168.255.122 - - [17/May/2024 21:27:32] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:27:32 - INFO - 192.168.255.122 - - [17/May/2024 21:27:32] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 21:27:32 - INFO - 192.168.255.122 - - [17/May/2024 21:27:32] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 21:27:32 - INFO - 192.168.255.122 - - [17/May/2024 21:27:32] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 21:27:32 - INFO - 192.168.255.122 - - [17/May/2024 21:27:32] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 21:27:53 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.255.122:5000
+2024-05-17 21:27:53 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-17 21:27:53 - INFO -  * Restarting with stat
+2024-05-17 21:27:57 - WARNING -  * Debugger is active!
+2024-05-17 21:27:57 - INFO -  * Debugger PIN: 241-841-614
+2024-05-17 21:28:08 - INFO - 192.168.255.122 - - [17/May/2024 21:28:08] "GET / HTTP/1.1" 200 -
+2024-05-17 21:28:08 - INFO - 192.168.255.122 - - [17/May/2024 21:28:08] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 21:28:08 - INFO - 192.168.255.122 - - [17/May/2024 21:28:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 21:28:08 - INFO - 192.168.255.122 - - [17/May/2024 21:28:08] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 21:28:08 - INFO - 192.168.255.122 - - [17/May/2024 21:28:08] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 21:28:26 - INFO - Received user input: hi
+2024-05-17 21:28:26 - INFO - 192.168.255.122 - - [17/May/2024 21:28:26] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-17 21:28:26 - INFO - 192.168.255.122 - - [17/May/2024 21:28:26] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-17 21:28:28 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 21:28:28 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-17 21:28:28 - INFO - 192.168.255.122 - - [17/May/2024 21:28:28] "POST /api HTTP/1.1" 200 -

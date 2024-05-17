@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTU Chatbot</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/favicon-16x16.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='WKBstyle.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&display=swap">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="{{ url_for('static', filename='WKBwebsite.js') }}"></script> 
+    <style>
+        body {
+            background-image: url({{ url_for('static', filename='images/Final_Background.png') }});
+            height: 100vh;
+            background-size: cover;
+            background-position: center; 
+        }
+        /* Media query for mobile devices */
+        @media only screen and (max-width: 600px) {
+            body {
+                background-image: url({{ url_for('static', filename='images/Final_Background.png') }});
+            }
+        }
+    </style>    
+</head>
+<body class="show-chatbot">
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlined">mode_comment</span>
+        <span class="material-symbols-outlined">close</span>
+    </button>
+    <button class="toggle-button" onclick="toggleSidebar()">UTS info</button> 
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><button onclick="openURL('https://www.uts.edu.my/')">Official Website</button></li>
+            <li><button onclick="openURL('https://arc.uts.edu.my/')">Academic Resources</button></li>
+            <li><button onclick="openURL('https://oculus.uts.edu.my/login.php')">Oculus</button></li>
+            <li><button onclick="openURL('https://www.uts.edu.my/tuition-fees/')">Tuition Fee</button></li>
+        </ul>
+    </div>
+
+    <div class="chatbot" id="chatbot-container">       
+        <header>
+            <h2>UTU Chatbot</h2>
+        </header>
+        <ul class="Chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">
+                    <img src="static/images/favicon-32x32.png" alt="Apple Touch Icon">
+                </span>
+                <p>Hello! We are UTS To You!<br>How can I help you today?</p>
+            </li>
+            <li class="chat Outgoing"></li>
+        </ul>
+        
+        <button id="fullscreen-button" class="toggle-button fullscreen-button">⛶</button>
+        <div class="Chat-Input">
+            <div class="chatbot-slider">
+                <div class="slider-value" id="sliderValue"></div>
+            </div>
+            <div id="chat-messages" class="chat-container"></div>
+            <div class="chat-input">
+                <textarea id="user-input" class="user-input" placeholder="Message UTU" required></textarea>
+                <span id="send-btn" class="send-btn material-symbols-outlined" onclick="sendMessage()">send</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
