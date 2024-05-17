@@ -1085,3 +1085,44 @@ Email: enquiry@uts.edu.my
 
 UTS offers a range of degree programs, foundation programs, and master programs. The university is committed to providing a world-class education that nurtures creative and entrepreneurial leaders through a focus on science and technology. UTS is strategically located in Sibu, making it an ideal institution to support the development and production of technical human resources for the Sarawak Corridor of Renewable Energy (SCORE).
 2024-05-18 01:40:57 - INFO - 192.168.255.122 - - [18/May/2024 01:40:57] "POST /api HTTP/1.1" 200 -
+2024-05-18 01:54:01 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.255.122:5000
+2024-05-18 01:54:01 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-18 01:54:01 - INFO -  * Restarting with stat
+2024-05-18 01:54:02 - WARNING -  * Debugger is active!
+2024-05-18 01:54:02 - INFO -  * Debugger PIN: 241-841-614
+2024-05-18 01:54:06 - INFO - 192.168.255.122 - - [18/May/2024 01:54:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-05-18 01:54:06 - INFO - 192.168.255.122 - - [18/May/2024 01:54:06] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-18 01:54:07 - INFO - 192.168.255.122 - - [18/May/2024 01:54:07] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-18 01:54:07 - INFO - 192.168.255.122 - - [18/May/2024 01:54:07] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-18 01:54:07 - INFO - 192.168.255.122 - - [18/May/2024 01:54:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-18 01:55:13 - INFO - 192.168.255.122 - - [18/May/2024 01:55:13] "GET / HTTP/1.1" 200 -
+2024-05-18 01:55:13 - INFO - 192.168.255.122 - - [18/May/2024 01:55:13] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 01:55:13 - INFO - 192.168.255.122 - - [18/May/2024 01:55:13] "GET /static/images/favicon-32x32.png HTTP/1.1" 200 -
+2024-05-18 01:55:13 - INFO - 192.168.255.122 - - [18/May/2024 01:55:13] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-18 01:55:14 - INFO - 192.168.255.122 - - [18/May/2024 01:55:14] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-18 01:55:14 - INFO - 192.168.255.122 - - [18/May/2024 01:55:14] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 01:55:16 - INFO - Received user input: hi
+2024-05-18 01:55:16 - INFO - 192.168.255.122 - - [18/May/2024 01:55:16] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-18 01:55:16 - INFO - 192.168.255.122 - - [18/May/2024 01:55:16] "GET /static/images/favicon-16x16.png HTTP/1.1" 200 -
+2024-05-18 01:55:18 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 01:55:18 - INFO - Chatbot response: Hello! How can I assist you today?
+2024-05-18 01:55:18 - INFO - 192.168.255.122 - - [18/May/2024 01:55:18] "POST /api HTTP/1.1" 200 -
+2024-05-18 01:55:22 - INFO - Received user input: tell me uts
+2024-05-18 01:55:28 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 01:55:28 - INFO - Chatbot response: University of Technology Sarawak (UTS) is an institution of higher learning located in Sibu, Sarawak, Malaysia. Here is some key information about UTS:
+
+- Location: No.1 Jalan Universiti, 96000 Sibu, Sarawak, Malaysia
+- Contact Information: Tel: (+6) 084-367300, Fax: (+6) 084-367301, Email: enquiry@uts.edu.my
+- Degree Programs: UTS offers 17 degree programs/courses, 2 foundation programs, and 9 master programs.
+- Focus: UTS aims to produce technical human resources for the Sarawak Corridor of Renewable Energy (SCORE) and offers education in science and technology with an applied approach for career opportunities.
+- Facilities: UTS campus is equipped with state-of-the-art facilities to support teaching, learning, and research activities.
+- Collaboration: UTS collaborates with Universiti Kuala Lumpur and other universities for various programs, including the Transfer Degree Programme with universities from Australia, the UK, and New Zealand.
+- Vision: To be a global technical university founded on science and technology.
+- Mission: To provide world-class educational programs and learning environments to nurture creative and entrepreneurial leaders in science and technology.
+- Core Values: Commitment, Integrity, Caring, Enterprising, and Green guide UTS in its mission.
+
+UTS is dedicated to providing quality education and fostering a culture of innovation and entrepreneurship among its students.
+2024-05-18 01:55:28 - INFO - 192.168.255.122 - - [18/May/2024 01:55:28] "POST /api HTTP/1.1" 200 -
