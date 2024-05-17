@@ -984,3 +984,24 @@ These TV types vary in terms of display technology, resolution, features, and pr
 2024-05-17 23:34:31 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-05-17 23:34:31 - INFO - Chatbot response: Hello! How can I help you today?
 2024-05-17 23:34:31 - INFO - 192.168.255.122 - - [17/May/2024 23:34:31] "POST /api HTTP/1.1" 200 -
+2024-05-17 23:57:23 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.255.122:5000
+2024-05-17 23:57:23 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-17 23:57:23 - INFO -  * Restarting with stat
+2024-05-17 23:57:24 - WARNING -  * Debugger is active!
+2024-05-17 23:57:24 - INFO -  * Debugger PIN: 241-841-614
+2024-05-17 23:57:55 - INFO - 192.168.255.122 - - [17/May/2024 23:57:55] "GET / HTTP/1.1" 200 -
+2024-05-17 23:57:55 - INFO - 192.168.255.122 - - [17/May/2024 23:57:55] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-17 23:57:55 - INFO - 192.168.255.122 - - [17/May/2024 23:57:55] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-17 23:57:55 - INFO - 192.168.255.122 - - [17/May/2024 23:57:55] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-17 23:57:55 - INFO - 192.168.255.122 - - [17/May/2024 23:57:55] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-17 23:57:58 - INFO - Received user input: hi
+2024-05-17 23:57:58 - INFO - 192.168.255.122 - - [17/May/2024 23:57:58] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:57:58 - INFO - 192.168.255.122 - - [17/May/2024 23:57:58] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-17 23:57:59 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-17 23:57:59 - INFO - Chatbot response: Hello! How can I assist you today?
+2024-05-17 23:57:59 - INFO - 192.168.255.122 - - [17/May/2024 23:57:59] "POST /api HTTP/1.1" 200 -
+2024-05-18 00:00:43 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\source\\API.py', reloading
+2024-05-18 00:00:43 - INFO -  * Restarting with stat
