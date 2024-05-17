@@ -5,7 +5,6 @@ from moderation import moderate_content
 from harmful import harmful_word
 from textFile import read_text_files
 import os
-import requests
 
 app = Flask(__name__, template_folder='templates')
 

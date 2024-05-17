@@ -1052,3 +1052,36 @@ These TV types vary in terms of display technology, resolution, features, and pr
 2024-05-18 00:48:18 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-05-18 00:48:18 - INFO - Chatbot response: Hello! How can I assist you today?
 2024-05-18 00:48:18 - INFO - 192.168.255.122 - - [18/May/2024 00:48:18] "POST /api HTTP/1.1" 200 -
+2024-05-18 01:39:40 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.255.122:5000
+2024-05-18 01:39:40 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-18 01:39:40 - INFO -  * Restarting with stat
+2024-05-18 01:39:41 - WARNING -  * Debugger is active!
+2024-05-18 01:39:41 - INFO -  * Debugger PIN: 241-841-614
+2024-05-18 01:40:25 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\source\\API.py', reloading
+2024-05-18 01:40:26 - INFO -  * Restarting with stat
+2024-05-18 01:40:27 - WARNING -  * Debugger is active!
+2024-05-18 01:40:27 - INFO -  * Debugger PIN: 241-841-614
+2024-05-18 01:40:31 - INFO - 192.168.255.122 - - [18/May/2024 01:40:31] "GET / HTTP/1.1" 200 -
+2024-05-18 01:40:32 - INFO - 192.168.255.122 - - [18/May/2024 01:40:32] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-18 01:40:32 - INFO - 192.168.255.122 - - [18/May/2024 01:40:32] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 01:40:32 - INFO - 192.168.255.122 - - [18/May/2024 01:40:32] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 01:40:32 - INFO - 192.168.255.122 - - [18/May/2024 01:40:32] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 01:40:37 - INFO - Received user input: uts
+2024-05-18 01:40:37 - INFO - 192.168.255.122 - - [18/May/2024 01:40:37] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 01:40:37 - INFO - 192.168.255.122 - - [18/May/2024 01:40:37] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 01:40:42 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 01:40:42 - INFO - Chatbot response: The University of Technology Sarawak (UTS) is located in Sibu, Sarawak, Malaysia. It offers 17 degree programs/courses, 2 foundation programs, and 9 master programs. UTS aims to provide affordable world-class education that nurtures creative and entrepreneurial leaders through a broad education in science and technology. The university is focused on supporting the Sarawak Corridor of Renewable Energy (SCORE) and is equipped with state-of-the-art facilities to facilitate teaching, learning, and research activities. UTS collaborates with Universiti Kuala Lumpur and offers a Transfer Degree Programme with universities from Australia, the United Kingdom, and New Zealand. The core values of UTS are Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-18 01:40:42 - INFO - 192.168.255.122 - - [18/May/2024 01:40:42] "POST /api HTTP/1.1" 200 -
+2024-05-18 01:40:51 - INFO - Received user input: is uts at sibu?
+2024-05-18 01:40:57 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 01:40:57 - INFO - Chatbot response: Yes, the University of Technology Sarawak (UTS) is located in Sibu, Sarawak, Malaysia. The address of UTS is No.1 Jalan Universiti, 96000 Sibu, Sarawak, Malaysia. The contact information for UTS is as follows:
+
+Tel: (+6) 084-367300
+Fax: (+6) 084-367301
+Email: enquiry@uts.edu.my
+
+UTS offers a range of degree programs, foundation programs, and master programs. The university is committed to providing a world-class education that nurtures creative and entrepreneurial leaders through a focus on science and technology. UTS is strategically located in Sibu, making it an ideal institution to support the development and production of technical human resources for the Sarawak Corridor of Renewable Energy (SCORE).
+2024-05-18 01:40:57 - INFO - 192.168.255.122 - - [18/May/2024 01:40:57] "POST /api HTTP/1.1" 200 -
