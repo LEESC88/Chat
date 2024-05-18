@@ -6,6 +6,29 @@
     font-family: "Poppins", sans-serif;
 }
 
+html, body 
+{
+    height: 110%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body.background-image 
+{
+    background-image: url('/static/images/Final_Background.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    body.background-image {
+        background-image: url('/static/images/Final_Background.png');
+    }
+}
+
 .chat-message 
 {
     border-radius: 10px;
@@ -311,7 +334,7 @@
     visibility: visible;
 }
 
-@media(max-width: 490px)
+@media(max-width: 600px)
 {
     .chatbot {
         right: 0;
@@ -509,12 +532,14 @@ body.fullscreen .chatbot
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw; 
-    height: 100vh; 
-    background-color: rgba(62, 62, 62, 0.8); 
-    border: 1px solid #ccc; 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(62, 62, 62, 0.534); 
+    border: 0px solid #ccc; 
     border-radius: 10px; 
-    z-index: 9999; 
+    z-index: 9999;
+    justify-content: center; 
+    align-items: center; 
 }
 
 ul 

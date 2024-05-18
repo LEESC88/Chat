@@ -10,21 +10,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='WKBstyle.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&display=swap">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="{{ url_for('static', filename='WKBwebsite.js') }}"></script> 
-    <style>
-        body {
-            background-image: url({{ url_for('static', filename='images/Final_Background.png') }});
-            height: 100vh;
-            background-size: cover;
-            background-position: center; 
-        }
-        /* Media query for mobile devices */
-        @media only screen and (max-width: 600px) {
-            body {
-                background-image: url({{ url_for('static', filename='images/Final_Background.png') }});
-            }
-        }
-    </style>    
+    <script src="{{ url_for('static', filename='WKBwebsite.js') }}"></script>    
 </head>
 <body class="show-chatbot">
     <button class="chatbot-toggler">
