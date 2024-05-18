@@ -1509,3 +1509,40 @@ Each program has specific entry requirements, duration of study, and unique char
 2024-05-18 13:35:43 - INFO -  * Restarting with stat
 2024-05-18 13:35:44 - WARNING -  * Debugger is active!
 2024-05-18 13:35:44 - INFO -  * Debugger PIN: 241-841-614
+2024-05-18 20:11:53 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.122:5000
+2024-05-18 20:11:53 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-18 20:11:53 - INFO -  * Restarting with stat
+2024-05-18 20:11:53 - WARNING -  * Debugger is active!
+2024-05-18 20:11:53 - INFO -  * Debugger PIN: 241-841-614
+2024-05-18 20:11:57 - INFO - 192.168.10.122 - - [18/May/2024 20:11:57] "GET / HTTP/1.1" 200 -
+2024-05-18 20:11:57 - INFO - 192.168.10.122 - - [18/May/2024 20:11:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-18 20:11:57 - INFO - 192.168.10.122 - - [18/May/2024 20:11:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 20:11:57 - INFO - 192.168.10.122 - - [18/May/2024 20:11:57] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-18 20:11:57 - INFO - 192.168.10.122 - - [18/May/2024 20:11:57] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 20:12:02 - INFO - Received user input: j
+
+2024-05-18 20:12:02 - INFO - 192.168.10.122 - - [18/May/2024 20:12:02] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 20:12:02 - INFO - 192.168.10.122 - - [18/May/2024 20:12:02] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 20:12:03 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 20:12:03 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-18 20:12:03 - INFO - 192.168.10.122 - - [18/May/2024 20:12:03] "POST /api HTTP/1.1" 200 -
+2024-05-18 20:12:14 - INFO - 192.168.10.15 - - [18/May/2024 20:12:14] "GET / HTTP/1.1" 200 -
+2024-05-18 20:12:14 - INFO - 192.168.10.15 - - [18/May/2024 20:12:14] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-18 20:12:14 - INFO - 192.168.10.15 - - [18/May/2024 20:12:14] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-18 20:12:15 - INFO - 192.168.10.15 - - [18/May/2024 20:12:15] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 20:12:15 - INFO - 192.168.10.15 - - [18/May/2024 20:12:15] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 20:12:26 - INFO - Received user input: hi
+how are you
+
+2024-05-18 20:12:26 - INFO - 192.168.10.15 - - [18/May/2024 20:12:26] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 20:12:26 - INFO - 192.168.10.15 - - [18/May/2024 20:12:26] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 20:12:28 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 20:12:28 - INFO - Chatbot response: Hello! I'm an AI digital assistant, so I don't have feelings in the way humans do, but I'm here and ready to help you with any questions or information you need. How can I assist you today?
+2024-05-18 20:12:28 - INFO - 192.168.10.15 - - [18/May/2024 20:12:28] "POST /api HTTP/1.1" 200 -
+2024-05-18 20:13:43 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-18 20:13:43 - INFO -  * Restarting with stat
+2024-05-18 20:13:44 - WARNING -  * Debugger is active!
+2024-05-18 20:13:44 - INFO -  * Debugger PIN: 241-841-614

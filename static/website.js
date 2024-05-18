@@ -144,16 +144,19 @@ function updateMessage(messageElement, newContent)
 
 document.addEventListener('DOMContentLoaded', function () 
 {
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
     document.getElementById("user-input").addEventListener("keydown", function(event) 
     {
         if (event.keyCode === 13) 
             {
-            if (event.shiftKey) 
-            {}
-            else 
-            {
-                event.preventDefault();
-                sendMessage();
+            if (!isMobile) 
+                {
+                if (!event.shiftKey) 
+                    {
+                    event.preventDefault();
+                    sendMessage();
+                }
             }
         }
     });
