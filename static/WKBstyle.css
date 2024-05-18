@@ -55,12 +55,12 @@ body.background-image
 .chat-container 
 {
     overflow-y: auto; 
-    max-height: 315px;
+    max-height: 44vh;
 }
 
 .fullscreen .chat-container 
 {
-    max-height: 510px; 
+    max-height: 72vh; 
 }
 
 .chat-input 
@@ -206,7 +206,7 @@ body.background-image
 
 #chat-messages 
 {
-    height: 510px;
+    height: 100vh;
     overflow-y: auto; 
     overflow-x: auto;
     background-color: rgba(196, 225, 193, 0.0);; 
@@ -433,12 +433,12 @@ button:hover
 .chat-container 
 {
     overflow-y: auto; 
-    max-height: 260px;
+    max-height: 32vh;
 }
 
 #chat-messages 
 {
-    height: 565px;
+    height: 69vh;
     overflow-y: auto; 
     overflow-x: auto;
     background-color: rgba(196, 225, 193, 0.0);; 
@@ -450,7 +450,7 @@ button:hover
 
 .fullscreen .chat-container 
 {
-    max-height: 565px; 
+    max-height: 100vh; 
 }
 .chatbot header h2 
 {
