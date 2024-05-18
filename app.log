@@ -1126,3 +1126,386 @@ UTS offers a range of degree programs, foundation programs, and master programs.
 
 UTS is dedicated to providing quality education and fostering a culture of innovation and entrepreneurship among its students.
 2024-05-18 01:55:28 - INFO - 192.168.255.122 - - [18/May/2024 01:55:28] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:21:31 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.122:5000
+2024-05-18 13:21:31 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-18 13:21:31 - INFO -  * Restarting with stat
+2024-05-18 13:21:32 - WARNING -  * Debugger is active!
+2024-05-18 13:21:32 - INFO -  * Debugger PIN: 241-841-614
+2024-05-18 13:21:37 - INFO - 192.168.10.122 - - [18/May/2024 13:21:37] "GET / HTTP/1.1" 200 -
+2024-05-18 13:21:38 - INFO - 192.168.10.122 - - [18/May/2024 13:21:38] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-18 13:21:38 - INFO - 192.168.10.122 - - [18/May/2024 13:21:38] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:21:38 - INFO - 192.168.10.122 - - [18/May/2024 13:21:38] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:21:38 - INFO - 192.168.10.122 - - [18/May/2024 13:21:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:22:10 - INFO - 192.168.10.122 - - [18/May/2024 13:22:10] "GET / HTTP/1.1" 200 -
+2024-05-18 13:22:10 - INFO - 192.168.10.122 - - [18/May/2024 13:22:10] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:22:10 - INFO - 192.168.10.122 - - [18/May/2024 13:22:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:22:10 - INFO - 192.168.10.122 - - [18/May/2024 13:22:10] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:22:11 - INFO - 192.168.10.122 - - [18/May/2024 13:22:11] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:22:11 - INFO - 192.168.10.122 - - [18/May/2024 13:22:11] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:22:43 - INFO - 192.168.10.122 - - [18/May/2024 13:22:43] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-18 13:23:16 - INFO - 192.168.10.122 - - [18/May/2024 13:23:16] "GET / HTTP/1.1" 200 -
+2024-05-18 13:23:16 - INFO - 192.168.10.122 - - [18/May/2024 13:23:16] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-18 13:23:16 - INFO - 192.168.10.122 - - [18/May/2024 13:23:16] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:23:16 - INFO - 192.168.10.122 - - [18/May/2024 13:23:16] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:23:16 - INFO - 192.168.10.122 - - [18/May/2024 13:23:16] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:23:16 - INFO - 192.168.10.122 - - [18/May/2024 13:23:16] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:23:19 - INFO - 192.168.10.122 - - [18/May/2024 13:23:19] "GET / HTTP/1.1" 200 -
+2024-05-18 13:23:19 - INFO - 192.168.10.122 - - [18/May/2024 13:23:19] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:23:19 - INFO - 192.168.10.122 - - [18/May/2024 13:23:19] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:23:19 - INFO - 192.168.10.122 - - [18/May/2024 13:23:19] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:23:19 - INFO - 192.168.10.122 - - [18/May/2024 13:23:19] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:23:19 - INFO - 192.168.10.122 - - [18/May/2024 13:23:19] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:23:31 - INFO - Received user input: tell me uts
+2024-05-18 13:23:31 - INFO - 192.168.10.122 - - [18/May/2024 13:23:31] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:23:31 - INFO - 192.168.10.122 - - [18/May/2024 13:23:31] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:23:35 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:23:35 - INFO - Chatbot response: University of Technology Sarawak (UTS) is a world-class institution of higher learning located in Sibu, Sarawak, Malaysia. It offers 17 degree programs, 2 foundation programs, and 9 master programs. UTS was established to produce technical human resources for the Sarawak Corridor of Renewable Energy (SCORE) and aims to nurture creative and entrepreneurial leaders through education in science and technology. The campus is equipped with state-of-the-art facilities to support teaching, learning, and research activities. UTS collaborates with Universiti Kuala Lumpur and runs Transfer Degree Programs with universities from Australia, the United Kingdom, and New Zealand. UTS's vision is to be a global technical university founded on science and technology, with a mission to provide world-class educational programs and nurture creative and entrepreneurial leaders. The core values of UTS include Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-18 13:23:35 - INFO - 192.168.10.122 - - [18/May/2024 13:23:35] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:24:15 - INFO - 192.168.10.15 - - [18/May/2024 13:24:15] "GET / HTTP/1.1" 200 -
+2024-05-18 13:24:16 - INFO - 192.168.10.15 - - [18/May/2024 13:24:16] "GET /static/images/favicon-32x32.png HTTP/1.1" 200 -
+2024-05-18 13:24:16 - INFO - 192.168.10.15 - - [18/May/2024 13:24:16] "GET /static/WKBwebsite.js HTTP/1.1" 200 -
+2024-05-18 13:24:16 - INFO - 192.168.10.15 - - [18/May/2024 13:24:16] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:24:16 - INFO - 192.168.10.15 - - [18/May/2024 13:24:16] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-18 13:24:21 - INFO - Received user input: tell me uts
+2024-05-18 13:24:21 - INFO - 192.168.10.15 - - [18/May/2024 13:24:21] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-18 13:24:21 - INFO - 192.168.10.15 - - [18/May/2024 13:24:21] "GET /static/images/favicon-16x16.png HTTP/1.1" 200 -
+2024-05-18 13:24:24 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:24:24 - INFO - Chatbot response: University of Technology Sarawak (UTS) is a technical university located in Sibu, Sarawak, Malaysia. It offers a range of degree programs, foundation programs, and master programs to nurture creative and entrepreneurial leaders through a broad education in science and technology. The institution aims to support the development of technical human resources for the Sarawak Corridor of Renewable Energy (SCORE). UTS campus is equipped with state-of-the-art facilities to facilitate teaching, learning, and research activities to produce graduates required by the industries within SCORE. UTS is committed to providing an affordable world-class university education and fostering collaborations with local and international industrial and educational partners. The core values of UTS are Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-18 13:24:24 - INFO - 192.168.10.15 - - [18/May/2024 13:24:24] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:24:46 - INFO - 192.168.10.15 - - [18/May/2024 13:24:46] "GET / HTTP/1.1" 200 -
+2024-05-18 13:24:46 - INFO - 192.168.10.15 - - [18/May/2024 13:24:46] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:24:46 - INFO - 192.168.10.15 - - [18/May/2024 13:24:46] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:24:46 - INFO - 192.168.10.15 - - [18/May/2024 13:24:46] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:24:46 - INFO - 192.168.10.15 - - [18/May/2024 13:24:46] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:24:46 - INFO - 192.168.10.15 - - [18/May/2024 13:24:46] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:24:46 - INFO - 192.168.10.15 - - [18/May/2024 13:24:46] "GET /static/images/apple-touch-icon.png HTTP/1.1" 200 -
+2024-05-18 13:24:50 - INFO - Received user input: tell me.uts
+2024-05-18 13:24:50 - INFO - 192.168.10.15 - - [18/May/2024 13:24:50] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:24:50 - INFO - 192.168.10.15 - - [18/May/2024 13:24:50] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:24:55 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:24:55 - INFO - Chatbot response: University of Technology Sarawak (UTS) is located in Sibu, Sarawak, Malaysia. It offers 17 degree programs, 2 foundation programs, and 9 master's programs. The university aims to provide a world-class education in science and technology, preparing students to be creative and entrepreneurial leaders. UTS is committed to producing technical human resources for the Sarawak Corridor of Renewable Energy (SCORE) and has state-of-the-art facilities to support teaching, learning, and research activities. UTS collaborates with Universiti Kuala Lumpur and offers transfer degree programs with universities from Australia, the United Kingdom, and New Zealand. The core values of UTS are Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-18 13:24:55 - INFO - 192.168.10.15 - - [18/May/2024 13:24:55] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:25:35 - INFO - 192.168.10.15 - - [18/May/2024 13:25:35] "GET / HTTP/1.1" 200 -
+2024-05-18 13:25:35 - INFO - 192.168.10.15 - - [18/May/2024 13:25:35] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:25:35 - INFO - 192.168.10.15 - - [18/May/2024 13:25:35] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:25:35 - INFO - 192.168.10.15 - - [18/May/2024 13:25:35] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:25:35 - INFO - 192.168.10.15 - - [18/May/2024 13:25:35] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:25:35 - INFO - 192.168.10.15 - - [18/May/2024 13:25:35] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:25:35 - INFO - 192.168.10.15 - - [18/May/2024 13:25:35] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-18 13:25:39 - INFO - 192.168.10.15 - - [18/May/2024 13:25:39] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:25:39 - INFO - Received user input: tell me uts
+2024-05-18 13:25:39 - INFO - 192.168.10.15 - - [18/May/2024 13:25:39] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:25:41 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:25:41 - INFO - Chatbot response: If you need more specific information or have any other questions about University of Technology Sarawak, feel free to ask.
+2024-05-18 13:25:41 - INFO - 192.168.10.15 - - [18/May/2024 13:25:41] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:25:52 - INFO - Received user input: tell me uts
+2024-05-18 13:25:57 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:25:57 - INFO - Chatbot response: University of Technology Sarawak (UTS) is situated in Sibu, Sarawak, Malaysia. It offers 17 degree programmes/courses, 2 foundation programmes, and 9 master programmes. The university aims to provide a world-class education in science and technology to nurture creative and entrepreneurial leaders for the Sarawak Corridor of Renewable Energy (SCORE). UTS is equipped with state-of-the-art facilities to facilitate teaching, learning, and research activities. It also has collaborations with international universities like Murdoch University, University of Essex, University of Birmingham, and University of Canterbury. UTS has a vision to be a global technical university founded on science and technology and a mission to provide high-quality educational programs in a conducive learning environment. The core values of UTS include Commitment, Integrity, Caring, Enterprising, and Green. For more information, you can visit the official website at www.uts.edu.my or contact them via telephone (+6) 084-367300 or email at enquiry@uts.edu.my.
+2024-05-18 13:25:57 - INFO - 192.168.10.15 - - [18/May/2024 13:25:57] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:26:11 - INFO - 192.168.10.15 - - [18/May/2024 13:26:11] "GET / HTTP/1.1" 200 -
+2024-05-18 13:26:11 - INFO - 192.168.10.15 - - [18/May/2024 13:26:11] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:26:11 - INFO - 192.168.10.15 - - [18/May/2024 13:26:11] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:26:11 - INFO - 192.168.10.15 - - [18/May/2024 13:26:11] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:26:11 - INFO - 192.168.10.15 - - [18/May/2024 13:26:11] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:26:11 - INFO - 192.168.10.15 - - [18/May/2024 13:26:11] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:26:11 - INFO - 192.168.10.15 - - [18/May/2024 13:26:11] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-18 13:26:16 - INFO - Received user input: tell me uts
+2024-05-18 13:26:16 - INFO - 192.168.10.15 - - [18/May/2024 13:26:16] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:26:16 - INFO - 192.168.10.15 - - [18/May/2024 13:26:16] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:26:20 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:26:20 - INFO - Chatbot response: University of Technology Sarawak (UTS) is a world-class institution of higher learning located in Sibu, Sarawak, Malaysia. It offers a range of degree, foundation, and master programs to prepare students for careers in various industries, particularly in the Sarawak Corridor of Renewable Energy (SCORE). UTS is committed to providing affordable education that focuses on science and technology while fostering creativity and entrepreneurship among its students. The campus is equipped with modern facilities to support teaching, learning, and research activities, and it also has its own Science & Technology Park for research and entrepreneurial opportunities. UTS collaborates with Universiti Kuala Lumpur and offers Transfer Degree Programs with universities from Australia, the United Kingdom, and New Zealand. The university's vision is to be a global technical university founded on science and technology, and its mission is to provide world-class educational programs that nurture creative and entrepreneurial leaders. The core values of UTS are Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-18 13:26:20 - INFO - 192.168.10.15 - - [18/May/2024 13:26:20] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:26:42 - INFO - Received user input: any degree programs?
+2024-05-18 13:26:48 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:26:48 - INFO - Chatbot response: Here are some of the degree programs offered at the University of Technology Sarawak (UTS) in different schools:
+
+1. **School of Business and Management:**
+    - Bachelor of Business Administration (Hons)
+    - Bachelor of Accountancy (Hons)
+    - Bachelor of Business (Hons) in Marketing
+    - Bachelor of Technology Management (Hons)
+
+2. **School of Built Environment:**
+    - Bachelor of Quantity Surveying (Hons)
+    - Bachelor of Science (Hons) in Architecture
+    - Bachelor of Arts (Hons) in Interior Design
+    - Bachelor of Science (Hons) in Property and Construction Management
+
+3. **School of Computing and Creative Media:**
+    - Bachelor of Computer Science (Hons)
+    - Bachelor of Arts (Hons) in Industrial Design
+    - Bachelor of Arts (Hons) in Creative Digital Media
+    - Bachelor of Mobile Game Development (Hons)
+
+4. **School of Engineering and Technology:**
+    - Bachelor of Civil Engineering (Hons)
+    - Bachelor of Mechanical Engineering (Hons)
+    - Bachelor of Electrical Engineering (Hons)
+    - Bachelor of Food Technology (Hons)
+    - Bachelor of Science in Occupational Safety and Health (Hons)
+
+These programs offer a diverse range of specializations and are designed to equip students with the knowledge and skills required for various industries. Each program has specific entry requirements and accreditation. If you need more detailed information on a specific degree program or for any other programs offered at UTS, feel free to ask.
+2024-05-18 13:26:48 - INFO - 192.168.10.15 - - [18/May/2024 13:26:48] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:27:57 - INFO - 192.168.10.122 - - [18/May/2024 13:27:57] "GET / HTTP/1.1" 200 -
+2024-05-18 13:27:57 - INFO - 192.168.10.122 - - [18/May/2024 13:27:57] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:27:57 - INFO - 192.168.10.122 - - [18/May/2024 13:27:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:27:57 - INFO - 192.168.10.122 - - [18/May/2024 13:27:57] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:27:57 - INFO - 192.168.10.122 - - [18/May/2024 13:27:57] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:27:57 - INFO - 192.168.10.122 - - [18/May/2024 13:27:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:28:13 - INFO - 192.168.10.15 - - [18/May/2024 13:28:13] "GET / HTTP/1.1" 200 -
+2024-05-18 13:28:13 - INFO - 192.168.10.15 - - [18/May/2024 13:28:13] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:28:13 - INFO - 192.168.10.15 - - [18/May/2024 13:28:13] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:28:13 - INFO - 192.168.10.15 - - [18/May/2024 13:28:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:28:13 - INFO - 192.168.10.15 - - [18/May/2024 13:28:13] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:28:13 - INFO - 192.168.10.15 - - [18/May/2024 13:28:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:28:13 - INFO - 192.168.10.15 - - [18/May/2024 13:28:13] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-18 13:28:17 - INFO - Received user input: tell me uts
+2024-05-18 13:28:17 - INFO - 192.168.10.15 - - [18/May/2024 13:28:17] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:28:17 - INFO - 192.168.10.15 - - [18/May/2024 13:28:17] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:28:18 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:28:18 - INFO - Chatbot response: If you need any further information about University of Technology Sarawak, feel free to ask.
+2024-05-18 13:28:18 - INFO - 192.168.10.15 - - [18/May/2024 13:28:18] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:28:23 - INFO - Received user input: tell me uts
+2024-05-18 13:28:26 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:28:26 - INFO - Chatbot response: University of Technology Sarawak (UTS) is located in Sibu, Sarawak, Malaysia. They offer a variety of degree programs, foundation programs, and master's programs. UTS aims to provide world-class education in science and technology to nurture creative and entrepreneurial leaders. The university is committed to facilitating students' access to an affordable education that combines an applied approach with research opportunities for industries related to the Sarawak Corridor of Renewable Energy (SCORE). UTS is equipped with state-of-the-art facilities and is supported by its own Science & Technology Park for research and entrepreneurial activities. The university collaborates with Universiti Kuala Lumpur and other international universities for academic and industrial partnerships. UTS's vision is to be a global technical university founded on science and technology, with a mission to provide top-notch educational programs and learning environments while adhering to core values of Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-18 13:28:26 - INFO - 192.168.10.15 - - [18/May/2024 13:28:26] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:28:57 - INFO - 192.168.10.15 - - [18/May/2024 13:28:57] "GET / HTTP/1.1" 200 -
+2024-05-18 13:28:57 - INFO - 192.168.10.15 - - [18/May/2024 13:28:57] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:28:57 - INFO - 192.168.10.15 - - [18/May/2024 13:28:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:28:57 - INFO - 192.168.10.15 - - [18/May/2024 13:28:57] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:28:57 - INFO - 192.168.10.15 - - [18/May/2024 13:28:57] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:28:57 - INFO - 192.168.10.15 - - [18/May/2024 13:28:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:28:57 - INFO - 192.168.10.15 - - [18/May/2024 13:28:57] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-18 13:29:03 - INFO - Received user input: tell me all degree programs
+2024-05-18 13:29:03 - INFO - 192.168.10.15 - - [18/May/2024 13:29:03] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:29:03 - INFO - 192.168.10.15 - - [18/May/2024 13:29:03] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:29:09 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:29:09 - INFO - Chatbot response: The University of Technology Sarawak offers the following degree programs:
+
+School of Business and Management:
+1. Bachelor of Business Administration (Hons)
+2. Bachelor of Accountancy (Hons)
+3. Bachelor of Business (Hons) in Marketing
+4. Bachelor of Technology Management (Hons)
+
+School of Built Environment:
+1. Bachelor of Quantity Surveying (Hons)
+2. Bachelor of Science (Hons) in Architecture
+3. Bachelor of Arts (Hons) in Interior Design
+4. Bachelor of Science (Hons) in Property and Construction Management
+
+School of Computing and Creative Media:
+1. Bachelor of Computer Science (Hons)
+2. Bachelor of Arts (Hons) in Industrial Design
+3. Bachelor of Arts (Hons) in Creative Digital Media
+4. Bachelor of Mobile Game Development (Hons)
+
+School of Engineering and Technology:
+1. Bachelor of Civil Engineering (Hons)
+2. Bachelor of Mechanical Engineering (Hons)
+3. Bachelor of Electrical Engineering (Hons)
+4. Bachelor of Food Technology (Hons)
+5. Bachelor of Science in Occupational Safety and Health (Honours)
+
+Each program has specific entry requirements, educational objectives, learning outcomes, and accreditation. For more detailed information about these degree programs, specific courses, and other details, you can visit the University of Technology Sarawak's official website or contact them directly.
+2024-05-18 13:29:09 - INFO - 192.168.10.15 - - [18/May/2024 13:29:09] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:31:01 - INFO - 192.168.10.122 - - [18/May/2024 13:31:01] "GET / HTTP/1.1" 200 -
+2024-05-18 13:31:01 - INFO - 192.168.10.122 - - [18/May/2024 13:31:01] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:31:01 - INFO - 192.168.10.122 - - [18/May/2024 13:31:01] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:01 - INFO - 192.168.10.122 - - [18/May/2024 13:31:01] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:31:01 - INFO - 192.168.10.122 - - [18/May/2024 13:31:01] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:01 - INFO - 192.168.10.122 - - [18/May/2024 13:31:01] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:08 - INFO - 192.168.10.15 - - [18/May/2024 13:31:08] "GET / HTTP/1.1" 200 -
+2024-05-18 13:31:08 - INFO - 192.168.10.15 - - [18/May/2024 13:31:08] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:31:08 - INFO - 192.168.10.15 - - [18/May/2024 13:31:08] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:31:08 - INFO - 192.168.10.15 - - [18/May/2024 13:31:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:08 - INFO - 192.168.10.15 - - [18/May/2024 13:31:08] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:08 - INFO - 192.168.10.15 - - [18/May/2024 13:31:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:08 - INFO - 192.168.10.15 - - [18/May/2024 13:31:08] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:14 - INFO - Received user input: tell me all degree programs
+2024-05-18 13:31:14 - INFO - 192.168.10.15 - - [18/May/2024 13:31:14] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:14 - INFO - 192.168.10.15 - - [18/May/2024 13:31:14] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:19 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:31:19 - INFO - Chatbot response: The degree programs offered at the University of Technology Sarawak are as follows:
+
+School of Business and Management:
+1. Bachelor of Business Administration (Hons)
+2. Bachelor of Accountancy (Hons)
+3. Bachelor of Business (Hons) in Marketing
+4. Bachelor of Technology Management (Hons)
+
+School of Built Environment:
+5. Bachelor of Quantity Surveying (Hons)
+6. Bachelor of Science (Hons) in Architecture
+7. Bachelor of Arts (Hons) in Interior Design
+8. Bachelor of Science (Hons) in Property and Construction Management
+
+School of Computing and Creative Media:
+9. Bachelor of Computer Science (Hons)
+10. Bachelor of Arts (Hons) in Industrial Design
+11. Bachelor of Arts (Hons) in Creative Digital Media
+12. Bachelor of Mobile Game Development (Hons)
+
+School of Engineering and Technology:
+13. Bachelor of Civil Engineering (Hons)
+14. Bachelor of Mechanical Engineering (Hons)
+15. Bachelor of Electrical Engineering (Hons)
+16. Bachelor of Food Technology (Hons)
+17. Bachelor of Science in Occupational Safety and Health (Honours)
+
+These programs provide students with knowledge and skills relevant to their respective fields, preparing them for successful careers in various industries.
+2024-05-18 13:31:19 - INFO - 192.168.10.15 - - [18/May/2024 13:31:19] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:31:54 - INFO - 192.168.10.15 - - [18/May/2024 13:31:54] "GET / HTTP/1.1" 200 -
+2024-05-18 13:31:54 - INFO - 192.168.10.15 - - [18/May/2024 13:31:54] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:31:54 - INFO - 192.168.10.15 - - [18/May/2024 13:31:54] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:54 - INFO - 192.168.10.15 - - [18/May/2024 13:31:54] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:31:54 - INFO - 192.168.10.15 - - [18/May/2024 13:31:54] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:54 - INFO - 192.168.10.15 - - [18/May/2024 13:31:54] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:31:54 - INFO - 192.168.10.15 - - [18/May/2024 13:31:54] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-18 13:32:14 - INFO - 192.168.10.15 - - [18/May/2024 13:32:14] "GET / HTTP/1.1" 200 -
+2024-05-18 13:32:14 - INFO - 192.168.10.15 - - [18/May/2024 13:32:14] "[36mGET /static/WKBstyle.css HTTP/1.1[0m" 304 -
+2024-05-18 13:32:14 - INFO - 192.168.10.15 - - [18/May/2024 13:32:14] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:32:14 - INFO - 192.168.10.15 - - [18/May/2024 13:32:14] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:32:14 - INFO - 192.168.10.15 - - [18/May/2024 13:32:14] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:32:14 - INFO - 192.168.10.15 - - [18/May/2024 13:32:14] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:32:14 - INFO - 192.168.10.15 - - [18/May/2024 13:32:14] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-18 13:32:20 - INFO - 192.168.10.15 - - [18/May/2024 13:32:20] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:32:20 - INFO - Received user input: tell me uts
+2024-05-18 13:32:20 - INFO - 192.168.10.15 - - [18/May/2024 13:32:20] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:32:22 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:32:22 - INFO - Chatbot response: If you require any specific information about University of Technology Sarawak, please feel free to ask.
+2024-05-18 13:32:22 - INFO - 192.168.10.15 - - [18/May/2024 13:32:22] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:32:25 - INFO - Received user input: tell me uts
+2024-05-18 13:32:27 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:32:27 - INFO - Chatbot response: The University of Technology Sarawak (UTS) is located in Sibu, Sarawak, Malaysia. It offers 17 degree programs/courses, 2 foundation programs, and 9 master programs. UTS aims to provide an affordable world-class education focusing on science and technology to develop creative and entrepreneurial leaders for the Sarawak Corridor of Renewable Energy (SCORE). The university's facilities and programs are designed to meet the needs of industries within SCORE, and it collaborates with Universiti Kuala Lumpur for further opportunities. UTS emphasizes core values such as Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-18 13:32:27 - INFO - 192.168.10.15 - - [18/May/2024 13:32:27] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:32:32 - INFO - Received user input: tell me uts
+2024-05-18 13:32:35 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:32:35 - INFO - Chatbot response: The University of Technology Sarawak (UTS) is located at No.1 Jalan Universiti, 96000 Sibu, Sarawak, Malaysia. You can contact them via telephone at (+6) 084-367300 or through email at enquiry@uts.edu.my.
+
+UTS Sibu in Sarawak offers 17 degree programs/courses, 2 foundation programs, and 9 master programs aimed at developing creative and entrepreneurial leaders for the Sarawak Corridor of Renewable Energy (SCORE). The university emphasizes core values such as Commitment, Integrity, Caring, Enterprising, and Green.
+
+UTS is committed to providing an affordable world-class education with a focus on science and technology. The institution collaborates with Universiti Kuala Lumpur to meet the human resource and industrial needs of SCORE.
+2024-05-18 13:32:35 - INFO - 192.168.10.15 - - [18/May/2024 13:32:35] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:33:01 - INFO - 192.168.10.15 - - [18/May/2024 13:33:01] "GET / HTTP/1.1" 200 -
+2024-05-18 13:33:01 - INFO - 192.168.10.15 - - [18/May/2024 13:33:01] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:33:01 - INFO - 192.168.10.15 - - [18/May/2024 13:33:01] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:01 - INFO - 192.168.10.15 - - [18/May/2024 13:33:01] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:33:01 - INFO - 192.168.10.15 - - [18/May/2024 13:33:01] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:01 - INFO - 192.168.10.15 - - [18/May/2024 13:33:01] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:01 - INFO - 192.168.10.15 - - [18/May/2024 13:33:01] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:08 - INFO - 192.168.10.15 - - [18/May/2024 13:33:08] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:08 - INFO - Received user input: tell me all degree programs
+2024-05-18 13:33:08 - INFO - 192.168.10.15 - - [18/May/2024 13:33:08] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:14 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:33:14 - INFO - Chatbot response: University of Technology Sarawak offers a wide range of degree programs through its various schools. Here are some of the degree programs available at UTS:
+
+1. School of Business and Management:
+   - Bachelor of Business Administration (Hons)
+   - Bachelor of Accountancy (Hons)
+   - Bachelor of Business (Hons) in Marketing
+   - Bachelor of Technology Management (Hons)
+
+2. School of Built Environment:
+   - Bachelor of Quantity Surveying (Hons)
+   - Bachelor of Science (Hons) in Architecture
+   - Bachelor of Arts (Hons) in Interior Design
+   - Bachelor of Science (Hons) in Property and Construction Management
+
+3. School of Computing and Creative Media:
+   - Bachelor of Computer Science (Hons)
+   - Bachelor of Arts (Hons) in Industrial Design
+   - Bachelor of Arts (Hons) in Creative Digital Media
+   - Bachelor of Mobile Game Development (Hons)
+
+4. School of Engineering and Technology:
+   - Bachelor of Civil Engineering (Hons)
+   - Bachelor of Mechanical Engineering (Hons)
+   - Bachelor of Electrical Engineering (Hons)
+   - Bachelor of Food Technology (Hons)
+   - Bachelor of Science in Occupational Safety and Health (Honours)
+
+Please note that this is not an exhaustive list of all the degree programs offered by University of Technology Sarawak, and there may be other programs available as well. For specific details on each program, including entry requirements and accreditation, it is recommended to visit the university's official website or contact them directly.
+2024-05-18 13:33:14 - INFO - 192.168.10.15 - - [18/May/2024 13:33:14] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:33:39 - INFO - 192.168.10.15 - - [18/May/2024 13:33:39] "GET / HTTP/1.1" 200 -
+2024-05-18 13:33:39 - INFO - 192.168.10.15 - - [18/May/2024 13:33:39] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:33:39 - INFO - 192.168.10.15 - - [18/May/2024 13:33:39] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:39 - INFO - 192.168.10.15 - - [18/May/2024 13:33:39] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:33:39 - INFO - 192.168.10.15 - - [18/May/2024 13:33:39] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:39 - INFO - 192.168.10.15 - - [18/May/2024 13:33:39] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:39 - INFO - 192.168.10.15 - - [18/May/2024 13:33:39] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:45 - INFO - Received user input: tell me all degree programs
+2024-05-18 13:33:45 - INFO - 192.168.10.15 - - [18/May/2024 13:33:45] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:45 - INFO - 192.168.10.15 - - [18/May/2024 13:33:45] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:33:50 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:33:50 - INFO - Chatbot response: Here are the degree programs offered at the University of Technology Sarawak:
+
+1. School of Business and Management
+    a. Bachelor of Business Administration (Hons)
+    b. Bachelor of Accountancy (Hons)
+    c. Bachelor of Business (Hons) in Marketing
+    d. Bachelor of Technology Management (Hons)
+
+2. School of Built Environment
+    a. Bachelor of Quantity Surveying (Hons)
+    b. Bachelor of Science (Hons) in Architecture
+    c. Bachelor of Arts (Hons) in Interior Design
+    d. Bachelor of Science (Hons) in Property and Construction Management
+
+3. School of Computing and Creative Media
+    a. Bachelor of Computer Science (Hons)
+    b. Bachelor of Arts (Hons) in Industrial Design
+    c. Bachelor of Arts (Hons) in Creative Digital Media
+    d. Bachelor of Mobile Game Development (Hons)
+
+4. School of Engineering and Technology
+    a. Bachelor of Civil Engineering (Hons)
+    b. Bachelor of Mechanical Engineering (Hons)
+    c. Bachelor of Electrical Engineering (Hons)
+    d. Bachelor of Food Technology (Hons)
+    e. Bachelor of Science in Occupational Safety and Health (Honours)
+
+Please note that each program has specific entry requirements, learning outcomes, accreditation details, and contact information for further inquiries.
+2024-05-18 13:33:50 - INFO - 192.168.10.15 - - [18/May/2024 13:33:50] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:34:05 - INFO - 192.168.10.15 - - [18/May/2024 13:34:05] "GET / HTTP/1.1" 200 -
+2024-05-18 13:34:05 - INFO - 192.168.10.15 - - [18/May/2024 13:34:05] "[36mGET /static/WKBwebsite.js HTTP/1.1[0m" 304 -
+2024-05-18 13:34:05 - INFO - 192.168.10.15 - - [18/May/2024 13:34:05] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:34:05 - INFO - 192.168.10.15 - - [18/May/2024 13:34:05] "GET /static/WKBstyle.css HTTP/1.1" 200 -
+2024-05-18 13:34:05 - INFO - 192.168.10.15 - - [18/May/2024 13:34:05] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-18 13:34:05 - INFO - 192.168.10.15 - - [18/May/2024 13:34:05] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-18 13:34:05 - INFO - 192.168.10.15 - - [18/May/2024 13:34:05] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-18 13:34:13 - INFO - Received user input: tell me master program
+2024-05-18 13:34:13 - INFO - 192.168.10.15 - - [18/May/2024 13:34:13] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:34:13 - INFO - 192.168.10.15 - - [18/May/2024 13:34:13] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-18 13:34:17 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-18 13:34:17 - INFO - Chatbot response: The University of Technology Sarawak (UTS) offers a variety of master's programs across different schools, including:
+
+1. School of Business and Management:
+   - Master of Business Administration (MBA)
+   - Master of Project Management
+   - Master of Science in Business Management (Research Mode)
+   - Doctor of Philosophy (PhD) in Business Management
+
+2. School of Built Environment:
+   - Master of Architecture
+   - Master of Construction Management (Coursework)
+
+3. School of Engineering & Technology:
+   - Master of Engineering (Research Mode)
+   - Master of Science in Applied Sciences (Research Mode)
+   - Doctor of Philosophy (PhD) in Engineering
+   - Doctor of Philosophy (PhD) in Applied Science
+
+4. School of Computing & Creative Media:
+   - Master in Computing
+   - Doctor of Philosophy (PhD) in Computing
+
+Each program has specific entry requirements, duration of study, and unique characteristics. If you are interested in pursuing a master's program at UTS Sarawak, you can explore these options and contact the university for further details and application procedures.
+2024-05-18 13:34:17 - INFO - 192.168.10.15 - - [18/May/2024 13:34:17] "POST /api HTTP/1.1" 200 -
+2024-05-18 13:35:42 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-18 13:35:43 - INFO -  * Restarting with stat
+2024-05-18 13:35:44 - WARNING -  * Debugger is active!
+2024-05-18 13:35:44 - INFO -  * Debugger PIN: 241-841-614

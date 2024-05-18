@@ -430,6 +430,28 @@ button:hover
     border-radius: 5%;
 }
 
+.chat-container 
+{
+    overflow-y: auto; 
+    max-height: 260px;
+}
+
+#chat-messages 
+{
+    height: 565px;
+    overflow-y: auto; 
+    overflow-x: auto;
+    background-color: rgba(196, 225, 193, 0.0);; 
+    border: 1px solid rgba(196, 225, 193, 0.0);; 
+    border-radius: 5px; 
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.fullscreen .chat-container 
+{
+    max-height: 565px; 
+}
 .chatbot header h2 
 {
         font-size: 2rem;
@@ -534,7 +556,7 @@ body.fullscreen .chatbot
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(62, 62, 62, 0.534); 
+    background-color: rgba(62, 62, 62, 0.8); 
     border: 0px solid #ccc; 
     border-radius: 10px; 
     z-index: 9999;
