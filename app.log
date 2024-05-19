@@ -1546,3 +1546,109 @@ how are you
 2024-05-18 20:13:43 - INFO -  * Restarting with stat
 2024-05-18 20:13:44 - WARNING -  * Debugger is active!
 2024-05-18 20:13:44 - INFO -  * Debugger PIN: 241-841-614
+2024-05-19 16:54:40 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.55.122:5000
+2024-05-19 16:54:40 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-19 16:54:40 - INFO -  * Restarting with stat
+2024-05-19 16:54:41 - WARNING -  * Debugger is active!
+2024-05-19 16:54:41 - INFO -  * Debugger PIN: 241-841-614
+2024-05-19 16:54:44 - INFO - 192.168.55.122 - - [19/May/2024 16:54:44] "GET / HTTP/1.1" 200 -
+2024-05-19 16:54:44 - INFO - 192.168.55.122 - - [19/May/2024 16:54:44] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-19 16:54:44 - INFO - 192.168.55.122 - - [19/May/2024 16:54:44] "GET /static/images/favicon-32x32.png HTTP/1.1" 200 -
+2024-05-19 16:54:44 - INFO - 192.168.55.122 - - [19/May/2024 16:54:44] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-19 16:54:44 - INFO - 192.168.55.122 - - [19/May/2024 16:54:44] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-19 16:54:45 - INFO - 192.168.55.122 - - [19/May/2024 16:54:45] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:54:49 - INFO - 192.168.55.122 - - [19/May/2024 16:54:49] "GET /static/images/site.webmanifest HTTP/1.1" 200 -
+2024-05-19 16:54:49 - INFO - 192.168.55.122 - - [19/May/2024 16:54:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:54:50 - INFO - 192.168.55.122 - - [19/May/2024 16:54:50] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-19 16:54:54 - INFO - 192.168.55.122 - - [19/May/2024 16:54:54] "GET / HTTP/1.1" 200 -
+2024-05-19 16:54:54 - INFO - 192.168.55.122 - - [19/May/2024 16:54:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:54:54 - INFO - 192.168.55.122 - - [19/May/2024 16:54:54] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:54:54 - INFO - 192.168.55.122 - - [19/May/2024 16:54:54] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:54:54 - INFO - 192.168.55.122 - - [19/May/2024 16:54:54] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:54:54 - INFO - 192.168.55.122 - - [19/May/2024 16:54:54] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:54:58 - INFO - Received user input: hi
+2024-05-19 16:54:58 - INFO - 192.168.55.122 - - [19/May/2024 16:54:58] "GET /static/images/favicon-16x16.png HTTP/1.1" 200 -
+2024-05-19 16:54:58 - INFO - 192.168.55.122 - - [19/May/2024 16:54:58] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-19 16:55:00 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-19 16:55:00 - INFO - Chatbot response: Hello! How can I assist you today?
+2024-05-19 16:55:00 - INFO - 192.168.55.122 - - [19/May/2024 16:55:00] "POST /api HTTP/1.1" 200 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:08 - INFO - 192.168.55.122 - - [19/May/2024 16:55:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:09 - INFO - 192.168.55.122 - - [19/May/2024 16:55:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "GET / HTTP/1.1" 200 -
+2024-05-19 16:55:10 - INFO - 192.168.55.122 - - [19/May/2024 16:55:10] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:11 - INFO - 192.168.55.122 - - [19/May/2024 16:55:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:55:11 - INFO - 192.168.55.122 - - [19/May/2024 16:55:11] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:55:11 - INFO - 192.168.55.122 - - [19/May/2024 16:55:11] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:11 - INFO - 192.168.55.122 - - [19/May/2024 16:55:11] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:11 - INFO - 192.168.55.122 - - [19/May/2024 16:55:11] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:55:22 - INFO - 192.168.55.122 - - [19/May/2024 16:55:22] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:58:54 - INFO - 192.168.55.122 - - [19/May/2024 16:58:54] "GET / HTTP/1.1" 200 -
+2024-05-19 16:58:54 - INFO - 192.168.55.122 - - [19/May/2024 16:58:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:58:54 - INFO - 192.168.55.122 - - [19/May/2024 16:58:54] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:58:54 - INFO - 192.168.55.122 - - [19/May/2024 16:58:54] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-19 16:58:54 - INFO - 192.168.55.122 - - [19/May/2024 16:58:54] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-19 16:58:54 - INFO - 192.168.55.122 - - [19/May/2024 16:58:54] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-19 16:58:58 - INFO - 192.168.55.122 - - [19/May/2024 16:58:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-19 16:58:58 - INFO - 192.168.55.122 - - [19/May/2024 16:58:58] "GET /static/images/site.webmanifest HTTP/1.1" 200 -
+2024-05-19 16:59:01 - INFO - Received user input: hello
+2024-05-19 16:59:01 - INFO - 192.168.55.122 - - [19/May/2024 16:59:01] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-19 16:59:01 - INFO - 192.168.55.122 - - [19/May/2024 16:59:01] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-19 16:59:02 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-19 16:59:02 - INFO - Chatbot response: Hello! How can I assist you today?
+2024-05-19 16:59:02 - INFO - 192.168.55.122 - - [19/May/2024 16:59:02] "POST /api HTTP/1.1" 200 -
+2024-05-19 17:02:02 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-19 17:02:02 - INFO -  * Restarting with stat
