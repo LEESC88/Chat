@@ -1652,3 +1652,5 @@ how are you
 2024-05-19 16:59:02 - INFO - 192.168.55.122 - - [19/May/2024 16:59:02] "POST /api HTTP/1.1" 200 -
 2024-05-19 17:02:02 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
 2024-05-19 17:02:02 - INFO -  * Restarting with stat
+2024-05-19 17:02:04 - WARNING -  * Debugger is active!
+2024-05-19 17:02:04 - INFO -  * Debugger PIN: 241-841-614
