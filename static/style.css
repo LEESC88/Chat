@@ -22,7 +22,7 @@ body.background-image
     background-position: center;
 }
 
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 768px) 
 {
     body.background-image {
         background-image: url('/static/images/Final_Background.png');
@@ -54,13 +54,12 @@ body.background-image
 
 .chat-container 
 {
-    overflow-y: auto; 
-    max-height: 44vh;
+    height: calc(100vh - 385px);
 }
 
 .fullscreen .chat-container 
 {
-    max-height: 72vh; 
+    height: calc(100vh - 185px);
 }
 
 .chat-input 
@@ -179,14 +178,13 @@ body.background-image
 .chatbot .incoming span 
 {
     height: 32px;
-    width: 32px;
-    color: rgb(238, 238, 241);
-    align-self: flex-end;
-    background: hsl(186, 58%, 60%);
+    width: auto;
+    max-width: 70%;
+    align-self: flex-start;
     text-align: center;
     line-height: 32px;
     border-radius: 4px;
-    margin: 0 10px 7px 0;
+    margin: 0 10px 7px 0;   
 }
 
 .chatbot .outgoing 
@@ -206,14 +204,15 @@ body.background-image
 
 #chat-messages 
 {
-    height: 100vh;
-    overflow-y: auto; 
-    overflow-x: auto;
-    background-color: rgba(196, 225, 193, 0.0);; 
-    border: 1px solid rgba(196, 225, 193, 0.0);; 
-    border-radius: 5px; 
-    padding-right: 10px;
-    padding-left: 10px;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgba(196, 225, 193, 0.0);
+    border: 1px solid rgba(196, 225, 193, 0.0);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 #chat-messages::-webkit-scrollbar-track 
@@ -334,7 +333,7 @@ body.background-image
     visibility: visible;
 }
 
-@media(max-width: 600px)
+@media(max-width: 768px)
 {
     .chatbot {
         right: 0;
@@ -407,7 +406,7 @@ button:hover
     background-color: #d3e1d3;
 }
 
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 768px) 
 {
 
 .chatbot-toggler 
@@ -432,25 +431,25 @@ button:hover
 
 .chat-container 
 {
-    overflow-y: auto; 
-    max-height: 32vh;
+    height: calc(100vh - 560px);
 }
 
 #chat-messages 
 {
-    height: 69vh;
-    overflow-y: auto; 
-    overflow-x: auto;
-    background-color: rgba(196, 225, 193, 0.0);; 
-    border: 1px solid rgba(196, 225, 193, 0.0);; 
-    border-radius: 5px; 
-    padding-right: 10px;
-    padding-left: 10px;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgba(196, 225, 193, 0.0);
+    border: 1px solid rgba(196, 225, 193, 0.0);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .fullscreen .chat-container 
 {
-    max-height: 100vh; 
+    height: calc(100vh - 255px); 
 }
 .chatbot header h2 
 {

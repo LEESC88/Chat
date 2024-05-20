@@ -128,7 +128,7 @@ function displayMessage(sender, message)
     messageElement.appendChild(senderElement);
 
     var messageText = document.createElement("span");
-    messageText.innerHTML = message;
+    messageText.innerHTML = "<br>" + message;
     messageElement.appendChild(messageText);
 
     chatMessages.appendChild(messageElement);
@@ -139,7 +139,7 @@ function displayMessage(sender, message)
 
 function updateMessage(messageElement, newContent) 
 {
-    messageElement.querySelector("span:last-child").innerHTML = newContent;
+    messageElement.querySelector("span:last-child").innerHTML = "<br>" + newContent;
 }
 
 document.addEventListener('DOMContentLoaded', function () 

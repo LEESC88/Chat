@@ -2105,3 +2105,1356 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 2024-05-20 18:05:11 - INFO -  * Restarting with stat
 2024-05-20 18:05:12 - WARNING -  * Debugger is active!
 2024-05-20 18:05:12 - INFO -  * Debugger PIN: 241-841-614
+2024-05-20 18:19:15 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.203.122:5000
+2024-05-20 18:19:15 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-20 18:19:15 - INFO -  * Restarting with stat
+2024-05-20 18:19:16 - WARNING -  * Debugger is active!
+2024-05-20 18:19:16 - INFO -  * Debugger PIN: 241-841-614
+2024-05-20 18:19:22 - INFO - 192.168.203.122 - - [20/May/2024 18:19:22] "GET / HTTP/1.1" 200 -
+2024-05-20 18:19:22 - INFO - 192.168.203.122 - - [20/May/2024 18:19:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 18:19:22 - INFO - 192.168.203.122 - - [20/May/2024 18:19:22] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 18:19:22 - INFO - 192.168.203.122 - - [20/May/2024 18:19:22] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 18:19:22 - INFO - 192.168.203.122 - - [20/May/2024 18:19:22] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 18:51:22 - INFO - 192.168.203.122 - - [20/May/2024 18:51:22] "[36mGET /static/images/site.webmanifest HTTP/1.1[0m" 304 -
+2024-05-20 18:51:22 - INFO - 192.168.203.122 - - [20/May/2024 18:51:22] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 18:51:44 - INFO - Received user input: uts
+2024-05-20 18:51:44 - INFO - 192.168.203.122 - - [20/May/2024 18:51:44] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 18:51:44 - INFO - 192.168.203.122 - - [20/May/2024 18:51:44] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 18:51:50 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 18:51:50 - INFO - Chatbot response: The University of Technology Sarawak (UTS) is located in Sibu, Sarawak, Malaysia. It offers 17 degree programs, 2 foundation programs, and 9 master programs. UTS was established to support the development of technical human resources for the Sarawak Corridor of Renewable Energy (SCORE).
+
+UTS aims to provide affordable world-class education that fosters creative and entrepreneurial leaders in science and technology. The institution is equipped with modern facilities to support teaching, learning, and research activities, with a focus on preparing graduates for industries within SCORE.
+
+UTS is committed to collaboration with Universiti Kuala Lumpur and runs Transfer Degree Programs with universities such as Murdoch University (Australia), University of Essex, University of Birmingham (United Kingdom), and University of Canterbury (New Zealand).
+
+UTS's vision is to be a global technical university grounded in science and technology. Its mission is to provide high-quality educational programs and a conducive learning environment to cultivate innovative leaders in science and technology. The core values guiding UTS are Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-20 18:51:50 - INFO - 192.168.203.122 - - [20/May/2024 18:51:50] "POST /api HTTP/1.1" 200 -
+2024-05-20 18:53:47 - INFO - 192.168.203.122 - - [20/May/2024 18:53:47] "GET / HTTP/1.1" 200 -
+2024-05-20 18:53:47 - INFO - 192.168.203.122 - - [20/May/2024 18:53:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 18:53:47 - INFO - 192.168.203.122 - - [20/May/2024 18:53:47] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 18:53:47 - INFO - 192.168.203.122 - - [20/May/2024 18:53:47] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 18:53:47 - INFO - 192.168.203.122 - - [20/May/2024 18:53:47] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 18:53:47 - INFO - 192.168.203.122 - - [20/May/2024 18:53:47] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 18:53:50 - INFO - Received user input: uts
+2024-05-20 18:53:50 - INFO - 192.168.203.122 - - [20/May/2024 18:53:50] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 18:53:50 - INFO - 192.168.203.122 - - [20/May/2024 18:53:50] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 18:53:55 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 18:53:55 - INFO - Chatbot response: University of Technology Sarawak (UTS) is located in Sibu, Sarawak, Malaysia. It offers 17 degree programmes/courses, 2 foundation programmes, and 9 master programmes. UTS is committed to providing affordable world-class education in science and technology, nurturing creative and entrepreneurial leaders, and focusing on applied research related to the Sarawak Corridor of Renewable Energy (SCORE). UTS aims to produce graduates who meet the human resource needs of industries within SCORE. The university collaborates with Universiti Kuala Lumpur and runs Transfer Degree Programmes with universities from Australia, the United Kingdom, and New Zealand.
+
+Vision:
+To be a global technical university founded on science and technology.
+
+Mission:
+To provide world-class educational programs and learning environment to nurture creative and entrepreneurial leaders through a broad yet specialized education in science and technology.
+
+Core Values:
+1. Commitment
+2. Integrity
+3. Caring
+4. Enterprising
+5. Green
+
+Contact Information:
+- Address: No. 1 Jalan Universiti, 96000 Sibu, Sarawak, Malaysia
+- Tel: (+6) 084-367300
+- Fax: (+6) 084-367301
+- Email: enquiry@uts.edu.my
+
+Website: http://www.uts.edu.my
+2024-05-20 18:53:55 - INFO - 192.168.203.122 - - [20/May/2024 18:53:55] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:00:46 - INFO - 192.168.203.122 - - [20/May/2024 19:00:46] "GET / HTTP/1.1" 200 -
+2024-05-20 19:00:46 - INFO - 192.168.203.122 - - [20/May/2024 19:00:46] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:00:46 - INFO - 192.168.203.122 - - [20/May/2024 19:00:46] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:00:46 - INFO - 192.168.203.122 - - [20/May/2024 19:00:46] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:00:46 - INFO - 192.168.203.122 - - [20/May/2024 19:00:46] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:00:47 - INFO - 192.168.203.122 - - [20/May/2024 19:00:47] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:02:15 - INFO - 192.168.203.122 - - [20/May/2024 19:02:15] "GET / HTTP/1.1" 200 -
+2024-05-20 19:02:15 - INFO - 192.168.203.122 - - [20/May/2024 19:02:15] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:02:15 - INFO - 192.168.203.122 - - [20/May/2024 19:02:15] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:02:15 - INFO - 192.168.203.122 - - [20/May/2024 19:02:15] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:02:15 - INFO - 192.168.203.122 - - [20/May/2024 19:02:15] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:02:15 - INFO - 192.168.203.122 - - [20/May/2024 19:02:15] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:02:17 - INFO - Received user input: hi
+2024-05-20 19:02:17 - INFO - 192.168.203.122 - - [20/May/2024 19:02:17] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:02:17 - INFO - 192.168.203.122 - - [20/May/2024 19:02:17] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:02:19 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:02:19 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-20 19:02:19 - INFO - 192.168.203.122 - - [20/May/2024 19:02:19] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:02:21 - INFO - Received user input: uts
+2024-05-20 19:02:24 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:02:24 - INFO - Chatbot response: The University of Technology Sarawak (UTS) is located in Sibu, Sarawak, Malaysia. It offers 17 degree programs/courses, 2 foundation programs, and 9 master programs. UTS was established to spearhead the development of technical human resources for the Sarawak Corridor of Renewable Energy (SCORE).
+
+UTS aims to provide an affordable world-class university education that nurtures creative and entrepreneurial leaders through a broad education in science and technology. The campus is equipped with state-of-the-art facilities to support teaching, learning, and research activities. Additionally, UTS is complemented by its Science & Technology Park and collaborates with Universiti Kuala Lumpur to meet the human resource and industrial needs of SCORE.
+
+The vision of UTS is to be a global technical university founded on science and technology, while the mission is to provide world-class educational programs and a learning environment that fosters creative and entrepreneurial leaders. The core values of UTS are Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-20 19:02:24 - INFO - 192.168.203.122 - - [20/May/2024 19:02:24] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:05:51 - INFO - 192.168.203.122 - - [20/May/2024 19:05:51] "GET / HTTP/1.1" 200 -
+2024-05-20 19:05:52 - INFO - 192.168.203.122 - - [20/May/2024 19:05:52] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-20 19:05:52 - INFO - 192.168.203.122 - - [20/May/2024 19:05:52] "GET /static/images/favicon-32x32.png HTTP/1.1" 200 -
+2024-05-20 19:05:52 - INFO - 192.168.203.122 - - [20/May/2024 19:05:52] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:05:52 - INFO - 192.168.203.122 - - [20/May/2024 19:05:52] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-20 19:05:53 - INFO - 192.168.203.122 - - [20/May/2024 19:05:53] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:05:58 - INFO - Received user input: tell me uts
+2024-05-20 19:05:58 - INFO - 192.168.203.122 - - [20/May/2024 19:05:58] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-20 19:05:58 - INFO - 192.168.203.122 - - [20/May/2024 19:05:58] "GET /static/images/favicon-16x16.png HTTP/1.1" 200 -
+2024-05-20 19:06:00 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:06:00 - INFO - Chatbot response: Thank you for sharing information about University of Technology Sarawak (UTS) located in Sibu, Sarawak, Malaysia. If you have any more specific questions or need further details about UTS, feel free to ask!
+2024-05-20 19:06:00 - INFO - 192.168.203.122 - - [20/May/2024 19:06:00] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:06:08 - INFO - Received user input: tell me uts
+2024-05-20 19:06:14 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:06:14 - INFO - Chatbot response: The University of Technology Sarawak (UTS) is located in Sibu, Sarawak, Malaysia. Here are some key points about UTS:
+- Address: No.1 Jalan Universiti, 96000 Sibu, Sarawak, Malaysia
+- Contact: Tel: (+6) 084-367300, Fax: (+6) 084-367301, Email: enquiry@uts.edu.my
+- UTS offers 17 degree programs/courses, 2 foundation programs, and 9 master programs.
+- UTS was established to develop technical human resources for the Sarawak Corridor of Renewable Energy (SCORE).
+- The university aims to provide an affordable world-class education focusing on science and technology to produce creative and entrepreneurial leaders.
+- UTS is equipped with modern facilities for teaching, research, and learning activities.
+- The university's Science & Technology Park offers research and entrepreneurial opportunities through collaborations with industries and educational institutions.
+- UTS collaborates with Universiti Kuala Lumpur and other international universities for various programs.
+- UTS's vision is to be a global technical university founded on science and technology, with a mission to provide world-class educational programs and nurture creative and entrepreneurial leaders.
+- Core values of UTS include Commitment, Integrity, Caring, Enterprising, and Green.
+
+For more information about specific programs, admission requirements, or any other details about UTS, please contact the university directly using the provided contact information.
+2024-05-20 19:06:14 - INFO - 192.168.203.122 - - [20/May/2024 19:06:14] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:06:41 - INFO - Received user input: example 30 line 
+2024-05-20 19:06:49 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:06:49 - INFO - Chatbot response: Certainly! Here are 30 lines of an example text:
+
+"The sun was setting, casting a warm golden glow over the horizon. The chirping of crickets filled the air as the evening settled in. A gentle breeze rustled the leaves of the tall trees surrounding the meadow. In the distance, a lone figure could be seen walking along the winding path. The sound of laughter echoed from a nearby picnic area where families gathered for a weekend outing.
+
+As the sky darkened, stars began to twinkle above, creating a blanket of shimmering lights. The moon rose slowly, bathing the landscape in a soft silvery light. Fireflies danced in the darkness, their tiny lights flickering like distant beacons. A sense of peace and tranquility descended upon the scene, calming the restless soul.
+
+The night was full of mystery and wonder, with the unknown lurking just beyond the shadows. The rustle of leaves and the hoot of an owl added to the eerie atmosphere. Yet, there was also a sense of magic in the air, as if anything were possible under the cover of darkness.
+
+The figure in the distance paused, gazing up at the star-studded sky. A sense of awe washed over them, humbled by the vastness of the universe. They felt a deep connection to the world around them, realizing their place in the grand scheme of things.
+
+As the night wore on, the world seemed to slow down, embracing a sense of stillness. Time itself seemed to stretch and bend, allowing for moments of reflection and introspection. The figure continued their journey, guided by the light of the moon and the stars above.
+
+And so, the night unfolded with its mysteries and secrets, offering a chance for contemplation and renewal. The beauty of the world shone brightly in the darkness, illuminating the path ahead. The figure walked on, their heart filled with gratitude for the quiet moments of the night."
+
+I hope you enjoy this example text! Let me know if you'd like to see more examples or if you have any other requests.
+2024-05-20 19:06:49 - INFO - 192.168.203.122 - - [20/May/2024 19:06:49] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:07:29 - INFO - 192.168.203.122 - - [20/May/2024 19:07:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-20 19:07:35 - INFO - 192.168.203.122 - - [20/May/2024 19:07:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 19:07:35 - INFO - 192.168.203.122 - - [20/May/2024 19:07:35] "GET /static/images/site.webmanifest HTTP/1.1" 200 -
+2024-05-20 19:15:03 - INFO - 192.168.203.122 - - [20/May/2024 19:15:03] "GET / HTTP/1.1" 200 -
+2024-05-20 19:15:03 - INFO - 192.168.203.122 - - [20/May/2024 19:15:03] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:15:03 - INFO - 192.168.203.122 - - [20/May/2024 19:15:03] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:15:03 - INFO - 192.168.203.122 - - [20/May/2024 19:15:03] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:15:04 - INFO - 192.168.203.122 - - [20/May/2024 19:15:04] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:15:04 - INFO - 192.168.203.122 - - [20/May/2024 19:15:04] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:15:17 - INFO - Received user input: give me 30 line of verbs
+2024-05-20 19:15:17 - INFO - 192.168.203.122 - - [20/May/2024 19:15:17] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:15:17 - INFO - 192.168.203.122 - - [20/May/2024 19:15:17] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:15:21 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:15:21 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Swim
+4. Dance
+5. Sing
+6. Play
+7. Eat
+8. Sleep
+9. Walk
+10. Talk
+11. Laugh
+12. Cry
+13. Study
+14. Work
+15. Write
+16. Draw
+17. Drive
+18. Climb
+19. Cook
+20. Clean
+21. Listen
+22. Watch
+23. Bake
+24. Plant
+25. Exercise
+26. Travel
+27. Read
+28. Build
+29. Paint
+30. Cycle
+2024-05-20 19:15:21 - INFO - 192.168.203.122 - - [20/May/2024 19:15:21] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:21:00 - INFO - 192.168.203.15 - - [20/May/2024 19:21:00] "GET / HTTP/1.1" 200 -
+2024-05-20 19:21:00 - INFO - 192.168.203.15 - - [20/May/2024 19:21:00] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-20 19:21:00 - INFO - 192.168.203.15 - - [20/May/2024 19:21:00] "GET /static/images/favicon-32x32.png HTTP/1.1" 200 -
+2024-05-20 19:21:00 - INFO - 192.168.203.15 - - [20/May/2024 19:21:00] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:21:00 - INFO - 192.168.203.15 - - [20/May/2024 19:21:00] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-20 19:21:01 - INFO - 192.168.203.15 - - [20/May/2024 19:21:01] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:21:01 - INFO - 192.168.203.15 - - [20/May/2024 19:21:01] "GET /static/images/apple-touch-icon.png HTTP/1.1" 200 -
+2024-05-20 19:21:13 - INFO - Received user input: 30 line of verb
+
+2024-05-20 19:21:13 - INFO - 192.168.203.15 - - [20/May/2024 19:21:13] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-20 19:21:13 - INFO - 192.168.203.15 - - [20/May/2024 19:21:13] "GET /static/images/favicon-16x16.png HTTP/1.1" 200 -
+2024-05-20 19:21:17 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:21:17 - INFO - Chatbot response: I am happy to help! Here are 30 verbs for you:
+
+1. run
+2. jump
+3. swim
+4. dance
+5. sing
+6. sleep
+7. eat
+8. drink
+9. write
+10. read
+11. talk
+12. listen
+13. play
+14. study
+15. work
+16. cook
+17. clean
+18. paint
+19. draw
+20. exercise
+21. meditate
+22. travel
+23. drive
+24. volunteer
+25. build
+26. plant
+27. sculpt
+28. design
+29. code
+30. create
+
+I hope you find these helpful! Feel free to ask for more verbs if you need them.
+2024-05-20 19:21:17 - INFO - 192.168.203.15 - - [20/May/2024 19:21:17] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:22:10 - INFO - 192.168.203.122 - - [20/May/2024 19:22:10] "GET / HTTP/1.1" 200 -
+2024-05-20 19:22:10 - INFO - 192.168.203.122 - - [20/May/2024 19:22:10] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:22:10 - INFO - 192.168.203.122 - - [20/May/2024 19:22:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:22:10 - INFO - 192.168.203.122 - - [20/May/2024 19:22:10] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:22:11 - INFO - 192.168.203.122 - - [20/May/2024 19:22:11] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:22:11 - INFO - 192.168.203.122 - - [20/May/2024 19:22:11] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:22:13 - INFO - 192.168.203.15 - - [20/May/2024 19:22:13] "GET / HTTP/1.1" 200 -
+2024-05-20 19:22:13 - INFO - 192.168.203.15 - - [20/May/2024 19:22:13] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:22:13 - INFO - 192.168.203.15 - - [20/May/2024 19:22:13] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:22:13 - INFO - 192.168.203.15 - - [20/May/2024 19:22:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:22:13 - INFO - 192.168.203.15 - - [20/May/2024 19:22:13] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:22:13 - INFO - 192.168.203.15 - - [20/May/2024 19:22:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:22:13 - INFO - 192.168.203.15 - - [20/May/2024 19:22:13] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 19:22:20 - INFO - Received user input: 30 line of verb
+2024-05-20 19:22:20 - INFO - 192.168.203.15 - - [20/May/2024 19:22:20] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:22:20 - INFO - 192.168.203.15 - - [20/May/2024 19:22:20] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:22:26 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:22:26 - INFO - Chatbot response: Sure! Here are 30 lines of sentences containing verbs:
+
+1. The cat jumped onto the table.
+2. I ran to catch the bus.
+3. She sang beautifully at the concert.
+4. The children played in the park all day.
+5. He cooked dinner for his family.
+6. The tree swayed in the wind.
+7. They laughed at the funny movie.
+8. The birds chirped in the morning.
+9. The teacher explained the lesson to the students.
+10. I wrote a letter to my friend.
+11. The dog wagged its tail happily.
+12. She danced gracefully on stage.
+13. The car zoomed down the highway.
+14. He painted a beautiful landscape.
+15. The phone rang loudly in the quiet room.
+16. The baby crawled across the floor.
+17. They cheered for their favorite team.
+18. The sun rose over the horizon.
+19. He fixed the leaky faucet.
+20. She hugged her friend tightly.
+21. The fire crackled in the fireplace.
+22. The train roared down the tracks.
+23. The flowers bloomed in the garden.
+24. I brushed my teeth before bed.
+25. The clock ticked slowly on the wall.
+26. The rain pattered against the window.
+27. The wind howled through the trees.
+28. The fish swam gracefully in the water.
+29. She hugged her teddy bear tightly.
+30. The children skipped down the sidewalk.
+
+I hope this helps! Let me know if you need more examples.
+2024-05-20 19:22:26 - INFO - 192.168.203.15 - - [20/May/2024 19:22:26] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:25:10 - INFO - 192.168.203.15 - - [20/May/2024 19:25:10] "GET / HTTP/1.1" 200 -
+2024-05-20 19:25:10 - INFO - 192.168.203.15 - - [20/May/2024 19:25:10] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:25:10 - INFO - 192.168.203.15 - - [20/May/2024 19:25:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:10 - INFO - 192.168.203.15 - - [20/May/2024 19:25:10] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:25:10 - INFO - 192.168.203.15 - - [20/May/2024 19:25:10] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:10 - INFO - 192.168.203.15 - - [20/May/2024 19:25:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:10 - INFO - 192.168.203.15 - - [20/May/2024 19:25:10] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:18 - INFO - Received user input: 30 line of verb
+
+2024-05-20 19:25:18 - INFO - 192.168.203.15 - - [20/May/2024 19:25:18] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:18 - INFO - 192.168.203.15 - - [20/May/2024 19:25:18] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:21 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:25:21 - INFO - Chatbot response: I am happy to provide you with 30 verbs:
+
+1. Run
+2. Jump
+3. Play
+4. Eat
+5. Sleep
+6. Swim
+7. Dance
+8. Sing
+9. Talk
+10. Write
+11. Read
+12. Paint
+13. Draw
+14. Climb
+15. Laugh
+16. Cry
+17. Study
+18. Cook
+19. Bake
+20. Drive
+21. Fly
+22. Walk
+23. Plant
+24. Build
+25. Explore
+26. Create
+27. Travel
+28. Relax
+29. Exercise
+30. Think
+2024-05-20 19:25:21 - INFO - 192.168.203.15 - - [20/May/2024 19:25:21] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:25:32 - INFO - 192.168.203.122 - - [20/May/2024 19:25:32] "GET / HTTP/1.1" 200 -
+2024-05-20 19:25:32 - INFO - 192.168.203.122 - - [20/May/2024 19:25:32] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:25:32 - INFO - 192.168.203.122 - - [20/May/2024 19:25:32] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:32 - INFO - 192.168.203.122 - - [20/May/2024 19:25:32] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:25:32 - INFO - 192.168.203.122 - - [20/May/2024 19:25:32] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:32 - INFO - 192.168.203.122 - - [20/May/2024 19:25:32] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:36 - INFO - Received user input: 30 line of verb
+2024-05-20 19:25:36 - INFO - 192.168.203.122 - - [20/May/2024 19:25:36] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:36 - INFO - 192.168.203.122 - - [20/May/2024 19:25:36] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:25:40 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:25:40 - INFO - Chatbot response: 1. Running
+2. Jumping
+3. Walking
+4. Swimming
+5. Dancing
+6. Singing
+7. Writing
+8. Reading
+9. Cooking
+10. Biking
+11. Painting
+12. Drawing
+13. Shopping
+14. Playing
+15. Sleeping
+16. Talking
+17. Laughing
+18. Crying
+19. Eating
+20. Cleaning
+21. Working
+22. Studying
+23. Traveling
+24. Gardening
+25. Exercising
+26. Crafting
+27. Meditating
+28. Hiking
+29. Snorkeling
+30. Knitting
+2024-05-20 19:25:40 - INFO - 192.168.203.122 - - [20/May/2024 19:25:40] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:36:18 - INFO - 192.168.203.122 - - [20/May/2024 19:36:18] "GET / HTTP/1.1" 200 -
+2024-05-20 19:36:18 - INFO - 192.168.203.122 - - [20/May/2024 19:36:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 19:36:18 - INFO - 192.168.203.122 - - [20/May/2024 19:36:18] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:36:18 - INFO - 192.168.203.122 - - [20/May/2024 19:36:18] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:36:19 - INFO - 192.168.203.122 - - [20/May/2024 19:36:19] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:36:19 - INFO - 192.168.203.122 - - [20/May/2024 19:36:19] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:39:40 - INFO - 192.168.203.122 - - [20/May/2024 19:39:40] "GET / HTTP/1.1" 200 -
+2024-05-20 19:39:40 - INFO - 192.168.203.122 - - [20/May/2024 19:39:40] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:39:40 - INFO - 192.168.203.122 - - [20/May/2024 19:39:40] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:39:40 - INFO - 192.168.203.122 - - [20/May/2024 19:39:40] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:39:41 - INFO - 192.168.203.122 - - [20/May/2024 19:39:41] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:39:41 - INFO - 192.168.203.122 - - [20/May/2024 19:39:41] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:39:47 - INFO - 192.168.203.122 - - [20/May/2024 19:39:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 19:39:47 - INFO - 192.168.203.122 - - [20/May/2024 19:39:47] "[36mGET /static/images/site.webmanifest HTTP/1.1[0m" 304 -
+2024-05-20 19:39:53 - INFO - Received user input: 30 line of verb
+2024-05-20 19:39:53 - INFO - 192.168.203.122 - - [20/May/2024 19:39:53] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:39:53 - INFO - 192.168.203.122 - - [20/May/2024 19:39:53] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:39:56 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:39:56 - INFO - Chatbot response: Here are 30 verbs:
+
+1. Run
+2. Jump
+3. Dance
+4. Sing
+5. Swim
+6. Write
+7. Read
+8. Talk
+9. Listen
+10. Eat
+11. Sleep
+12. Dream
+13. Laugh
+14. Cry
+15. Think
+16. Create
+17. Paint
+18. Draw
+19. Cook
+20. Bake
+21. Climb
+22. Play
+23. Study
+24. Learn
+25. Drive
+26. Fly
+27. Travel
+28. Exercise
+29. Meditate
+30. Explore
+2024-05-20 19:39:56 - INFO - 192.168.203.122 - - [20/May/2024 19:39:56] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:46:51 - INFO - 192.168.203.122 - - [20/May/2024 19:46:51] "GET / HTTP/1.1" 200 -
+2024-05-20 19:46:51 - INFO - 192.168.203.122 - - [20/May/2024 19:46:51] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:46:51 - INFO - 192.168.203.122 - - [20/May/2024 19:46:51] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:46:51 - INFO - 192.168.203.122 - - [20/May/2024 19:46:51] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:46:51 - INFO - 192.168.203.122 - - [20/May/2024 19:46:51] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:46:52 - INFO - 192.168.203.122 - - [20/May/2024 19:46:52] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:47:02 - INFO - Received user input: 30 line verb
+2024-05-20 19:47:02 - INFO - 192.168.203.122 - - [20/May/2024 19:47:02] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:47:02 - INFO - 192.168.203.122 - - [20/May/2024 19:47:02] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:47:04 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:47:04 - INFO - Chatbot response: Advise, bark, calculate, dance, educate, flutter, growl, hesitate, investigate, jump, kick, laugh, mourn, navigate, observe, purr, question, relax, sing, travel, understand, volunteer, whisper, yawn, zip, analyze, breathe, cuddle, dig, eat.
+2024-05-20 19:47:04 - INFO - 192.168.203.122 - - [20/May/2024 19:47:04] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:47:14 - INFO - Received user input: list
+2024-05-20 19:47:18 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:47:18 - INFO - Chatbot response: Sure, here are some lists you can choose from:
+
+1. List of countries in Asia
+2. List of popular TV shows
+3. List of famous scientists
+4. List of capital cities in Europe
+5. List of endangered animals
+6. List of programming languages
+7. List of classic novels
+8. List of famous landmarks
+9. List of national holidays
+10. List of musical instruments
+
+Please let me know if you would like more specific options within any of these categories.
+2024-05-20 19:47:18 - INFO - 192.168.203.122 - - [20/May/2024 19:47:18] "POST /api HTTP/1.1" 200 -
+2024-05-20 19:53:05 - INFO - 192.168.203.15 - - [20/May/2024 19:53:05] "GET / HTTP/1.1" 200 -
+2024-05-20 19:53:05 - INFO - 192.168.203.15 - - [20/May/2024 19:53:05] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 19:53:05 - INFO - 192.168.203.15 - - [20/May/2024 19:53:05] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:53:05 - INFO - 192.168.203.15 - - [20/May/2024 19:53:05] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 19:53:05 - INFO - 192.168.203.15 - - [20/May/2024 19:53:05] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 19:53:05 - INFO - 192.168.203.15 - - [20/May/2024 19:53:05] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 19:53:05 - INFO - 192.168.203.15 - - [20/May/2024 19:53:05] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 19:53:14 - INFO - Received user input: list 30lines of verb
+2024-05-20 19:53:14 - INFO - 192.168.203.15 - - [20/May/2024 19:53:14] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:53:14 - INFO - 192.168.203.15 - - [20/May/2024 19:53:14] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 19:53:18 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 19:53:18 - INFO - Chatbot response: 1. Jump
+2. Run
+3. Dance
+4. Swim
+5. Fly
+6. Eat
+7. Sleep
+8. Sing
+9. Play
+10. Write
+11. Paint
+12. Drive
+13. Cook
+14. Read
+15. Laugh
+16. Cry
+17. Climb
+18. Kick
+19. Punch
+20. Fly
+21. Spin
+22. Skip
+23. Whisper
+24. Shout
+25. Dig
+26. Build
+27. Jump
+28. Swim
+29. Bike
+30. Surf
+2024-05-20 19:53:18 - INFO - 192.168.203.15 - - [20/May/2024 19:53:18] "POST /api HTTP/1.1" 200 -
+2024-05-20 20:08:59 - INFO - 192.168.203.122 - - [20/May/2024 20:08:59] "GET / HTTP/1.1" 200 -
+2024-05-20 20:08:59 - INFO - 192.168.203.122 - - [20/May/2024 20:08:59] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:08:59 - INFO - 192.168.203.122 - - [20/May/2024 20:08:59] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:08:59 - INFO - 192.168.203.122 - - [20/May/2024 20:08:59] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:08:59 - INFO - 192.168.203.122 - - [20/May/2024 20:08:59] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:08:59 - INFO - 192.168.203.122 - - [20/May/2024 20:08:59] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:18:38 - INFO - 192.168.203.122 - - [20/May/2024 20:18:38] "GET / HTTP/1.1" 200 -
+2024-05-20 20:18:38 - INFO - 192.168.203.122 - - [20/May/2024 20:18:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:18:38 - INFO - 192.168.203.122 - - [20/May/2024 20:18:38] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:18:38 - INFO - 192.168.203.122 - - [20/May/2024 20:18:38] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:18:38 - INFO - 192.168.203.122 - - [20/May/2024 20:18:38] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:18:39 - INFO - 192.168.203.122 - - [20/May/2024 20:18:39] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:18:57 - INFO - 192.168.203.122 - - [20/May/2024 20:18:57] "GET / HTTP/1.1" 200 -
+2024-05-20 20:18:57 - INFO - 192.168.203.122 - - [20/May/2024 20:18:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 20:18:57 - INFO - 192.168.203.122 - - [20/May/2024 20:18:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:18:57 - INFO - 192.168.203.122 - - [20/May/2024 20:18:57] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:18:57 - INFO - 192.168.203.122 - - [20/May/2024 20:18:57] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:18:57 - INFO - 192.168.203.122 - - [20/May/2024 20:18:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:19:52 - INFO - 192.168.203.122 - - [20/May/2024 20:19:52] "GET / HTTP/1.1" 200 -
+2024-05-20 20:19:52 - INFO - 192.168.203.122 - - [20/May/2024 20:19:52] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:19:52 - INFO - 192.168.203.122 - - [20/May/2024 20:19:52] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:19:52 - INFO - 192.168.203.122 - - [20/May/2024 20:19:52] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:19:52 - INFO - 192.168.203.122 - - [20/May/2024 20:19:52] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:19:52 - INFO - 192.168.203.122 - - [20/May/2024 20:19:52] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:20:23 - INFO - 192.168.203.122 - - [20/May/2024 20:20:23] "GET / HTTP/1.1" 200 -
+2024-05-20 20:20:23 - INFO - 192.168.203.122 - - [20/May/2024 20:20:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 20:20:23 - INFO - 192.168.203.122 - - [20/May/2024 20:20:23] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:20:23 - INFO - 192.168.203.122 - - [20/May/2024 20:20:23] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:20:23 - INFO - 192.168.203.122 - - [20/May/2024 20:20:23] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:20:24 - INFO - 192.168.203.122 - - [20/May/2024 20:20:24] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:20:57 - INFO - 192.168.203.122 - - [20/May/2024 20:20:57] "GET / HTTP/1.1" 200 -
+2024-05-20 20:20:57 - INFO - 192.168.203.122 - - [20/May/2024 20:20:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:20:57 - INFO - 192.168.203.122 - - [20/May/2024 20:20:57] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:20:57 - INFO - 192.168.203.122 - - [20/May/2024 20:20:57] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:20:58 - INFO - 192.168.203.122 - - [20/May/2024 20:20:58] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:20:58 - INFO - 192.168.203.122 - - [20/May/2024 20:20:58] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:23:51 - INFO - 192.168.203.122 - - [20/May/2024 20:23:51] "GET / HTTP/1.1" 200 -
+2024-05-20 20:23:51 - INFO - 192.168.203.122 - - [20/May/2024 20:23:51] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:23:51 - INFO - 192.168.203.122 - - [20/May/2024 20:23:51] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:23:51 - INFO - 192.168.203.122 - - [20/May/2024 20:23:51] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:23:51 - INFO - 192.168.203.122 - - [20/May/2024 20:23:51] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:23:51 - INFO - 192.168.203.122 - - [20/May/2024 20:23:51] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:24:51 - INFO - 192.168.203.122 - - [20/May/2024 20:24:51] "GET / HTTP/1.1" 200 -
+2024-05-20 20:24:52 - INFO - 192.168.203.122 - - [20/May/2024 20:24:52] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:24:52 - INFO - 192.168.203.122 - - [20/May/2024 20:24:52] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:24:52 - INFO - 192.168.203.122 - - [20/May/2024 20:24:52] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:24:52 - INFO - 192.168.203.122 - - [20/May/2024 20:24:52] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:24:52 - INFO - 192.168.203.122 - - [20/May/2024 20:24:52] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:24:59 - INFO - 192.168.203.122 - - [20/May/2024 20:24:59] "GET / HTTP/1.1" 200 -
+2024-05-20 20:25:00 - INFO - 192.168.203.122 - - [20/May/2024 20:25:00] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:25:00 - INFO - 192.168.203.122 - - [20/May/2024 20:25:00] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:25:00 - INFO - 192.168.203.122 - - [20/May/2024 20:25:00] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:25:00 - INFO - 192.168.203.122 - - [20/May/2024 20:25:00] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:25:00 - INFO - 192.168.203.122 - - [20/May/2024 20:25:00] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:25:21 - INFO - 192.168.203.122 - - [20/May/2024 20:25:21] "GET / HTTP/1.1" 200 -
+2024-05-20 20:25:21 - INFO - 192.168.203.122 - - [20/May/2024 20:25:21] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:25:21 - INFO - 192.168.203.122 - - [20/May/2024 20:25:21] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:25:21 - INFO - 192.168.203.122 - - [20/May/2024 20:25:21] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:25:22 - INFO - 192.168.203.122 - - [20/May/2024 20:25:22] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:25:22 - INFO - 192.168.203.122 - - [20/May/2024 20:25:22] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:25:39 - INFO - 192.168.203.122 - - [20/May/2024 20:25:39] "GET / HTTP/1.1" 200 -
+2024-05-20 20:25:39 - INFO - 192.168.203.122 - - [20/May/2024 20:25:39] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:25:39 - INFO - 192.168.203.122 - - [20/May/2024 20:25:39] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:25:39 - INFO - 192.168.203.122 - - [20/May/2024 20:25:39] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:25:39 - INFO - 192.168.203.122 - - [20/May/2024 20:25:39] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:25:39 - INFO - 192.168.203.122 - - [20/May/2024 20:25:39] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:26:44 - INFO - 192.168.203.122 - - [20/May/2024 20:26:44] "GET / HTTP/1.1" 200 -
+2024-05-20 20:26:45 - INFO - 192.168.203.122 - - [20/May/2024 20:26:45] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:26:45 - INFO - 192.168.203.122 - - [20/May/2024 20:26:45] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:26:45 - INFO - 192.168.203.122 - - [20/May/2024 20:26:45] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:26:45 - INFO - 192.168.203.122 - - [20/May/2024 20:26:45] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:26:45 - INFO - 192.168.203.122 - - [20/May/2024 20:26:45] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:26:57 - INFO - Received user input: list 30 line of verb
+2024-05-20 20:26:57 - INFO - 192.168.203.122 - - [20/May/2024 20:26:57] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:26:57 - INFO - 192.168.203.122 - - [20/May/2024 20:26:57] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:27:00 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 20:27:00 - INFO - Chatbot response: Sure, here are 30 verbs:
+
+1. Run
+2. Jump
+3. Swim
+4. Eat
+5. Sleep
+6. Dance
+7. Sing
+8. Cook
+9. Read
+10. Write
+11. Paint
+12. Draw
+13. Drive
+14. Fly
+15. Laugh
+16. Cry
+17. Play
+18. Study
+19. Teach
+20. Clean
+21. Travel
+22. Shop
+23. Exercise
+24. Create
+25. Listen
+26. Talk
+27. Think
+28. Relax
+29. Climb
+30. Explore
+2024-05-20 20:27:00 - INFO - 192.168.203.122 - - [20/May/2024 20:27:00] "POST /api HTTP/1.1" 200 -
+2024-05-20 20:28:16 - INFO - 192.168.203.122 - - [20/May/2024 20:28:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 20:28:16 - INFO - 192.168.203.122 - - [20/May/2024 20:28:16] "[36mGET /static/images/site.webmanifest HTTP/1.1[0m" 304 -
+2024-05-20 20:32:07 - INFO - 192.168.203.15 - - [20/May/2024 20:32:07] "GET / HTTP/1.1" 200 -
+2024-05-20 20:32:07 - INFO - 192.168.203.15 - - [20/May/2024 20:32:07] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:32:07 - INFO - 192.168.203.15 - - [20/May/2024 20:32:07] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:32:07 - INFO - 192.168.203.15 - - [20/May/2024 20:32:07] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:32:08 - INFO - 192.168.203.15 - - [20/May/2024 20:32:08] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:32:08 - INFO - 192.168.203.15 - - [20/May/2024 20:32:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:32:08 - INFO - 192.168.203.15 - - [20/May/2024 20:32:08] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 20:32:16 - INFO - Received user input: 30 lines of verb
+2024-05-20 20:32:16 - INFO - 192.168.203.15 - - [20/May/2024 20:32:16] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:32:16 - INFO - 192.168.203.15 - - [20/May/2024 20:32:16] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:32:19 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 20:32:19 - INFO - Chatbot response: Jump, run, walk, skip, hop, dance, slide, climb, swim, surf, dive, skate, surf, jog, sail, paddle, row, hike, cycle, ski, snowboard, parachute, zip line, bungee jump, box, kick, punch, throw, catch, lift, bend.
+2024-05-20 20:32:19 - INFO - 192.168.203.15 - - [20/May/2024 20:32:19] "POST /api HTTP/1.1" 200 -
+2024-05-20 20:32:24 - INFO - Received user input: list then
+2024-05-20 20:32:27 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 20:32:27 - INFO - Chatbot response: 1. Jump 
+2. Run 
+3. Walk 
+4. Skip 
+5. Hop 
+6. Dance 
+7. Slide 
+8. Climb 
+9. Swim 
+10. Surf 
+11. Dive 
+12. Skate 
+13. Jog 
+14. Sail 
+15. Paddle 
+16. Row 
+17. Hike 
+18. Cycle 
+19. Ski 
+20. Snowboard 
+21. Parachute 
+22. Zip line 
+23. Bungee jump 
+24. Box 
+25. Kick 
+26. Punch 
+27. Throw 
+28. Catch 
+29. Lift 
+30. Bend
+2024-05-20 20:32:27 - INFO - 192.168.203.15 - - [20/May/2024 20:32:27] "POST /api HTTP/1.1" 200 -
+2024-05-20 20:36:29 - INFO - 192.168.203.122 - - [20/May/2024 20:36:29] "GET / HTTP/1.1" 200 -
+2024-05-20 20:36:29 - INFO - 192.168.203.122 - - [20/May/2024 20:36:29] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:36:29 - INFO - 192.168.203.122 - - [20/May/2024 20:36:29] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:36:29 - INFO - 192.168.203.122 - - [20/May/2024 20:36:29] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:36:29 - INFO - 192.168.203.122 - - [20/May/2024 20:36:29] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:36:29 - INFO - 192.168.203.122 - - [20/May/2024 20:36:29] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:36:43 - INFO - Received user input: list 30 line verbs
+2024-05-20 20:36:43 - INFO - 192.168.203.122 - - [20/May/2024 20:36:43] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:36:43 - INFO - 192.168.203.122 - - [20/May/2024 20:36:43] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:36:44 - INFO - 192.168.203.122 - - [20/May/2024 20:36:44] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-20 20:36:46 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 20:36:46 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Swim
+4. Walk
+5. Talk
+6. Sing
+7. Dance
+8. Laugh
+9. Cry
+10. Sleep
+11. Eat
+12. Drink
+13. Write
+14. Read
+15. Drive
+16. Cook
+17. Clean
+18. Study
+19. Work
+20. Play
+21. Listen
+22. Speak
+23. Climb
+24. Skip
+25. Paint
+26. Draw
+27. Hug
+28. Kiss
+29. Think
+30. Believe
+2024-05-20 20:36:46 - INFO - 192.168.203.122 - - [20/May/2024 20:36:46] "POST /api HTTP/1.1" 200 -
+2024-05-20 20:39:28 - INFO - 192.168.203.122 - - [20/May/2024 20:39:28] "GET / HTTP/1.1" 200 -
+2024-05-20 20:39:28 - INFO - 192.168.203.122 - - [20/May/2024 20:39:28] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:39:28 - INFO - 192.168.203.122 - - [20/May/2024 20:39:28] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:39:28 - INFO - 192.168.203.122 - - [20/May/2024 20:39:28] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:39:29 - INFO - 192.168.203.122 - - [20/May/2024 20:39:29] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:39:29 - INFO - 192.168.203.122 - - [20/May/2024 20:39:29] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:39:47 - INFO - Received user input: list out 30 verb
+2024-05-20 20:39:47 - INFO - 192.168.203.122 - - [20/May/2024 20:39:47] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:39:47 - INFO - 192.168.203.122 - - [20/May/2024 20:39:47] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:39:50 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 20:39:50 - INFO - Chatbot response: Here are 30 verbs for you:
+
+1. run
+2. jump
+3. swim
+4. eat
+5. sleep
+6. walk
+7. talk
+8. sing
+9. read
+10. write
+11. dance
+12. play
+13. cook
+14. clean
+15. study
+16. work
+17. laugh
+18. cry
+19. shout
+20. listen
+21. drive
+22. fly
+23. explore
+24. hug
+25. kiss
+26. climb
+27. surf
+28. sculpt
+29. paint
+30. browse
+2024-05-20 20:39:50 - INFO - 192.168.203.122 - - [20/May/2024 20:39:50] "POST /api HTTP/1.1" 200 -
+2024-05-20 20:48:33 - INFO - 192.168.203.122 - - [20/May/2024 20:48:33] "[36mGET /static/images/site.webmanifest HTTP/1.1[0m" 304 -
+2024-05-20 20:48:33 - INFO - 192.168.203.122 - - [20/May/2024 20:48:33] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:52:20 - INFO - 192.168.203.122 - - [20/May/2024 20:52:20] "GET / HTTP/1.1" 200 -
+2024-05-20 20:52:20 - INFO - 192.168.203.122 - - [20/May/2024 20:52:20] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:52:20 - INFO - 192.168.203.122 - - [20/May/2024 20:52:20] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:52:20 - INFO - 192.168.203.122 - - [20/May/2024 20:52:20] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:52:20 - INFO - 192.168.203.122 - - [20/May/2024 20:52:20] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:52:21 - INFO - 192.168.203.122 - - [20/May/2024 20:52:21] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:52:29 - INFO - 192.168.203.122 - - [20/May/2024 20:52:29] "GET / HTTP/1.1" 200 -
+2024-05-20 20:52:29 - INFO - 192.168.203.122 - - [20/May/2024 20:52:29] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:52:29 - INFO - 192.168.203.122 - - [20/May/2024 20:52:29] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:52:29 - INFO - 192.168.203.122 - - [20/May/2024 20:52:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 20:52:29 - INFO - 192.168.203.122 - - [20/May/2024 20:52:29] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:52:29 - INFO - 192.168.203.122 - - [20/May/2024 20:52:29] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:52:41 - INFO - 192.168.203.122 - - [20/May/2024 20:52:41] "GET / HTTP/1.1" 200 -
+2024-05-20 20:52:41 - INFO - 192.168.203.122 - - [20/May/2024 20:52:41] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:52:41 - INFO - 192.168.203.122 - - [20/May/2024 20:52:41] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:52:41 - INFO - 192.168.203.122 - - [20/May/2024 20:52:41] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:52:42 - INFO - 192.168.203.122 - - [20/May/2024 20:52:42] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:52:42 - INFO - 192.168.203.122 - - [20/May/2024 20:52:42] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:53:17 - INFO - 192.168.203.122 - - [20/May/2024 20:53:17] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:53:17 - INFO - 192.168.203.122 - - [20/May/2024 20:53:17] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:53:17 - INFO - Received user input: list out 30 line of verb
+2024-05-20 20:53:21 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 20:53:21 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Swim
+4. Dance
+5. Sing
+6. Laugh
+7. Cry
+8. Shout
+9. Talk
+10. Whisper
+11. Drive
+12. Bake
+13. Read
+14. Write
+15. Paint
+16. Cook
+17. Clean
+18. Shop
+19. Sleep
+20. Wake
+21. Climb
+22. Fly
+23. Skate
+24. Play
+25. Study
+26. Teach
+27. Code
+28. Surf
+29. Hike
+30. Explore
+2024-05-20 20:53:21 - INFO - 192.168.203.122 - - [20/May/2024 20:53:21] "POST /api HTTP/1.1" 200 -
+2024-05-20 20:53:29 - INFO - 192.168.203.122 - - [20/May/2024 20:53:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 20:53:29 - INFO - 192.168.203.122 - - [20/May/2024 20:53:29] "[36mGET /static/images/site.webmanifest HTTP/1.1[0m" 304 -
+2024-05-20 20:54:59 - INFO - 192.168.203.122 - - [20/May/2024 20:54:59] "GET / HTTP/1.1" 200 -
+2024-05-20 20:55:00 - INFO - 192.168.203.122 - - [20/May/2024 20:55:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 20:55:00 - INFO - 192.168.203.122 - - [20/May/2024 20:55:00] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:55:00 - INFO - 192.168.203.122 - - [20/May/2024 20:55:00] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:55:00 - INFO - 192.168.203.122 - - [20/May/2024 20:55:00] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:55:00 - INFO - 192.168.203.122 - - [20/May/2024 20:55:00] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:55:13 - INFO - 192.168.203.122 - - [20/May/2024 20:55:13] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:55:13 - INFO - Received user input: list 30 verb
+2024-05-20 20:55:13 - INFO - 192.168.203.122 - - [20/May/2024 20:55:13] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:55:18 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 20:55:18 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Cook
+4. Dance
+5. Sing
+6. Play
+7. Write
+8. Read
+9. Sleep
+10. Walk
+11. Talk
+12. Swim
+13. Drive
+14. Fly
+15. Shop
+16. Climb
+17. Paint
+18. Draw
+19. Eat
+20. Drink
+21. Study
+22. Work
+23. Laugh
+24. Cry
+25. Think
+26. Clean
+27. Exercise
+28. Travel
+29. Volunteer
+30. Create
+2024-05-20 20:55:18 - INFO - 192.168.203.122 - - [20/May/2024 20:55:18] "POST /api HTTP/1.1" 200 -
+2024-05-20 20:58:00 - INFO - 192.168.203.122 - - [20/May/2024 20:58:00] "GET / HTTP/1.1" 200 -
+2024-05-20 20:58:00 - INFO - 192.168.203.122 - - [20/May/2024 20:58:00] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:58:00 - INFO - 192.168.203.122 - - [20/May/2024 20:58:00] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:58:00 - INFO - 192.168.203.122 - - [20/May/2024 20:58:00] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:58:00 - INFO - 192.168.203.122 - - [20/May/2024 20:58:00] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:58:00 - INFO - 192.168.203.122 - - [20/May/2024 20:58:00] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:58:03 - INFO - 192.168.203.122 - - [20/May/2024 20:58:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 20:58:03 - INFO - 192.168.203.122 - - [20/May/2024 20:58:03] "[36mGET /static/images/site.webmanifest HTTP/1.1[0m" 304 -
+2024-05-20 20:58:12 - INFO - Received user input: hi
+2024-05-20 20:58:12 - INFO - 192.168.203.122 - - [20/May/2024 20:58:12] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:58:12 - INFO - 192.168.203.122 - - [20/May/2024 20:58:12] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:58:13 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 20:58:13 - INFO - Chatbot response: Hello! How can I assist you today?
+2024-05-20 20:58:13 - INFO - 192.168.203.122 - - [20/May/2024 20:58:13] "POST /api HTTP/1.1" 200 -
+2024-05-20 20:59:08 - INFO - 192.168.203.122 - - [20/May/2024 20:59:08] "GET / HTTP/1.1" 200 -
+2024-05-20 20:59:08 - INFO - 192.168.203.122 - - [20/May/2024 20:59:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:59:08 - INFO - 192.168.203.122 - - [20/May/2024 20:59:08] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 20:59:08 - INFO - 192.168.203.122 - - [20/May/2024 20:59:08] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 20:59:08 - INFO - 192.168.203.122 - - [20/May/2024 20:59:08] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 20:59:08 - INFO - 192.168.203.122 - - [20/May/2024 20:59:08] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 20:59:18 - INFO - 192.168.203.122 - - [20/May/2024 20:59:18] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:59:18 - INFO - Received user input: list 30 verb
+2024-05-20 20:59:18 - INFO - 192.168.203.122 - - [20/May/2024 20:59:18] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 20:59:22 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 20:59:22 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Eat
+4. Sleep
+5. Walk
+6. Write
+7. Read
+8. Sing
+9. Dance
+10. Laugh
+11. Cry
+12. Cook
+13. Clean
+14. Study
+15. Draw
+16. Paint
+17. Talk
+18. Listen
+19. Swim
+20. Drive
+21. Fly
+22. Climb
+23. Play
+24. Work
+25. Explore
+26. Build
+27. Shop
+28. Exercise
+29. Create
+30. Solve
+2024-05-20 20:59:22 - INFO - 192.168.203.122 - - [20/May/2024 20:59:22] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:00:34 - INFO - 192.168.203.122 - - [20/May/2024 21:00:34] "GET / HTTP/1.1" 200 -
+2024-05-20 21:00:34 - INFO - 192.168.203.122 - - [20/May/2024 21:00:34] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:00:34 - INFO - 192.168.203.122 - - [20/May/2024 21:00:34] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:00:34 - INFO - 192.168.203.122 - - [20/May/2024 21:00:34] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 21:00:34 - INFO - 192.168.203.122 - - [20/May/2024 21:00:34] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:00:34 - INFO - 192.168.203.122 - - [20/May/2024 21:00:34] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:00:40 - INFO - 192.168.203.122 - - [20/May/2024 21:00:40] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:00:40 - INFO - Received user input: lis 30 verb
+2024-05-20 21:00:40 - INFO - 192.168.203.122 - - [20/May/2024 21:00:40] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:00:44 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:00:44 - INFO - Chatbot response: Here are 30 verbs:
+
+1. Run
+2. Jump
+3. Swim
+4. Eat
+5. Sleep
+6. Study
+7. Work
+8. Play
+9. Dance
+10. Sing
+11. Create
+12. Build
+13. Write
+14. Read
+15. Paint
+16. Cook
+17. Travel
+18. Drive
+19. Talk
+20. Listen
+21. Think
+22. Climb
+23. Buy
+24. Sell
+25. Laugh
+26. Cry
+27. Hug
+28. Kiss
+29. Plant
+30. Clean
+2024-05-20 21:00:44 - INFO - 192.168.203.122 - - [20/May/2024 21:00:44] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:02:38 - INFO - 192.168.203.122 - - [20/May/2024 21:02:38] "GET / HTTP/1.1" 200 -
+2024-05-20 21:02:38 - INFO - 192.168.203.122 - - [20/May/2024 21:02:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:02:38 - INFO - 192.168.203.122 - - [20/May/2024 21:02:38] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 21:02:38 - INFO - 192.168.203.122 - - [20/May/2024 21:02:38] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:02:38 - INFO - 192.168.203.122 - - [20/May/2024 21:02:38] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:02:38 - INFO - 192.168.203.122 - - [20/May/2024 21:02:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:02:42 - INFO - Received user input: list 30 verb
+2024-05-20 21:02:42 - INFO - 192.168.203.122 - - [20/May/2024 21:02:42] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:02:42 - INFO - 192.168.203.122 - - [20/May/2024 21:02:42] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:02:45 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:02:45 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Swim
+4. Eat
+5. Sleep
+6. Dance
+7. Sing
+8. Hike
+9. Write
+10. Read
+11. Cook
+12. Paint
+13. Draw
+14. Fly
+15. Drive
+16. Build
+17. Laugh
+18. Cry
+19. Speak
+20. Listen
+21. Climb
+22. Explore
+23. Exercise
+24. Play
+25. Plant
+26. Create
+27. Solve
+28. Investigate
+29. Volunteer
+30. Collaborate
+2024-05-20 21:02:45 - INFO - 192.168.203.122 - - [20/May/2024 21:02:45] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:25:56 - INFO - 192.168.203.122 - - [20/May/2024 21:25:56] "GET / HTTP/1.1" 200 -
+2024-05-20 21:25:56 - INFO - 192.168.203.122 - - [20/May/2024 21:25:56] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:25:56 - INFO - 192.168.203.122 - - [20/May/2024 21:25:56] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:25:56 - INFO - 192.168.203.122 - - [20/May/2024 21:25:56] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-20 21:25:56 - INFO - 192.168.203.122 - - [20/May/2024 21:25:56] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:25:56 - INFO - 192.168.203.122 - - [20/May/2024 21:25:56] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:25:58 - INFO - 192.168.203.122 - - [20/May/2024 21:25:58] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:25:58 - INFO - Received user input: hi
+2024-05-20 21:25:58 - INFO - 192.168.203.122 - - [20/May/2024 21:25:58] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:26:00 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:26:00 - INFO - Chatbot response: Hello! How can I assist you today?
+2024-05-20 21:26:00 - INFO - 192.168.203.122 - - [20/May/2024 21:26:00] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:26:46 - INFO - Received user input: hi
+2024-05-20 21:26:47 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:26:47 - INFO - Chatbot response: Hello again! How can I help you today?
+2024-05-20 21:26:47 - INFO - 192.168.203.122 - - [20/May/2024 21:26:47] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:32:10 - INFO - 192.168.203.122 - - [20/May/2024 21:32:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-20 21:35:35 - INFO - 192.168.203.122 - - [20/May/2024 21:35:35] "GET / HTTP/1.1" 200 -
+2024-05-20 21:35:35 - INFO - 192.168.203.122 - - [20/May/2024 21:35:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-20 21:35:35 - INFO - 192.168.203.122 - - [20/May/2024 21:35:35] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:35:35 - INFO - 192.168.203.122 - - [20/May/2024 21:35:35] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-20 21:35:35 - INFO - 192.168.203.122 - - [20/May/2024 21:35:35] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:35:36 - INFO - 192.168.203.122 - - [20/May/2024 21:35:36] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:35:37 - INFO - 192.168.203.122 - - [20/May/2024 21:35:37] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:35:37 - INFO - Received user input: hi
+2024-05-20 21:35:37 - INFO - 192.168.203.122 - - [20/May/2024 21:35:37] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:35:39 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:35:39 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-20 21:35:39 - INFO - 192.168.203.122 - - [20/May/2024 21:35:39] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:35:43 - INFO - 192.168.203.122 - - [20/May/2024 21:35:43] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:35:49 - INFO - Received user input: list 30 verb
+2024-05-20 21:35:53 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:35:53 - INFO - Chatbot response: Here are 30 verbs for you:
+1. Run
+2. Jump
+3. Swim
+4. Dance
+5. Sing
+6. Read
+7. Write
+8. Talk
+9. Listen
+10. Cook
+11. Clean
+12. Drive
+13. Walk
+14. Sleep
+15. Eat
+16. Drink
+17. Play
+18. Study
+19. Work
+20. Laugh
+21. Love
+22. Hate
+23. Build
+24. Create
+25. Paint
+26. Climb
+27. Fly
+28. Hide
+29. Think
+30. Solve
+
+I hope these are helpful to you! Let me know if you need more verbs.
+2024-05-20 21:35:53 - INFO - 192.168.203.122 - - [20/May/2024 21:35:53] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:36:44 - INFO - 192.168.203.15 - - [20/May/2024 21:36:44] "GET / HTTP/1.1" 200 -
+2024-05-20 21:36:44 - INFO - 192.168.203.15 - - [20/May/2024 21:36:44] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-20 21:36:44 - INFO - 192.168.203.15 - - [20/May/2024 21:36:44] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:36:44 - INFO - 192.168.203.15 - - [20/May/2024 21:36:44] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:36:44 - INFO - 192.168.203.15 - - [20/May/2024 21:36:44] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:38:18 - INFO - Received user input: hi
+2024-05-20 21:38:19 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:38:19 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-20 21:38:19 - INFO - 192.168.203.122 - - [20/May/2024 21:38:19] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:42:06 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-20 21:42:06 - INFO -  * Restarting with stat
+2024-05-20 21:42:08 - WARNING -  * Debugger is active!
+2024-05-20 21:42:08 - INFO -  * Debugger PIN: 241-841-614
+2024-05-20 21:42:23 - INFO - 192.168.203.15 - - [20/May/2024 21:42:23] "GET / HTTP/1.1" 200 -
+2024-05-20 21:42:23 - INFO - 192.168.203.15 - - [20/May/2024 21:42:23] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 21:42:23 - INFO - 192.168.203.15 - - [20/May/2024 21:42:23] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:42:23 - INFO - 192.168.203.15 - - [20/May/2024 21:42:23] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:42:23 - INFO - 192.168.203.15 - - [20/May/2024 21:42:23] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:42:24 - INFO - 192.168.203.15 - - [20/May/2024 21:42:24] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:42:24 - INFO - 192.168.203.15 - - [20/May/2024 21:42:24] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 21:42:32 - INFO - Received user input: list 30 line verb
+2024-05-20 21:42:32 - INFO - 192.168.203.15 - - [20/May/2024 21:42:32] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:42:32 - INFO - 192.168.203.15 - - [20/May/2024 21:42:32] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:42:36 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:42:36 - INFO - Chatbot response: 1. Walk
+2. Run
+3. Jump
+4. Skip
+5. Dance
+6. Sing
+7. Play
+8. Eat
+9. Sleep
+10. Read
+11. Write
+12. Draw
+13. Paint
+14. Cook
+15. Clean
+16. Swim
+17. Cycle
+18. Drive
+19. Fly
+20. Climb
+21. Plant
+22. Build
+23. Fix
+24. Help
+25. Teach
+26. Learn
+27. Study
+28. Shop
+29. Talk
+30. Listen
+2024-05-20 21:42:36 - INFO - 192.168.203.15 - - [20/May/2024 21:42:36] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:44:21 - INFO - 192.168.203.15 - - [20/May/2024 21:44:21] "GET / HTTP/1.1" 200 -
+2024-05-20 21:44:21 - INFO - 192.168.203.15 - - [20/May/2024 21:44:21] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 21:44:21 - INFO - 192.168.203.15 - - [20/May/2024 21:44:21] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:44:21 - INFO - 192.168.203.15 - - [20/May/2024 21:44:21] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:44:21 - INFO - 192.168.203.15 - - [20/May/2024 21:44:21] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:44:21 - INFO - 192.168.203.15 - - [20/May/2024 21:44:21] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:44:21 - INFO - 192.168.203.15 - - [20/May/2024 21:44:21] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 21:44:26 - INFO - 192.168.203.15 - - [20/May/2024 21:44:26] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:44:26 - INFO - Received user input: hi
+
+2024-05-20 21:44:26 - INFO - 192.168.203.15 - - [20/May/2024 21:44:26] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:44:27 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:44:27 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-20 21:44:27 - INFO - 192.168.203.15 - - [20/May/2024 21:44:27] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:44:29 - INFO - Received user input: hi
+2024-05-20 21:44:30 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:44:30 - INFO - Chatbot response: Hello again! How can I assist you today?
+2024-05-20 21:44:30 - INFO - 192.168.203.15 - - [20/May/2024 21:44:30] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:44:32 - INFO - Received user input: hi
+2024-05-20 21:44:33 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:44:33 - INFO - Chatbot response: Hello! How can I assist you today?
+2024-05-20 21:44:33 - INFO - 192.168.203.15 - - [20/May/2024 21:44:33] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:44:35 - INFO - Received user input: hi
+2024-05-20 21:44:36 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:44:36 - INFO - Chatbot response: Hello! How can I assist you today?
+2024-05-20 21:44:36 - INFO - 192.168.203.15 - - [20/May/2024 21:44:36] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:45:13 - INFO - 192.168.203.15 - - [20/May/2024 21:45:13] "GET / HTTP/1.1" 200 -
+2024-05-20 21:45:13 - INFO - 192.168.203.15 - - [20/May/2024 21:45:13] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 21:45:13 - INFO - 192.168.203.15 - - [20/May/2024 21:45:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:45:13 - INFO - 192.168.203.15 - - [20/May/2024 21:45:13] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:45:13 - INFO - 192.168.203.15 - - [20/May/2024 21:45:13] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:45:13 - INFO - 192.168.203.15 - - [20/May/2024 21:45:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:45:13 - INFO - 192.168.203.15 - - [20/May/2024 21:45:13] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 21:45:18 - INFO - Received user input: list 20 verb
+2024-05-20 21:45:18 - INFO - 192.168.203.15 - - [20/May/2024 21:45:18] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:45:18 - INFO - 192.168.203.15 - - [20/May/2024 21:45:18] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:45:21 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:45:21 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Swim
+4. Eat
+5. Sleep
+6. Dance
+7. Sing
+8. Study
+9. Work
+10. Play
+11. Read
+12. Write
+13. Cook
+14. Clean
+15. Draw
+16. Paint
+17. Drive
+18. Travel
+19. Speak
+20. Listen
+2024-05-20 21:45:21 - INFO - 192.168.203.15 - - [20/May/2024 21:45:21] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:45:59 - INFO - 192.168.203.15 - - [20/May/2024 21:45:59] "GET / HTTP/1.1" 200 -
+2024-05-20 21:45:59 - INFO - 192.168.203.15 - - [20/May/2024 21:45:59] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 21:45:59 - INFO - 192.168.203.15 - - [20/May/2024 21:45:59] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:45:59 - INFO - 192.168.203.15 - - [20/May/2024 21:45:59] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:45:59 - INFO - 192.168.203.15 - - [20/May/2024 21:45:59] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:45:59 - INFO - 192.168.203.15 - - [20/May/2024 21:45:59] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:45:59 - INFO - 192.168.203.15 - - [20/May/2024 21:45:59] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 21:46:03 - INFO - Received user input: list 30 verb
+2024-05-20 21:46:03 - INFO - 192.168.203.15 - - [20/May/2024 21:46:03] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:46:03 - INFO - 192.168.203.15 - - [20/May/2024 21:46:03] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:46:06 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:46:06 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Swim
+4. Sing
+5. Dance
+6. Eat
+7. Sleep
+8. Laugh
+9. Cry
+10. Write
+11. Read
+12. Talk
+13. Listen
+14. Cook
+15. Drive
+16. Fly
+17. Study
+18. Play
+19. Work
+20. Build
+21. Paint
+22. Climb
+23. Surf
+24. Skate
+25. Explore
+26. Volunteer
+27. Plant
+28. Clean
+29. Exercise
+30. Create
+2024-05-20 21:46:06 - INFO - 192.168.203.15 - - [20/May/2024 21:46:06] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:46:30 - INFO - 192.168.203.15 - - [20/May/2024 21:46:30] "GET / HTTP/1.1" 200 -
+2024-05-20 21:46:30 - INFO - 192.168.203.15 - - [20/May/2024 21:46:30] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 21:46:30 - INFO - 192.168.203.15 - - [20/May/2024 21:46:30] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:46:30 - INFO - 192.168.203.15 - - [20/May/2024 21:46:30] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:46:30 - INFO - 192.168.203.15 - - [20/May/2024 21:46:30] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:46:30 - INFO - 192.168.203.15 - - [20/May/2024 21:46:30] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:46:30 - INFO - 192.168.203.15 - - [20/May/2024 21:46:30] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 21:46:36 - INFO - Received user input: list 30 verb
+2024-05-20 21:46:36 - INFO - 192.168.203.15 - - [20/May/2024 21:46:36] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:46:36 - INFO - 192.168.203.15 - - [20/May/2024 21:46:36] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:46:39 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:46:39 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Swim
+4. Eat
+5. Sleep
+6. Dance
+7. Sing
+8. Write
+9. Read
+10. Talk
+11. Walk
+12. Laugh
+13. Cry
+14. Work
+15. Play
+16. Study
+17. Drink
+18. Cook
+19. Clean
+20. Think
+21. Listen
+22. Drive
+23. Fly
+24. Climb
+25. Kick
+26. Paint
+27. Build
+28. Design
+29. Shop
+30. Hug
+2024-05-20 21:46:39 - INFO - 192.168.203.15 - - [20/May/2024 21:46:39] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:47:16 - INFO - 192.168.203.15 - - [20/May/2024 21:47:16] "GET / HTTP/1.1" 200 -
+2024-05-20 21:47:16 - INFO - 192.168.203.15 - - [20/May/2024 21:47:16] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 21:47:16 - INFO - 192.168.203.15 - - [20/May/2024 21:47:16] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:47:16 - INFO - 192.168.203.15 - - [20/May/2024 21:47:16] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:47:16 - INFO - 192.168.203.15 - - [20/May/2024 21:47:16] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:47:16 - INFO - 192.168.203.15 - - [20/May/2024 21:47:16] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:47:16 - INFO - 192.168.203.15 - - [20/May/2024 21:47:16] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 21:47:19 - INFO - Received user input: list 30 verb
+2024-05-20 21:47:19 - INFO - 192.168.203.15 - - [20/May/2024 21:47:19] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:47:19 - INFO - 192.168.203.15 - - [20/May/2024 21:47:19] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:47:23 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:47:23 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Swim
+4. Dance
+5. Sing
+6. Write
+7. Read
+8. Cook
+9. Eat
+10. Sleep
+11. Walk
+12. Talk
+13. Listen
+14. Play
+15. Study
+16. Laugh
+17. Smile
+18. Cry
+19. Drive
+20. Clean
+21. Surf
+22. Paint
+23. Draw
+24. Build
+25. Plant
+26. Fly
+27. Climb
+28. Kick
+29. Think
+30. Create
+2024-05-20 21:47:23 - INFO - 192.168.203.15 - - [20/May/2024 21:47:23] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:48:40 - INFO - 192.168.203.15 - - [20/May/2024 21:48:40] "GET / HTTP/1.1" 200 -
+2024-05-20 21:48:40 - INFO - 192.168.203.15 - - [20/May/2024 21:48:40] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:48:40 - INFO - 192.168.203.15 - - [20/May/2024 21:48:40] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 21:48:40 - INFO - 192.168.203.15 - - [20/May/2024 21:48:40] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:48:40 - INFO - 192.168.203.15 - - [20/May/2024 21:48:40] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:48:40 - INFO - 192.168.203.15 - - [20/May/2024 21:48:40] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:48:40 - INFO - 192.168.203.15 - - [20/May/2024 21:48:40] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 21:48:45 - INFO - 192.168.203.15 - - [20/May/2024 21:48:45] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:48:45 - INFO - Received user input: list 30 verb
+2024-05-20 21:48:45 - INFO - 192.168.203.15 - - [20/May/2024 21:48:45] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:48:49 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:48:49 - INFO - Chatbot response: Here are 30 verbs:
+
+1. Walk
+2. Run
+3. Jump
+4. Swim
+5. Fly
+6. Sing
+7. Dance
+8. Read
+9. Write
+10. Talk
+11. Eat
+12. Drink
+13. Sleep
+14. Wake
+15. Drive
+16. Cook
+17. Clean
+18. Shop
+19. Play
+20. Work
+21. Study
+22. Listen
+23. Watch
+24. Create
+25. Laugh
+26. Cry
+27. Climb
+28. Plant
+29. Travel
+30. Explore
+2024-05-20 21:48:49 - INFO - 192.168.203.15 - - [20/May/2024 21:48:49] "POST /api HTTP/1.1" 200 -
+2024-05-20 21:49:36 - INFO - 192.168.203.15 - - [20/May/2024 21:49:36] "GET / HTTP/1.1" 200 -
+2024-05-20 21:49:36 - INFO - 192.168.203.15 - - [20/May/2024 21:49:36] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-20 21:49:36 - INFO - 192.168.203.15 - - [20/May/2024 21:49:36] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:49:36 - INFO - 192.168.203.15 - - [20/May/2024 21:49:36] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-20 21:49:36 - INFO - 192.168.203.15 - - [20/May/2024 21:49:36] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-20 21:49:36 - INFO - 192.168.203.15 - - [20/May/2024 21:49:36] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-20 21:49:36 - INFO - 192.168.203.15 - - [20/May/2024 21:49:36] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-20 21:49:40 - INFO - 192.168.203.15 - - [20/May/2024 21:49:40] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:49:40 - INFO - Received user input: list 30 verb
+2024-05-20 21:49:40 - INFO - 192.168.203.15 - - [20/May/2024 21:49:40] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-20 21:49:44 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 21:49:44 - INFO - Chatbot response: 1. Run
+2. Jump
+3. Swim
+4. Eat
+5. Sleep
+6. Study
+7. Write
+8. Sing
+9. Dance
+10. Cook
+11. Clean
+12. Play
+13. Talk
+14. Listen
+15. Drive
+16. Fly
+17. Laugh
+18. Cry
+19. Walk
+20. Climb
+21. Read
+22. Paint
+23. Build
+24. Plant
+25. Invent
+26. Create
+27. Explore
+28. Discuss
+29. Solve
+30. Relax
+2024-05-20 21:49:44 - INFO - 192.168.203.15 - - [20/May/2024 21:49:44] "POST /api HTTP/1.1" 200 -
