@@ -55,12 +55,12 @@ body.background-image
 .chat-container 
 {
     overflow-y: auto; 
-    max-height: 44vh;
+    max-height: 40vh;
 }
 
 .fullscreen .chat-container 
 {
-    max-height: 72vh; 
+    max-height: 75vh; 
 }
 
 .chat-input 
@@ -433,12 +433,12 @@ button:hover
 .chat-container 
 {
     overflow-y: auto; 
-    max-height: 32vh;
+    max-height: 30vh;
 }
 
 #chat-messages 
 {
-    height: 69vh;
+    height: 67vh;
     overflow-y: auto; 
     overflow-x: auto;
     background-color: rgba(196, 225, 193, 0.0);; 
