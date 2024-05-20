@@ -28,7 +28,7 @@ harmful_word = [
     "disparaging",
     "harmful",
     "hurtful",
-    "disrespectful"
+    "disrespectful",
     "fuck",
     "shit",
     "damn",
