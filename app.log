@@ -3783,3 +3783,116 @@ For more specific details about the Bachelor of Computer Science (Hons) program 
 2024-05-21 12:56:00 - INFO -  * Restarting with stat
 2024-05-21 12:56:01 - WARNING -  * Debugger is active!
 2024-05-21 12:56:01 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 14:20:49 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.114.122:5000
+2024-05-21 14:20:49 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-21 14:20:49 - INFO -  * Restarting with stat
+2024-05-21 14:20:50 - WARNING -  * Debugger is active!
+2024-05-21 14:20:50 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 14:20:53 - INFO - 192.168.114.122 - - [21/May/2024 14:20:53] "GET / HTTP/1.1" 200 -
+2024-05-21 14:20:53 - INFO - 192.168.114.122 - - [21/May/2024 14:20:53] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-21 14:20:53 - INFO - 192.168.114.122 - - [21/May/2024 14:20:53] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 14:20:53 - INFO - 192.168.114.122 - - [21/May/2024 14:20:53] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 14:20:53 - INFO - 192.168.114.122 - - [21/May/2024 14:20:53] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 14:21:40 - INFO - 192.168.114.122 - - [21/May/2024 14:21:40] "GET / HTTP/1.1" 200 -
+2024-05-21 14:21:40 - INFO - 192.168.114.122 - - [21/May/2024 14:21:40] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 14:21:40 - INFO - 192.168.114.122 - - [21/May/2024 14:21:40] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-21 14:21:40 - INFO - 192.168.114.122 - - [21/May/2024 14:21:40] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 14:21:40 - INFO - 192.168.114.122 - - [21/May/2024 14:21:40] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 14:21:50 - INFO - Received user input: hi
+2024-05-21 14:21:50 - INFO - 192.168.114.122 - - [21/May/2024 14:21:50] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 14:21:50 - INFO - 192.168.114.122 - - [21/May/2024 14:21:50] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 14:21:52 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 14:21:52 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-21 14:21:52 - INFO - 192.168.114.122 - - [21/May/2024 14:21:52] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:21:55 - INFO - Received user input: hi
+2024-05-21 14:21:56 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 14:21:56 - INFO - Chatbot response: Hello again! How can I assist you today?
+2024-05-21 14:21:56 - INFO - 192.168.114.122 - - [21/May/2024 14:21:56] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:22:16 - INFO - 192.168.114.122 - - [21/May/2024 14:22:16] "GET / HTTP/1.1" 200 -
+2024-05-21 14:22:16 - INFO - 192.168.114.122 - - [21/May/2024 14:22:16] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 14:22:16 - INFO - 192.168.114.122 - - [21/May/2024 14:22:16] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 14:22:16 - INFO - 192.168.114.122 - - [21/May/2024 14:22:16] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-21 14:22:16 - INFO - 192.168.114.122 - - [21/May/2024 14:22:16] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 14:22:16 - INFO - 192.168.114.122 - - [21/May/2024 14:22:16] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 14:29:28 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 14:29:28 - INFO -  * Restarting with stat
+2024-05-21 14:29:29 - WARNING -  * Debugger is active!
+2024-05-21 14:29:29 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 14:29:42 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 14:29:43 - INFO -  * Restarting with stat
+2024-05-21 14:29:44 - WARNING -  * Debugger is active!
+2024-05-21 14:29:44 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 14:29:49 - INFO - 192.168.114.122 - - [21/May/2024 14:29:49] "GET / HTTP/1.1" 200 -
+2024-05-21 14:29:49 - INFO - 192.168.114.122 - - [21/May/2024 14:29:49] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-21 14:29:50 - INFO - 192.168.114.122 - - [21/May/2024 14:29:50] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 14:29:50 - INFO - 192.168.114.122 - - [21/May/2024 14:29:50] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 14:29:50 - INFO - 192.168.114.122 - - [21/May/2024 14:29:50] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 14:29:53 - INFO - 192.168.114.122 - - [21/May/2024 14:29:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 14:29:53 - INFO - 192.168.114.122 - - [21/May/2024 14:29:53] "[36mGET /static/images/site.webmanifest HTTP/1.1[0m" 304 -
+2024-05-21 14:31:37 - INFO - 192.168.114.186 - - [21/May/2024 14:31:37] "GET / HTTP/1.1" 200 -
+2024-05-21 14:31:37 - INFO - 192.168.114.186 - - [21/May/2024 14:31:37] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-21 14:31:37 - INFO - 192.168.114.186 - - [21/May/2024 14:31:37] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 14:31:37 - INFO - 192.168.114.186 - - [21/May/2024 14:31:37] "GET /static/images/favicon-32x32.png HTTP/1.1" 200 -
+2024-05-21 14:31:37 - INFO - 192.168.114.186 - - [21/May/2024 14:31:37] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-21 14:31:38 - INFO - 192.168.114.186 - - [21/May/2024 14:31:38] "GET /static/images/apple-touch-icon.png HTTP/1.1" 200 -
+2024-05-21 14:31:38 - INFO - 192.168.114.186 - - [21/May/2024 14:31:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 14:35:18 - INFO - 192.168.114.122 - - [21/May/2024 14:35:18] "GET / HTTP/1.1" 200 -
+2024-05-21 14:35:19 - INFO - 192.168.114.122 - - [21/May/2024 14:35:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 14:35:19 - INFO - 192.168.114.122 - - [21/May/2024 14:35:19] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 14:35:19 - INFO - 192.168.114.122 - - [21/May/2024 14:35:19] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 14:35:19 - INFO - 192.168.114.122 - - [21/May/2024 14:35:19] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 14:35:19 - INFO - 192.168.114.122 - - [21/May/2024 14:35:19] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 14:35:22 - INFO - Received user input: hi
+2024-05-21 14:35:22 - INFO - 192.168.114.122 - - [21/May/2024 14:35:22] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 14:35:22 - INFO - 192.168.114.122 - - [21/May/2024 14:35:22] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 14:35:24 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 14:35:24 - INFO - Chatbot response: Hello! How can I assist you today?
+2024-05-21 14:35:24 - INFO - 192.168.114.122 - - [21/May/2024 14:35:24] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:35:26 - INFO - 192.168.114.186 - - [21/May/2024 14:35:26] "GET / HTTP/1.1" 200 -
+2024-05-21 14:35:26 - INFO - 192.168.114.186 - - [21/May/2024 14:35:26] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 14:35:26 - INFO - 192.168.114.186 - - [21/May/2024 14:35:26] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 14:35:26 - INFO - 192.168.114.186 - - [21/May/2024 14:35:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 14:35:26 - INFO - 192.168.114.186 - - [21/May/2024 14:35:26] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 14:35:26 - INFO - 192.168.114.186 - - [21/May/2024 14:35:26] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 14:35:26 - INFO - 192.168.114.186 - - [21/May/2024 14:35:26] "[36mGET /static/images/apple-touch-icon.png HTTP/1.1[0m" 304 -
+2024-05-21 14:35:29 - INFO - Received user input: fuck
+2024-05-21 14:35:29 - INFO - 192.168.114.186 - - [21/May/2024 14:35:29] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:35:29 - INFO - 192.168.114.186 - - [21/May/2024 14:35:29] "GET /static/images/favicon-16x16.png HTTP/1.1" 200 -
+2024-05-21 14:35:29 - INFO - 192.168.114.186 - - [21/May/2024 14:35:29] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-21 14:35:31 - INFO - Received user input: fuck
+2024-05-21 14:35:31 - INFO - 192.168.114.186 - - [21/May/2024 14:35:31] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:35:33 - INFO - Received user input: fuck
+2024-05-21 14:35:33 - INFO - 192.168.114.186 - - [21/May/2024 14:35:33] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:01 - INFO - Received user input: dick
+2024-05-21 14:36:01 - INFO - 192.168.114.186 - - [21/May/2024 14:36:01] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:03 - INFO - Received user input: dick
+2024-05-21 14:36:03 - INFO - 192.168.114.186 - - [21/May/2024 14:36:03] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:05 - INFO - Received user input: dick
+2024-05-21 14:36:06 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 14:36:06 - INFO - Chatbot response: We're sorry, but your message has been flagged for inappropriate content. Please keep the conversation respectful. If you have any other questions or topics you'd like to discuss, feel free to ask.
+2024-05-21 14:36:06 - INFO - 192.168.114.186 - - [21/May/2024 14:36:06] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:32 - INFO - Received user input: fuck
+2024-05-21 14:36:32 - INFO - 192.168.114.122 - - [21/May/2024 14:36:32] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:37 - INFO - Received user input: abuse
+2024-05-21 14:36:37 - INFO - 192.168.114.122 - - [21/May/2024 14:36:37] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:41 - INFO - Received user input: dick
+2024-05-21 14:36:41 - INFO - 192.168.114.122 - - [21/May/2024 14:36:41] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:45 - INFO - Received user input: fuck
+2024-05-21 14:36:45 - INFO - 192.168.114.122 - - [21/May/2024 14:36:45] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:47 - INFO - Received user input: fuck
+2024-05-21 14:36:47 - INFO - 192.168.114.122 - - [21/May/2024 14:36:47] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:48 - INFO - Received user input: fuck
+2024-05-21 14:36:48 - INFO - 192.168.114.122 - - [21/May/2024 14:36:48] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:49 - INFO - Received user input: fuck
+2024-05-21 14:36:49 - INFO - 192.168.114.122 - - [21/May/2024 14:36:49] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:36:51 - INFO - Received user input: hi
+2024-05-21 14:36:52 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 14:36:52 - INFO - Chatbot response: Hello! How can I assist you today?casino
+2024-05-21 14:36:52 - INFO - 192.168.114.122 - - [21/May/2024 14:36:52] "POST /api HTTP/1.1" 200 -
+2024-05-21 14:37:16 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 14:37:16 - INFO -  * Restarting with stat
+2024-05-21 14:37:17 - WARNING -  * Debugger is active!
+2024-05-21 14:37:17 - INFO -  * Debugger PIN: 241-841-614
