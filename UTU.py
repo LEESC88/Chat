@@ -4,7 +4,7 @@ import openai
 import logging
 from moderation import moderate_content
 from harmful import harmful_word
-from textFile import read_text_files
+from textFile import TextProcessor
 
 app = Flask(__name__, template_folder='templates')
 
@@ -46,22 +46,23 @@ def api():
         if "inappropriate content" in moderation_result.lower():
             return jsonify({"response": moderation_result})
 
+        text_processor = TextProcessor()
         text_file_content = ""
 
-        if any(keyword in user_input.lower() for keyword in ["degree program", "degree", "uts degree"]):
-            text_file_content += read_text_files("degreeProgramme.txt") or ""
-            text_file_content += read_text_files("degreeProgramme2.txt") or ""
-            text_file_content += read_text_files("degreeProgramme3.txt") or ""
-            text_file_content += read_text_files("degreeProgramme4.txt") or ""
-        elif any(keyword in user_input.lower() for keyword in ["master program", "master", "uts master","phd", "phd program", "uts phd"]):
-            text_file_content += read_text_files("masterProgramme.txt") or ""
-            text_file_content += read_text_files("masterProgramme2.txt") or ""
+        if any(keyword in user_input.lower() for keyword in ["degree program", "degree", "uts degree", "bachelor", "degree information"]):
+            text_file_content += text_processor.read_text_files("degreeProgramme.txt") or ""
+            text_file_content += text_processor.read_text_files("degreeProgramme2.txt") or ""
+            text_file_content += text_processor.read_text_files("degreeProgramme3.txt") or ""
+            text_file_content += text_processor.read_text_files("degreeProgramme4.txt") or ""
+        elif any(keyword in user_input.lower() for keyword in ["master program", "master", "uts master", "phd", "phd program", "uts phd", "master information"]):
+            text_file_content += text_processor.read_text_files("masterProgramme.txt") or ""
+            text_file_content += text_processor.read_text_files("masterProgramme2.txt") or ""
         elif any(keyword in user_input.lower() for keyword in ["foundation program", "foundation", "uts foundation"]):
-            text_file_content = read_text_files("foundationProgramme.txt") or ""
+            text_file_content = text_processor.read_text_files("foundationProgramme.txt") or ""
         elif any(keyword in user_input.lower() for keyword in ["staff", "uts staff"]):
-            text_file_content = read_text_files("staff.txt") or ""
+            text_file_content = text_processor.read_text_files("staff.txt") or ""
         elif any(keyword in user_input.lower() for keyword in ["uts", "uts sibu"]):
-            text_file_content = read_text_files("text.txt") or ""
+            text_file_content = text_processor.read_text_files("text.txt") or ""
 
         system_message = "Provide information only about University of Technology Sarawak." if text_file_content else "You can ask me about anything."
         system_messages = [

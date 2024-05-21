@@ -3896,3 +3896,358 @@ For more specific details about the Bachelor of Computer Science (Hons) program 
 2024-05-21 14:37:16 - INFO -  * Restarting with stat
 2024-05-21 14:37:17 - WARNING -  * Debugger is active!
 2024-05-21 14:37:17 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 22:47:27 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.114.122:5000
+2024-05-21 22:47:27 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-21 22:47:27 - INFO -  * Restarting with stat
+2024-05-21 22:47:27 - WARNING -  * Debugger is active!
+2024-05-21 22:47:27 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 22:47:32 - INFO - 192.168.114.122 - - [21/May/2024 22:47:32] "GET / HTTP/1.1" 200 -
+2024-05-21 22:47:32 - INFO - 192.168.114.122 - - [21/May/2024 22:47:32] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-21 22:47:32 - INFO - 192.168.114.122 - - [21/May/2024 22:47:32] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 22:47:32 - INFO - 192.168.114.122 - - [21/May/2024 22:47:32] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 22:47:33 - INFO - 192.168.114.122 - - [21/May/2024 22:47:33] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 22:47:35 - INFO - Received user input: hi
+2024-05-21 22:47:35 - INFO - 192.168.114.122 - - [21/May/2024 22:47:35] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 22:47:35 - INFO - 192.168.114.122 - - [21/May/2024 22:47:35] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 22:47:36 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 22:47:36 - INFO - Chatbot response: Hello! How can I assist you today?
+2024-05-21 22:47:36 - INFO - 192.168.114.122 - - [21/May/2024 22:47:36] "POST /api HTTP/1.1" 200 -
+2024-05-21 22:47:38 - INFO - Received user input: fuck
+2024-05-21 22:47:38 - INFO - 192.168.114.122 - - [21/May/2024 22:47:38] "POST /api HTTP/1.1" 200 -
+2024-05-21 22:47:41 - INFO - Received user input: dick
+2024-05-21 22:47:43 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 22:47:43 - INFO - Chatbot response: I'm here to provide helpful and respectful assistance. Please let me know how I can support you today.
+2024-05-21 22:47:43 - INFO - 192.168.114.122 - - [21/May/2024 22:47:43] "POST /api HTTP/1.1" 200 -
+2024-05-21 22:47:54 - INFO - Received user input: dick
+2024-05-21 22:47:54 - INFO - 192.168.114.122 - - [21/May/2024 22:47:54] "POST /api HTTP/1.1" 200 -
+2024-05-21 22:48:15 - INFO - Received user input: abuse
+2024-05-21 22:48:17 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 22:48:17 - INFO - Chatbot response: If you are experiencing abuse or in a dangerous situation, please consider reaching out to a trusted friend, family member, or a local support organization for help. You can also contact emergency services in your area if you are in immediate danger. Your safety is important.
+2024-05-21 22:48:17 - INFO - 192.168.114.122 - - [21/May/2024 22:48:17] "POST /api HTTP/1.1" 200 -
+2024-05-21 22:48:20 - INFO - Received user input: abuse
+2024-05-21 22:48:20 - INFO - 192.168.114.122 - - [21/May/2024 22:48:20] "POST /api HTTP/1.1" 200 -
+2024-05-21 22:48:31 - INFO - Received user input: uts in sibu?
+2024-05-21 22:48:31 - ERROR - Error occurred: name 'read_text_files' is not defined
+2024-05-21 22:48:31 - INFO - 192.168.114.122 - - [21/May/2024 22:48:31] "POST /api HTTP/1.1" 200 -
+2024-05-21 22:48:36 - INFO - 192.168.114.122 - - [21/May/2024 22:48:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 22:48:36 - INFO - 192.168.114.122 - - [21/May/2024 22:48:36] "[36mGET /static/images/site.webmanifest HTTP/1.1[0m" 304 -
+2024-05-21 22:51:32 - INFO - 192.168.114.122 - - [21/May/2024 22:51:32] "GET / HTTP/1.1" 200 -
+2024-05-21 22:51:32 - INFO - 192.168.114.122 - - [21/May/2024 22:51:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 22:51:32 - INFO - 192.168.114.122 - - [21/May/2024 22:51:32] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 22:51:32 - INFO - 192.168.114.122 - - [21/May/2024 22:51:32] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 22:51:32 - INFO - 192.168.114.122 - - [21/May/2024 22:51:32] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 22:51:32 - INFO - 192.168.114.122 - - [21/May/2024 22:51:32] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 22:51:34 - INFO - Received user input: uts
+2024-05-21 22:51:34 - ERROR - Error occurred: name 'read_text_files' is not defined
+2024-05-21 22:51:34 - INFO - 192.168.114.122 - - [21/May/2024 22:51:34] "POST /api HTTP/1.1" 200 -
+2024-05-21 22:51:34 - INFO - 192.168.114.122 - - [21/May/2024 22:51:34] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 22:51:34 - INFO - 192.168.114.122 - - [21/May/2024 22:51:34] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 22:56:21 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.114.122:5000
+2024-05-21 22:56:21 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-21 22:56:21 - INFO -  * Restarting with stat
+2024-05-21 22:56:21 - WARNING -  * Debugger is active!
+2024-05-21 22:56:21 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 22:56:27 - INFO - 192.168.114.122 - - [21/May/2024 22:56:27] "GET / HTTP/1.1" 200 -
+2024-05-21 22:56:27 - INFO - 192.168.114.122 - - [21/May/2024 22:56:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 22:56:27 - INFO - 192.168.114.122 - - [21/May/2024 22:56:27] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 22:56:27 - INFO - 192.168.114.122 - - [21/May/2024 22:56:27] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 22:56:27 - INFO - 192.168.114.122 - - [21/May/2024 22:56:27] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 22:56:27 - INFO - 192.168.114.122 - - [21/May/2024 22:56:27] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 22:56:33 - INFO - Received user input: uts in sibu?
+2024-05-21 22:56:33 - ERROR - Error occurred: TextProcessor() takes no arguments
+2024-05-21 22:56:33 - INFO - 192.168.114.122 - - [21/May/2024 22:56:33] "POST /api HTTP/1.1" 200 -
+2024-05-21 22:56:33 - INFO - 192.168.114.122 - - [21/May/2024 22:56:33] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 22:56:33 - INFO - 192.168.114.122 - - [21/May/2024 22:56:33] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 22:58:15 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 22:58:15 - INFO -  * Restarting with stat
+2024-05-21 22:58:16 - WARNING -  * Debugger is active!
+2024-05-21 22:58:16 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:03:02 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:03:02 - INFO -  * Restarting with stat
+2024-05-21 23:03:03 - WARNING -  * Debugger is active!
+2024-05-21 23:03:03 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:03:05 - INFO - 192.168.114.122 - - [21/May/2024 23:03:05] "GET / HTTP/1.1" 200 -
+2024-05-21 23:03:06 - INFO - 192.168.114.122 - - [21/May/2024 23:03:06] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:03:06 - INFO - 192.168.114.122 - - [21/May/2024 23:03:06] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 23:03:06 - INFO - 192.168.114.122 - - [21/May/2024 23:03:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 23:03:06 - INFO - 192.168.114.122 - - [21/May/2024 23:03:06] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 23:03:06 - INFO - 192.168.114.122 - - [21/May/2024 23:03:06] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:03:08 - INFO - Received user input: uts
+2024-05-21 23:03:08 - ERROR - Error occurred: TextProcessor.process_text() missing 1 required positional argument: 'text'
+2024-05-21 23:03:08 - INFO - 192.168.114.122 - - [21/May/2024 23:03:08] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:03:08 - INFO - 192.168.114.122 - - [21/May/2024 23:03:08] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:03:08 - INFO - 192.168.114.122 - - [21/May/2024 23:03:08] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:03:55 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:03:55 - INFO -  * Restarting with stat
+2024-05-21 23:03:55 - WARNING -  * Debugger is active!
+2024-05-21 23:03:55 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:03:58 - INFO - 192.168.114.122 - - [21/May/2024 23:03:58] "GET / HTTP/1.1" 200 -
+2024-05-21 23:03:58 - INFO - 192.168.114.122 - - [21/May/2024 23:03:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 23:03:58 - INFO - 192.168.114.122 - - [21/May/2024 23:03:58] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:03:58 - INFO - 192.168.114.122 - - [21/May/2024 23:03:58] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 23:03:58 - INFO - 192.168.114.122 - - [21/May/2024 23:03:58] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 23:03:58 - INFO - 192.168.114.122 - - [21/May/2024 23:03:58] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:00 - INFO - 192.168.114.122 - - [21/May/2024 23:04:00] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:00 - INFO - 192.168.114.122 - - [21/May/2024 23:04:00] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:00 - INFO - Received user input: uts
+2024-05-21 23:04:00 - ERROR - Error occurred: TextProcessor() takes no arguments
+2024-05-21 23:04:00 - INFO - 192.168.114.122 - - [21/May/2024 23:04:00] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:04:13 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:04:13 - INFO -  * Restarting with stat
+2024-05-21 23:04:14 - WARNING -  * Debugger is active!
+2024-05-21 23:04:14 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:04:15 - INFO - 192.168.114.122 - - [21/May/2024 23:04:15] "GET / HTTP/1.1" 200 -
+2024-05-21 23:04:15 - INFO - 192.168.114.122 - - [21/May/2024 23:04:15] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:15 - INFO - 192.168.114.122 - - [21/May/2024 23:04:15] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 23:04:15 - INFO - 192.168.114.122 - - [21/May/2024 23:04:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 23:04:15 - INFO - 192.168.114.122 - - [21/May/2024 23:04:15] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:15 - INFO - 192.168.114.122 - - [21/May/2024 23:04:15] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:17 - INFO - 192.168.114.122 - - [21/May/2024 23:04:17] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:17 - INFO - 192.168.114.122 - - [21/May/2024 23:04:17] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:17 - INFO - Received user input: uts
+2024-05-21 23:04:17 - ERROR - Error occurred: TextProcessor() takes no arguments
+2024-05-21 23:04:17 - INFO - 192.168.114.122 - - [21/May/2024 23:04:17] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:04:56 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:04:56 - INFO -  * Restarting with stat
+2024-05-21 23:04:57 - WARNING -  * Debugger is active!
+2024-05-21 23:04:57 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:04:57 - INFO - 192.168.114.122 - - [21/May/2024 23:04:57] "GET / HTTP/1.1" 200 -
+2024-05-21 23:04:57 - INFO - 192.168.114.122 - - [21/May/2024 23:04:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 23:04:57 - INFO - 192.168.114.122 - - [21/May/2024 23:04:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:57 - INFO - 192.168.114.122 - - [21/May/2024 23:04:57] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 23:04:57 - INFO - 192.168.114.122 - - [21/May/2024 23:04:57] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:57 - INFO - 192.168.114.122 - - [21/May/2024 23:04:57] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:59 - INFO - 192.168.114.122 - - [21/May/2024 23:04:59] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:59 - INFO - 192.168.114.122 - - [21/May/2024 23:04:59] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:04:59 - INFO - Received user input: uts
+2024-05-21 23:04:59 - ERROR - Error occurred: TextProcessor.read_text_files() missing 1 required positional argument: 'filename'
+2024-05-21 23:04:59 - INFO - 192.168.114.122 - - [21/May/2024 23:04:59] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:06:10 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:06:11 - INFO -  * Restarting with stat
+2024-05-21 23:06:11 - WARNING -  * Debugger is active!
+2024-05-21 23:06:11 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:06:16 - INFO - 192.168.114.122 - - [21/May/2024 23:06:16] "GET / HTTP/1.1" 200 -
+2024-05-21 23:06:16 - INFO - 192.168.114.122 - - [21/May/2024 23:06:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 23:06:16 - INFO - 192.168.114.122 - - [21/May/2024 23:06:16] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:06:16 - INFO - 192.168.114.122 - - [21/May/2024 23:06:16] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 23:06:16 - INFO - 192.168.114.122 - - [21/May/2024 23:06:16] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 23:06:16 - INFO - 192.168.114.122 - - [21/May/2024 23:06:16] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:06:18 - INFO - Received user input: uts
+2024-05-21 23:06:18 - ERROR - Error occurred: name 'text_processor' is not defined
+2024-05-21 23:06:18 - INFO - 192.168.114.122 - - [21/May/2024 23:06:18] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:06:18 - INFO - 192.168.114.122 - - [21/May/2024 23:06:18] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:06:18 - INFO - 192.168.114.122 - - [21/May/2024 23:06:18] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:07:45 - INFO - 192.168.114.122 - - [21/May/2024 23:07:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 23:07:45 - INFO - 192.168.114.122 - - [21/May/2024 23:07:45] "[36mGET /static/images/site.webmanifest HTTP/1.1[0m" 304 -
+2024-05-21 23:08:26 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:08:26 - INFO -  * Restarting with stat
+2024-05-21 23:08:27 - WARNING -  * Debugger is active!
+2024-05-21 23:08:27 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:08:27 - INFO - 192.168.114.122 - - [21/May/2024 23:08:27] "GET / HTTP/1.1" 200 -
+2024-05-21 23:08:27 - INFO - 192.168.114.122 - - [21/May/2024 23:08:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 23:08:27 - INFO - 192.168.114.122 - - [21/May/2024 23:08:27] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:08:27 - INFO - 192.168.114.122 - - [21/May/2024 23:08:27] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 23:08:27 - INFO - 192.168.114.122 - - [21/May/2024 23:08:27] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 23:08:28 - INFO - 192.168.114.122 - - [21/May/2024 23:08:28] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:08:31 - INFO - 192.168.114.122 - - [21/May/2024 23:08:31] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:08:31 - INFO - Received user input: uts
+2024-05-21 23:08:31 - ERROR - Error occurred: TextProcessor() takes no arguments
+2024-05-21 23:08:31 - INFO - 192.168.114.122 - - [21/May/2024 23:08:31] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:08:31 - INFO - 192.168.114.122 - - [21/May/2024 23:08:31] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:10:03 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:10:03 - INFO -  * Restarting with stat
+2024-05-21 23:10:04 - WARNING -  * Debugger is active!
+2024-05-21 23:10:04 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:10:18 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:10:18 - INFO -  * Restarting with stat
+2024-05-21 23:10:19 - WARNING -  * Debugger is active!
+2024-05-21 23:10:19 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:10:23 - INFO - 192.168.114.122 - - [21/May/2024 23:10:23] "GET / HTTP/1.1" 200 -
+2024-05-21 23:10:23 - INFO - 192.168.114.122 - - [21/May/2024 23:10:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 23:10:23 - INFO - 192.168.114.122 - - [21/May/2024 23:10:23] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:10:23 - INFO - 192.168.114.122 - - [21/May/2024 23:10:23] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 23:10:23 - INFO - 192.168.114.122 - - [21/May/2024 23:10:23] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 23:10:23 - INFO - 192.168.114.122 - - [21/May/2024 23:10:23] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:10:25 - INFO - Received user input: uts
+2024-05-21 23:10:25 - INFO - 192.168.114.122 - - [21/May/2024 23:10:25] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:10:25 - INFO - 192.168.114.122 - - [21/May/2024 23:10:25] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:10:27 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 23:10:27 - INFO - Chatbot response: Thank you for providing the information about University of Technology Sarawak (UTS). If you have any more specific questions or need further details, feel free to ask.
+2024-05-21 23:10:27 - INFO - 192.168.114.122 - - [21/May/2024 23:10:27] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:10:36 - INFO - Received user input: uts in sibu?
+2024-05-21 23:10:40 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 23:10:40 - INFO - Chatbot response: University of Technology Sarawak (UTS) is located in Sibu, Sarawak, Malaysia. It offers a variety of degree programs, foundation programs, and master's programs aimed at producing technical human resources for the Sarawak Corridor of Renewable Energy (SCORE). The university is equipped with state-of-the-art facilities to support teaching, learning, and research activities, providing students with opportunities for research and entrepreneurial activities. UTS collaborates with Universiti Kuala Lumpur and international universities to enhance educational opportunities for its students. UTS's vision is to be a global technical university founded on science and technology, with a mission to provide world-class educational programs to nurture creative and entrepreneurial leaders. The core values of UTS are Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-21 23:10:40 - INFO - 192.168.114.122 - - [21/May/2024 23:10:40] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:11:03 - INFO - Received user input: any degree program?
+2024-05-21 23:11:10 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 23:11:10 - INFO - Chatbot response: The University of Technology Sarawak (UTS) offers a range of degree programs in various fields through its different schools. Here are some of the degree programs offered by UTS:
+
+1. School of Business and Management:
+   - Bachelor of Business Administration (Hons)
+   - Bachelor of Accountancy (Hons)
+   - Bachelor of Business (Hons) in Marketing
+   - Bachelor of Technology Management (Hons)
+
+2. School of Built Environment:
+   - Bachelor of Quantity Surveying (Hons)
+   - Bachelor of Science (Hons) in Architecture
+   - Bachelor of Arts (Hons) in Interior Design
+   - Bachelor of Science (Hons) in Property and Construction Management
+
+3. School of Computing and Creative Media:
+   - Bachelor of Computer Science (Hons)
+   - Bachelor of Arts (Hons) in Industrial Design
+   - Bachelor of Arts (Hons) in Creative Digital Media
+   - Bachelor of Mobile Game Development (Hons)
+
+4. School of Engineering and Technology:
+   - Bachelor of Civil Engineering (Hons)
+   - Bachelor of Mechanical Engineering (Hons)
+   - Bachelor of Electrical Engineering (Hons)
+   - Bachelor of Food Technology (Hons)
+   - Bachelor of Science in Occupational Safety and Health (Honours)
+
+These are just some of the degree programs offered at UTS. Each program has specific entry requirements and educational objectives designed to equip students with the necessary knowledge and skills for their chosen field.
+2024-05-21 23:11:10 - INFO - 192.168.114.122 - - [21/May/2024 23:11:10] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:11:15 - INFO - Received user input: fuck
+2024-05-21 23:11:15 - INFO - 192.168.114.122 - - [21/May/2024 23:11:15] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:11:21 - INFO - Received user input: dick
+2024-05-21 23:11:21 - INFO - 192.168.114.122 - - [21/May/2024 23:11:21] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:11:26 - INFO - Received user input: abuse
+2024-05-21 23:11:26 - INFO - 192.168.114.122 - - [21/May/2024 23:11:26] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:13:46 - INFO - Received user input: give me details of  Bachelor of Civil Engineering (Hons)
+2024-05-21 23:13:52 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 23:13:52 - INFO - Chatbot response: The Bachelor of Civil Engineering (Hons) program at the University of Technology Sarawak (UTS) is designed to equip students with the knowledge, skills, and practical experience needed to pursue a successful career in the field of civil engineering. Here are some details about the program:
+
+1. Program Overview: The Bachelor of Civil Engineering (Hons) program covers a wide range of topics related to civil engineering, including structural engineering, geotechnical engineering, transportation engineering, water resources engineering, construction management, and environmental engineering.
+
+2. Duration: The program typically takes four years to complete on a full-time basis. It consists of both coursework and practical training components.
+
+3. Curriculum: The curriculum includes a mix of theoretical courses, laboratory sessions, design projects, and practical training. Students will learn about the fundamental principles of civil engineering and gain practical experience through industry placements and fieldwork.
+
+4. Career Opportunities: Graduates of the Bachelor of Civil Engineering (Hons) program can pursue careers in various sectors, including construction, transportation, infrastructure development, consulting firms, government agencies, and research institutions.
+
+5. Accreditation: It is important to ensure that the Bachelor of Civil Engineering (Hons) program at UTS is accredited by relevant professional bodies to ensure that graduates meet the necessary standards for professional practice.
+
+If you have specific questions or need more information about the Bachelor of Civil Engineering (Hons) program at UTS, I recommend reaching out to the university directly for detailed course outlines, admission requirements, and any other information you may require.
+2024-05-21 23:13:52 - INFO - 192.168.114.122 - - [21/May/2024 23:13:52] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:16:39 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:16:39 - INFO -  * Restarting with stat
+2024-05-21 23:16:40 - WARNING -  * Debugger is active!
+2024-05-21 23:16:40 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:16:43 - INFO - 192.168.114.122 - - [21/May/2024 23:16:43] "GET / HTTP/1.1" 200 -
+2024-05-21 23:16:43 - INFO - 192.168.114.122 - - [21/May/2024 23:16:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 23:16:43 - INFO - 192.168.114.122 - - [21/May/2024 23:16:43] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:16:43 - INFO - 192.168.114.122 - - [21/May/2024 23:16:43] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 23:16:43 - INFO - 192.168.114.122 - - [21/May/2024 23:16:43] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 23:16:44 - INFO - 192.168.114.122 - - [21/May/2024 23:16:44] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 23:16:52 - INFO - Received user input: give me information about  Bachelor of Civil Engineering (Hons)
+2024-05-21 23:16:52 - INFO - 192.168.114.122 - - [21/May/2024 23:16:52] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:16:52 - INFO - 192.168.114.122 - - [21/May/2024 23:16:52] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 23:17:01 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 23:17:01 - INFO - Chatbot response: University of Technology Sarawak offers a Bachelor of Civil Engineering (Hons) program. Here are some details about the program:
+
+- **Overview:** Launched in 2013, the program covers various aspects of civil engineering, including structures, materials, hydraulics, geotechnical, highway, and surveying. It emphasizes engineering knowledge, problem-solving, technical skills, and soft skills. Practical skills are enhanced through laboratory work.
+
+- **Aims:** The program aims to produce graduates with a strong civil engineering background and equip them to succeed in competitive global markets while upholding ethical values.
+
+- **Learning Outcomes:** The program aims to equip students with the ability to apply knowledge of mathematics, sciences, and engineering, solve complex engineering problems, design solutions considering health, safety, and sustainability, assess societal, health, and legal issues in engineering practice, commit to professional and ethical responsibilities, communicate effectively in engineering contexts, function effectively as individuals and in teams, understand engineering management principles and economic decision-making, conduct research-based investigations, engage in lifelong learning, and evaluate sustainability and societal impact of engineering solutions.
+
+- **Educational Objectives:** The program aims to produce engineers with the necessary knowledge and skills, foster effective communication, teamwork, and professional development, encourage lifelong learning, and research involvement.
+
+- **Entry Requirements:** Applicants are required to have STPM/A-level with passes in Mathematics and Physical Science, UEC with five Grade B’s including Mathematics and Physical Science, Matriculation/Foundation in Science with a minimum CGPA of 2.00, Diploma in a related field with a minimum CGPA of 2.00, DKM/DKLM/DVM with a minimum CGPA of 2.50 or CGPA of 2.00 with two years of work experience, or other equivalent qualifications recognized by the Malaysian Government.
+
+- **Contact:** For more information, you can contact the University of Technology Sarawak at (+6) 084-367300 or email at enquiry@uts.edu.my.
+2024-05-21 23:17:01 - INFO - 192.168.114.122 - - [21/May/2024 23:17:01] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:17:19 - INFO - 192.168.114.122 - - [21/May/2024 23:17:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 23:17:19 - INFO - 192.168.114.122 - - [21/May/2024 23:17:19] "[36mGET /static/images/site.webmanifest HTTP/1.1[0m" 304 -
+2024-05-21 23:21:01 - INFO - Received user input: any degree program?
+2024-05-21 23:21:09 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 23:21:09 - INFO - Chatbot response: Here is the information about the various degree programs offered at University of Technology Sarawak:
+
+- **School of Business and Management:**
+    - Bachelor of Business Administration (Hons)
+    - Bachelor of Accountancy (Hons)
+    - Bachelor of Business (Hons) in Marketing
+    - Bachelor of Technology Management (Hons)
+
+- **School of Built Environment:**
+    - Bachelor of Quantity Surveying (Hons)
+    - Bachelor of Science (Hons) in Architecture
+    - Bachelor of Arts (Hons) in Interior Design
+    - Bachelor of Science (Hons) in Property and Construction Management
+
+- **School of Computing and Creative Media:**
+    - Bachelor of Computer Science (Hons)
+    - Bachelor of Arts (Hons) in Industrial Design
+    - Bachelor of Arts (Hons) in Creative Digital Media
+    - Bachelor of Mobile Game Development (Hons)
+
+- **School of Engineering and Technology:**
+    - Bachelor of Civil Engineering (Hons)
+    - Bachelor of Mechanical Engineering (Hons)
+    - Bachelor of Electrical Engineering (Hons)
+    - Bachelor of Food Technology (Hons)
+    - Bachelor of Science in Occupational Safety and Health (Honours)
+
+Each program has specific details regarding its overview, accreditation, learning outcomes, entry requirements, and contact information. If you need more detailed information about a particular program, feel free to ask!
+2024-05-21 23:21:09 - INFO - 192.168.114.122 - - [21/May/2024 23:21:09] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:21:35 - INFO - Received user input: give me information about Bachelor of Mobile Game Development (Hons)
+2024-05-21 23:21:43 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 23:21:43 - INFO - Chatbot response: The Bachelor of Mobile Game Development (Hons) program offered by the University of Technology Sarawak aims to educate students in mobile game development with skills, confidence, and ethical values. Here are some details about the program:
+
+- **Program Aims:** The Bachelor of Mobile Game Development program aims to provide students with a broad knowledge of mobile game development, leadership skills, effective communication, technical competency in digital technology, lifelong learning skills, and entrepreneurial skills.
+
+- **Program Educational Objectives (PEOs):** The educational objectives of the program include developing a broad knowledge in Mobile Game Development, fostering leadership, communication, and ethical practices, enhancing technical competency in digital technology, and promoting lifelong learning and entrepreneurial skills.
+
+- **Program Learning Outcomes (PLOs):** The program equips students with various learning outcomes, including applying knowledge in Mobile Game Development, analyzing theories with ethical judgment, creating digital ideation and innovation, communicating effectively, using numeracy skills for design concepts, constructing Mobile Games, promoting professional and ethical practices, demonstrating leadership and accountability, and fostering lifelong learning for career development.
+
+- **Entry Requirements:** Prospective students need to meet the entry requirements, which include having STPM/Matriculation/Foundation/Diploma with a CGPA of \u2265 2.00, UEC with Grade B in 5 subjects, and passing an interview or portfolio submission.
+
+- **English Requirements for International Students:** International students are required to meet specific English language proficiency requirements, such as TOEFL \u2265 500, IELTS \u2265 5.0, or equivalent.
+
+If you need more detailed information or have any specific questions regarding the Bachelor of Mobile Game Development program at the University of Technology Sarawak, feel free to ask.
+2024-05-21 23:21:43 - INFO - 192.168.114.122 - - [21/May/2024 23:21:43] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:33:48 - INFO - Received user input: tell me uts staff
+2024-05-21 23:33:54 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 23:33:54 - INFO - Chatbot response: The following are some of the staff members of the University of Technology Sarawak:
+
+- **Vice Chancellor / President:** Prof. Datuk Dr. Khairuddin Ab. Hamid
+- **Deputy Vice Chancellor (Academic):** Prof. Ir. Ts. Dr. Mohammad Shahril Bin Osman
+- **Registrar:** Mr Jimmy De Rozario @ Abdul Rahman
+- **Dean, School of Built Environment:** Sr. Dr. Kan Fock Kui
+- **Dean, School of Engineering and Technology:** Associate Professor Dr. Dayang Siti Hazimmah Binti Ali
+- **Dean, School of Business and Management:** Assoc. Prof. Dr Winnie Wong Poh Ming
+- **Dean, School of Computing & Creative Media:** Ts. Dr. Alan Ting Huong Yong
+- **Director, Centre for Quality Assurance:** Dr. Sim Siew Ling
+- **Director, Centre for Research & Development:** Assoc. Prof. Dr Mohd Zahid bin Abidin
+- **Chief Librarian Academic Resource Centre:** Ms Roselind Ak Duat
+
+Please note that the list includes key personnel in various departments and may not be exhaustive. If you need more specific information about other staff members or departments at the University of Technology Sarawak, feel free to ask.
+2024-05-21 23:33:54 - INFO - 192.168.114.122 - - [21/May/2024 23:33:54] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:40:59 - INFO - Received user input: tell me UTS 
+2024-05-21 23:41:05 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 23:41:05 - INFO - Chatbot response: University of Technology Sarawak (UTS) is located at No.1 Jalan Universiti, 96000 Sibu, Sarawak, Malaysia. You can contact them at (+6) 084-367300 or email them at enquiry@uts.edu.my.
+
+Established to support the development of technical human resources for the Sarawak Corridor of Renewable Energy (SCORE), UTS offers 17 degree programs/courses, 2 foundation programs, and 9 master's programs. The university aims to provide an affordable world-class education that fosters creative and entrepreneurial leaders, focusing on science and technology and catering to the needs of industries within SCORE.
+
+UTS's campus in Sibu is equipped with state-of-the-art facilities to support teaching, learning, and research activities. The university also plans to establish its Science & Technology Park to facilitate research and entrepreneurial opportunities through collaborations with local and international industries and educational institutions.
+
+Through a partnership with Universiti Kuala Lumpur and transfer degree programs with universities like Murdoch University, University of Essex, University of Birmingham, and University of Canterbury, UTS offers students the opportunity to further their education and global exposure.
+
+UTS operates based on its vision of becoming a global technical university founded on science and technology, with a mission to provide world-class educational programs that nurture creative and entrepreneurial leaders. The core values guiding UTS are Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-21 23:41:05 - INFO - 192.168.114.122 - - [21/May/2024 23:41:05] "POST /api HTTP/1.1" 200 -
+2024-05-21 23:41:47 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:41:47 - INFO -  * Restarting with stat
+2024-05-21 23:41:52 - WARNING -  * Debugger is active!
+2024-05-21 23:41:52 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 23:42:39 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 23:42:39 - INFO -  * Restarting with stat
+2024-05-21 23:42:40 - WARNING -  * Debugger is active!
+2024-05-21 23:42:40 - INFO -  * Debugger PIN: 241-841-614
