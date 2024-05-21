@@ -1,191 +1,183 @@
-document.addEventListener('DOMContentLoaded', function () 
+class ChatMessage 
 {
-    const chatbotToggler = document.querySelector('.chatbot-toggler');
-    const chatbotContainer = document.getElementById('chatbot-container');
-
-    chatbotToggler.addEventListener('click', function () 
+    constructor(role, content) 
     {
-        chatbotContainer.classList.toggle('hidden');
-    });
-});
+        this.role = role;
+        this.content = content;
+    }
 
-document.addEventListener('DOMContentLoaded', function() 
+    toMarkdown()
+    {
+        return this.content.replace(/\n/g, "<br>");
+    }
+}
+
+class ChatBot 
 {
-    var isFullscreen = false;
-    function toggleFullScreen() 
+    constructor() 
     {
-        var bodyElement = document.body;
-        if (!isFullscreen) 
+        this.conversationHistory = [];
+        this.isFullscreen = false;
+        this.isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        this.initEventListeners();
+    }
+
+    initEventListeners() 
+    {
+        document.addEventListener('DOMContentLoaded', () => 
+        {
+            const chatbotToggler = document.querySelector('.chatbot-toggler');
+            const chatbotContainer = document.getElementById('chatbot-container'); 
+            chatbotToggler.addEventListener('click', () => 
             {
-                bodyElement.classList.add('fullscreen');
-                isFullscreen = true;
+                chatbotContainer.classList.toggle('hidden');
+            });  
+            const fullscreenButton = document.getElementById('fullscreen-button');
+            if (fullscreenButton) 
+            {
+                fullscreenButton.addEventListener('click', () => 
+                {
+                    this.toggleFullScreen();
+                });
             } 
             else 
             {
-                bodyElement.classList.remove('fullscreen');
-                isFullscreen = false;
+                console.error("Element with id 'fullscreen-button' not found.");
             }
-    }
-
-    var fullscreenButton = document.getElementById('fullscreen-button');
-    if (fullscreenButton) 
-        {
-            fullscreenButton.addEventListener('click', function() 
+            document.getElementById("user-input").addEventListener("keydown", (event) => 
             {
-                toggleFullScreen();
-            });
-        } 
-        else 
-        {
-            console.error("Element with id 'fullscreen-button' not found.");
-        }
-        
-    document.addEventListener('keydown', function(event) 
-    {
-        if (event.key === 'Escape' && isFullscreen) 
-            {
-                toggleFullScreen();
-            }
-        });
-});
-
-var conversationHistory = [];
-
-function convertToMarkdown(text) 
-{
-    var markdownText = text.replace(/\n/g, "<br>");
-    return "\n" + markdownText + "\n";
-}
-
-function sendMessage() 
-{
-    var userInput = document.getElementById("user-input").value;
-    if (!userInput) return; 
-
-    var userInputMarkdown = convertToMarkdown(userInput);
-    conversationHistory.push({ role: 'user', content: userInput });
-    displayMessage("You", userInputMarkdown);
-
-    var typingIndicatorElement = displayMessage("UTU", "<span class='typing-animation'>.......</span>");
-    fetch('/api', 
-    {
-        method: 'POST',
-        headers: 
-        {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ history: conversationHistory }),
-    })
-    .then(response => response.json())
-    .then(data => 
-    {
-        console.log('Response from server:', data);
-        if (data && data.response !== undefined) 
-        {
-            conversationHistory.push({ role: 'assistant', content: data.response });
-            var aiResponseMarkdown = convertToMarkdown(data.response);
-            updateMessage(typingIndicatorElement, aiResponseMarkdown);
-        } 
-        else 
-        {
-            console.error('Invalid response from server:', data);
-            updateMessage(typingIndicatorElement, "Sorry, something went wrong.");
-        }
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        updateMessage(typingIndicatorElement, "Sorry, something went wrong.");
-    });
-
-    document.getElementById("user-input").value = ""; 
-}
-
-function displayMessage(sender, message) 
-{
-    var chatMessages = document.getElementById("chat-messages");
-    var messageElement = document.createElement("div");
-    
-    var senderElement = document.createElement("span");
-    var senderIcon = document.createElement("img");
-
-    if (sender === "You") 
-    {
-        senderIcon.src = "static/images/user 16x16.png"; 
-        senderIcon.alt = "User Icon";
-    } 
-    else if (sender === "UTU") 
-    {
-        senderIcon.src = "static/images/favicon-16x16.png"; 
-        senderIcon.alt = "Assistant Icon";
-    }
-
-    senderIcon.style.width = "16px"; 
-    senderIcon.style.height = "16px"; 
-    senderIcon.style.marginRight = "5px";
-
-    senderElement.appendChild(senderIcon);
-    senderElement.appendChild(document.createTextNode(sender + ": "));
-    messageElement.appendChild(senderElement);
-
-    var messageText = document.createElement("span");
-    messageText.innerHTML = "<br>" + message;
-    messageElement.appendChild(messageText);
-
-    chatMessages.appendChild(messageElement);
-    chatMessages.scrollTop = chatMessages.scrollHeight;
-
-    return messageElement;
-}
-
-function updateMessage(messageElement, newContent) 
-{
-    messageElement.querySelector("span:last-child").innerHTML = "<br>" + newContent;
-}
-
-document.addEventListener('DOMContentLoaded', function () 
-{
-    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-    document.getElementById("user-input").addEventListener("keydown", function(event) 
-    {
-        if (event.keyCode === 13) 
-            {
-            if (!isMobile) 
+                if (event.keyCode === 13) 
                 {
-                if (!event.shiftKey) 
+                    if (!this.isMobile) 
                     {
-                    event.preventDefault();
-                    sendMessage();
+                        if (!event.shiftKey) 
+                        {
+                            event.preventDefault();
+                            this.sendMessage();
+                        }
+                    }
                 }
-            }
+            });
+        });
+    }
+
+    toggleFullScreen() 
+    {
+        const bodyElement = document.body;
+        if (!this.isFullscreen) 
+        {
+            bodyElement.classList.add('fullscreen');
+            this.isFullscreen = true;
+        } 
+        else 
+        {
+            bodyElement.classList.remove('fullscreen');
+            this.isFullscreen = false;
         }
-    });
-});
+    }
+
+    sendMessage() 
+    {
+        const userInput = document.getElementById("user-input").value;
+        if (!userInput) return;
+        const userMessage = new ChatMessage('user', userInput);
+        this.conversationHistory.push(userMessage);
+        this.displayMessage("You", userMessage.toMarkdown());
+        const typingIndicatorElement = this.displayMessage("UTU", "<span class='typing-animation'>.......</span>");
+        fetch('/api', 
+        {
+            method: 'POST',
+            headers: 
+            {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ history: this.conversationHistory }),
+        })
+        .then(response => response.json())
+        .then(data => 
+        {
+            console.log('Response from server:', data);
+            if (data && data.response !== undefined) 
+            {
+                const aiMessage = new ChatMessage('assistant', data.response);
+                this.conversationHistory.push(aiMessage);
+                this.updateMessage(typingIndicatorElement, aiMessage.toMarkdown());
+            } 
+            else 
+            {
+                console.error('Invalid response from server:', data);
+                this.updateMessage(typingIndicatorElement, "Sorry, something went wrong.");
+            }
+        })
+        .catch(error => 
+        {
+            console.error('Error:', error);
+            this.updateMessage(typingIndicatorElement, "Sorry, something went wrong.");
+        });
+        document.getElementById("user-input").value = "";
+    }
+
+    displayMessage(sender, message) 
+    {
+        const chatMessages = document.getElementById("chat-messages");
+        const messageElement = document.createElement("div");
+        const senderElement = document.createElement("span");
+        const senderIcon = document.createElement("img");
+        if (sender === "You") 
+        {
+            senderIcon.src = "static/images/user 16x16.png";
+            senderIcon.alt = "User Icon";
+        } 
+        else if (sender === "UTU") 
+        {
+            senderIcon.src = "static/images/favicon-16x16.png";
+            senderIcon.alt = "Assistant Icon";
+        }
+        senderIcon.style.width = "16px";
+        senderIcon.style.height = "16px";
+        senderIcon.style.marginRight = "5px";
+        senderElement.appendChild(senderIcon);
+        senderElement.appendChild(document.createTextNode(sender + ": "));
+        messageElement.appendChild(senderElement);
+        const messageText = document.createElement("span");
+        messageText.innerHTML = "<br>" + message;
+        messageElement.appendChild(messageText);
+        chatMessages.appendChild(messageElement);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+
+        return messageElement;
+    }
+
+    updateMessage(messageElement, newContent) 
+    {
+        messageElement.querySelector("span:last-child").innerHTML = "<br>" + newContent;
+    }
+}
 
 function openURL(url) 
 {
-    window.open(url, '_blank'); 
+    window.open(url, '_blank');
 }
 
 function openSidebar() 
 {
-    var sidebar = document.getElementById("sidebar");
-    sidebar.classList.add("open"); 
-    var button = document.querySelector('.toggle-button');
-    button.style.left = "200px"; 
+    const sidebar = document.getElementById("sidebar");
+    sidebar.classList.add("open");
+    const button = document.querySelector('.toggle-button');
+    button.style.left = "200px";
 }
 
 function closeSidebar() 
 {
-    var sidebar = document.getElementById("sidebar");
-    sidebar.classList.remove("open"); 
-    var button = document.querySelector('.toggle-button');
-    button.style.left = "0"; 
+    const sidebar = document.getElementById("sidebar");
+    sidebar.classList.remove("open");
+    const button = document.querySelector('.toggle-button');
+    button.style.left = "0";
 }
 
 function toggleSidebar() 
 {
-    var sidebar = document.getElementById("sidebar");
+    const sidebar = document.getElementById("sidebar");
     if (sidebar.classList.contains("open")) 
     {
         closeSidebar();
@@ -196,3 +188,4 @@ function toggleSidebar()
     }
 }
 
+const chatBot = new ChatBot();

@@ -3458,3 +3458,328 @@ I hope these are helpful to you! Let me know if you need more verbs.
 29. Solve
 30. Relax
 2024-05-20 21:49:44 - INFO - 192.168.203.15 - - [20/May/2024 21:49:44] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:36:36 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.114.122:5000
+2024-05-21 11:36:36 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-21 11:36:36 - INFO -  * Restarting with stat
+2024-05-21 11:36:37 - WARNING -  * Debugger is active!
+2024-05-21 11:36:37 - INFO -  * Debugger PIN: 241-841-614
+2024-05-21 11:36:40 - INFO - 192.168.114.122 - - [21/May/2024 11:36:40] "GET / HTTP/1.1" 200 -
+2024-05-21 11:36:40 - INFO - 192.168.114.122 - - [21/May/2024 11:36:40] "GET /static/images/favicon-32x32.png HTTP/1.1" 200 -
+2024-05-21 11:36:40 - INFO - 192.168.114.122 - - [21/May/2024 11:36:40] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-21 11:36:40 - INFO - 192.168.114.122 - - [21/May/2024 11:36:40] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:36:40 - INFO - 192.168.114.122 - - [21/May/2024 11:36:40] "GET /static/images/Final_Background.png HTTP/1.1" 200 -
+2024-05-21 11:36:41 - INFO - 192.168.114.122 - - [21/May/2024 11:36:41] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:36:43 - INFO - Received user input: hi
+2024-05-21 11:36:43 - INFO - 192.168.114.122 - - [21/May/2024 11:36:43] "GET /static/images/favicon-16x16.png HTTP/1.1" 200 -
+2024-05-21 11:36:43 - INFO - 192.168.114.122 - - [21/May/2024 11:36:43] "GET /static/images/user%2016x16.png HTTP/1.1" 200 -
+2024-05-21 11:36:44 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:36:44 - INFO - Chatbot response: Hello! How can I help you today?
+2024-05-21 11:36:44 - INFO - 192.168.114.122 - - [21/May/2024 11:36:44] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:36:55 - INFO - Received user input: fuck
+2024-05-21 11:36:56 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:36:56 - INFO - Chatbot response: I'm here to help! Can you provide me with more information about what you need assistance with?
+2024-05-21 11:36:56 - INFO - 192.168.114.122 - - [21/May/2024 11:36:56] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:36:59 - INFO - Received user input: fuck
+2024-05-21 11:36:59 - INFO - 192.168.114.122 - - [21/May/2024 11:36:59] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:37:24 - INFO - Received user input: fuck
+2024-05-21 11:37:24 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:37:24 - INFO - Chatbot response: I'm here to help with any questions or concerns you may have. How can I assist you today?
+2024-05-21 11:37:24 - INFO - 192.168.114.122 - - [21/May/2024 11:37:24] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:37:26 - INFO - Received user input: dick
+2024-05-21 11:37:26 - INFO - 192.168.114.122 - - [21/May/2024 11:37:26] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:37:34 - INFO - 192.168.114.122 - - [21/May/2024 11:37:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:37:34 - INFO - 192.168.114.122 - - [21/May/2024 11:37:34] "GET /static/images/site.webmanifest HTTP/1.1" 200 -
+2024-05-21 11:37:42 - INFO - 192.168.114.122 - - [21/May/2024 11:37:42] "GET / HTTP/1.1" 200 -
+2024-05-21 11:37:42 - INFO - 192.168.114.122 - - [21/May/2024 11:37:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:37:42 - INFO - 192.168.114.122 - - [21/May/2024 11:37:42] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:37:42 - INFO - 192.168.114.122 - - [21/May/2024 11:37:42] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 11:37:42 - INFO - 192.168.114.122 - - [21/May/2024 11:37:42] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:37:42 - INFO - 192.168.114.122 - - [21/May/2024 11:37:42] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:37:49 - INFO - 192.168.114.122 - - [21/May/2024 11:37:49] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 11:37:49 - INFO - 192.168.114.122 - - [21/May/2024 11:37:49] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 11:37:49 - INFO - Received user input: fuck
+2024-05-21 11:37:49 - INFO - 192.168.114.122 - - [21/May/2024 11:37:49] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:37:54 - INFO - Received user input: tell me uts
+2024-05-21 11:37:57 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:37:57 - INFO - Chatbot response: The University of Technology Sarawak (UTS) is a technical university located in Sibu, Sarawak, Malaysia. It offers 17 degree programs, 2 foundation programs, and 9 master programs. UTS is committed to providing affordable world-class education that focuses on science and technology to nurture creative and entrepreneurial leaders for the Sarawak Corridor of Renewable Energy (SCORE). The campus is equipped with state-of-the-art facilities to support teaching, learning, and research activities. UTS collaborates with Universiti Kuala Lumpur and runs transfer degree programs with universities from Australia, the United Kingdom, and New Zealand. UTS aims to be a global technical university with a mission to provide specialized education in science and technology. The core values of UTS include Commitment, Integrity, Caring, Enterprising, and Green.
+2024-05-21 11:37:57 - INFO - 192.168.114.122 - - [21/May/2024 11:37:57] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:38:07 - INFO - Received user input: any degree example?
+2024-05-21 11:38:12 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:38:12 - INFO - Chatbot response: These are some of the degree programs offered at University of Technology Sarawak:
+
+1. Bachelor of Business Administration (Hons)
+2. Bachelor of Accountancy (Hons)
+3. Bachelor of Business (Hons) in Marketing
+4. Bachelor of Technology Management (Hons)
+5. Bachelor of Quantity Surveying (Hons)
+6. Bachelor of Science (Hons) in Architecture
+7. Bachelor of Arts (Hons) in Interior Design
+8. Bachelor of Science (Hons) in Property and Construction Management
+9. Bachelor of Computer Science (Hons)
+10. Bachelor of Arts (Hons) in Industrial Design
+11. Bachelor of Arts (Hons) in Creative Digital Media
+12. Bachelor of Mobile Game Development (Hons)
+13. Bachelor of Civil Engineering (Hons)
+14. Bachelor of Mechanical Engineering (Hons)
+15. Bachelor of Electrical Engineering (Hons)
+16. Bachelor of Food Technology (Hons)
+17. Bachelor of Science in Occupational Safety and Health (Honours)
+
+Each program has specific entry requirements and educational objectives geared towards preparing students for careers in various fields.
+2024-05-21 11:38:12 - INFO - 192.168.114.122 - - [21/May/2024 11:38:12] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:38:38 - INFO - Received user input: what about Bachelor of Arts (Hons) in Interior Design
+2024-05-21 11:38:41 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:38:41 - INFO - Chatbot response: The Bachelor of Arts (Hons) in Interior Design program at University of Technology Sarawak is designed to provide students with a comprehensive education in the field of interior design. Students will learn about spatial planning, color theory, materials and finishes, lighting design, furniture design, and other aspects of creating functional and aesthetically pleasing interior spaces.
+
+Through a combination of theoretical study and practical studio projects, students will develop their creative and technical skills in interior design. They will also learn about the principles of sustainability and environmental design in relation to interior spaces.
+
+Upon completion of the program, graduates will be prepared for careers as interior designers in various industries such as architecture firms, interior design studios, construction companies, and retail design companies. They may also choose to work independently as freelance interior designers or pursue further studies at the postgraduate level.
+2024-05-21 11:38:41 - INFO - 192.168.114.122 - - [21/May/2024 11:38:41] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:38:55 - INFO - Received user input: tell me all information
+2024-05-21 11:38:57 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:38:57 - INFO - Chatbot response: I'm sorry for any confusion, but as an AI assistant, I cannot provide all the specific information on the Bachelor of Arts (Hons) in Interior Design program at University of Technology Sarawak. For detailed information such as admission requirements, curriculum structure, faculty members, facilities, and any other specific details, I recommend visiting the official website of University of Technology Sarawak or contacting the university directly. They will be able to provide you with the most current and accurate information regarding the program.
+2024-05-21 11:38:57 - INFO - 192.168.114.122 - - [21/May/2024 11:38:57] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:39:17 - INFO - Received user input: tell me all information about Bachelor of Arts (Hons) in Interior Design
+2024-05-21 11:39:23 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:39:23 - INFO - Chatbot response: The Bachelor of Arts (Hons) in Interior Design program at University of Technology Sarawak is a comprehensive program designed to prepare students for a career in the field of interior design. Here is some general information about the program:
+
+1. **Program Overview:** The program combines theoretical knowledge with practical skills to equip students with the necessary expertise in interior design.
+
+2. **Curriculum:** The curriculum covers a wide range of topics such as design principles, spatial planning, materials and finishes, lighting design, furniture design, color theory, sustainability in design, and more.
+
+3. **Teaching Methodology:** The program incorporates a mix of lectures, studio-based projects, workshops, field trips, and industry collaborations to provide students with hands-on learning experiences.
+
+4. **Faculty:** The program is delivered by experienced faculty members who are experts in the field of interior design and bring industry-relevant knowledge to the classroom.
+
+5. **Facilities:** Students have access to state-of-the-art facilities, design studios, computer labs, and workshops to support their learning and creative projects.
+
+6. **Career Opportunities:** Graduates of the program can pursue careers as interior designers, design consultants, project managers, visual merchandisers, set designers, and more. They may work in architectural firms, design studios, retail companies, hospitality industry, or start their own design businesses.
+
+7. **Further Studies:** Students may choose to further their education by pursuing postgraduate studies in interior design or related fields to enhance their expertise and career opportunities.
+
+For specific details such as admission requirements, program structure, course descriptions, faculty profiles, and related information, I recommend visiting the official website of University of Technology Sarawak or contacting the university directly for the most up-to-date information.
+2024-05-21 11:39:23 - INFO - 192.168.114.122 - - [21/May/2024 11:39:23] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:39:36 - INFO - Received user input: tell me information about degree Bachelor of Arts (Hons) in Interior Design
+2024-05-21 11:39:44 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:39:44 - INFO - Chatbot response: Bachelor of Arts (Hons) in Interior Design
+
+About:
+- The Bachelor of Arts (Hons) in Interior Design program at University of Technology Sarawak is the first degree program in Interior Design offered in Sarawak and Sabah.
+- It focuses on providing professional-based education with an emphasis on sustainability.
+- The program also highlights the importance of cultural context and interdisciplinary collaboration in the field of interior design.
+
+Course Overview:
+- Duration: 3.5-year program including a 6-month internship.
+- Total Credit Hours: 120 credit hours.
+- The curriculum is designed to provide students with a comprehensive education in interior design encompassing theoretical knowledge and practical skills.
+
+Professional Recognition:
+- The program is recognized by the Board of Architects Malaysia (LAM) and the Malaysian Qualifications Agency (MQA).
+
+Vision and Mission:
+- Vision: To be a global technical university founded on science and technology.
+- Mission: To provide world-class educational programs and a nurturing environment for students.
+
+Program Aims:
+- The program aims to produce skilled Interior Designers that meet the demands of the industry.
+
+Program Educational Objectives (PEOs):
+- Apply interior design knowledge professionally.
+- Communicate and collaborate effectively in multidisciplinary teams.
+- Interpret and solve interior design issues.
+
+Program Learning Outcomes (PLOs):
+- Apply historical, cultural, and technological knowledge in interior design.
+- Generate creative design solutions.
+- Enhance health, safety, and well-being in interior spaces.
+- Communicate design ideas effectively.
+- Demonstrate leadership and teamwork.
+- Recognize the value of professionalism and ethics.
+- Engage in entrepreneurial thinking.
+- Understand building construction and regulations.
+
+Entry Requirements:
+- Various qualifications including Foundation, Diploma, STPM, A-Level, UEC.
+- Specific grade and subject requirements including Pendidikan Seni and Portfolio Review.
+- Admission requirements may vary, it's advisable to check with the university for the most recent information.
+
+Career Prospects:
+- Upon graduation, students can pursue careers as Interior Designers, Product Designers, Stylists, Stage Designers, Showroom Designers, Restoration Consultants, and other related professions in various industries.
+
+For more specific details and the latest information about the Bachelor of Arts (Hons) in Interior Design program at University of Technology Sarawak, you can visit the university's official website or contact them directly.
+2024-05-21 11:39:44 - INFO - 192.168.114.122 - - [21/May/2024 11:39:44] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:40:03 - INFO - Received user input: fuck
+2024-05-21 11:40:04 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:40:04 - INFO - Chatbot response: I'm here to help with any questions or information you may need. Please feel free to ask.
+2024-05-21 11:40:04 - INFO - 192.168.114.122 - - [21/May/2024 11:40:04] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:40:06 - INFO - Received user input: fuck
+2024-05-21 11:40:06 - INFO - 192.168.114.122 - - [21/May/2024 11:40:06] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:40:10 - INFO - Received user input: damn
+2024-05-21 11:40:11 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:40:11 - INFO - Chatbot response: If you have any questions or need assistance with something, feel free to ask. I'm here to help.
+2024-05-21 11:40:11 - INFO - 192.168.114.122 - - [21/May/2024 11:40:11] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:40:14 - INFO - Received user input: damn
+2024-05-21 11:40:14 - INFO - 192.168.114.122 - - [21/May/2024 11:40:14] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:40:18 - INFO - Received user input: damn
+2024-05-21 11:40:18 - INFO - 192.168.114.122 - - [21/May/2024 11:40:18] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:46:19 - INFO - 192.168.114.122 - - [21/May/2024 11:46:19] "GET / HTTP/1.1" 200 -
+2024-05-21 11:46:19 - INFO - 192.168.114.122 - - [21/May/2024 11:46:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:46:19 - INFO - 192.168.114.122 - - [21/May/2024 11:46:19] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:46:19 - INFO - 192.168.114.122 - - [21/May/2024 11:46:19] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 11:46:19 - INFO - 192.168.114.122 - - [21/May/2024 11:46:19] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:46:19 - INFO - 192.168.114.122 - - [21/May/2024 11:46:19] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:48:22 - INFO - 192.168.114.122 - - [21/May/2024 11:48:22] "GET / HTTP/1.1" 200 -
+2024-05-21 11:48:22 - INFO - 192.168.114.122 - - [21/May/2024 11:48:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:48:22 - INFO - 192.168.114.122 - - [21/May/2024 11:48:22] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:48:22 - INFO - 192.168.114.122 - - [21/May/2024 11:48:22] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:48:22 - INFO - 192.168.114.122 - - [21/May/2024 11:48:22] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:48:22 - INFO - 192.168.114.122 - - [21/May/2024 11:48:22] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:48:37 - INFO - 192.168.114.122 - - [21/May/2024 11:48:37] "GET / HTTP/1.1" 200 -
+2024-05-21 11:48:38 - INFO - 192.168.114.122 - - [21/May/2024 11:48:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:48:38 - INFO - 192.168.114.122 - - [21/May/2024 11:48:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:48:38 - INFO - 192.168.114.122 - - [21/May/2024 11:48:38] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:48:38 - INFO - 192.168.114.122 - - [21/May/2024 11:48:38] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:48:38 - INFO - 192.168.114.122 - - [21/May/2024 11:48:38] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:53:02 - INFO - 192.168.114.122 - - [21/May/2024 11:53:02] "GET / HTTP/1.1" 200 -
+2024-05-21 11:53:02 - INFO - 192.168.114.122 - - [21/May/2024 11:53:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:53:02 - INFO - 192.168.114.122 - - [21/May/2024 11:53:02] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:53:03 - INFO - 192.168.114.122 - - [21/May/2024 11:53:03] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:53:03 - INFO - 192.168.114.122 - - [21/May/2024 11:53:03] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:53:03 - INFO - 192.168.114.122 - - [21/May/2024 11:53:03] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:54:15 - INFO - 192.168.114.122 - - [21/May/2024 11:54:15] "GET / HTTP/1.1" 200 -
+2024-05-21 11:54:15 - INFO - 192.168.114.122 - - [21/May/2024 11:54:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:54:15 - INFO - 192.168.114.122 - - [21/May/2024 11:54:15] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:54:15 - INFO - 192.168.114.122 - - [21/May/2024 11:54:15] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:54:15 - INFO - 192.168.114.122 - - [21/May/2024 11:54:15] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:54:15 - INFO - 192.168.114.122 - - [21/May/2024 11:54:15] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:54:47 - INFO - 192.168.114.122 - - [21/May/2024 11:54:47] "GET / HTTP/1.1" 200 -
+2024-05-21 11:54:47 - INFO - 192.168.114.122 - - [21/May/2024 11:54:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:54:47 - INFO - 192.168.114.122 - - [21/May/2024 11:54:47] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:54:47 - INFO - 192.168.114.122 - - [21/May/2024 11:54:47] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 11:54:47 - INFO - 192.168.114.122 - - [21/May/2024 11:54:47] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:54:48 - INFO - 192.168.114.122 - - [21/May/2024 11:54:48] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:54:59 - INFO - 192.168.114.122 - - [21/May/2024 11:54:59] "GET / HTTP/1.1" 200 -
+2024-05-21 11:54:59 - INFO - 192.168.114.122 - - [21/May/2024 11:54:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:54:59 - INFO - 192.168.114.122 - - [21/May/2024 11:54:59] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:54:59 - INFO - 192.168.114.122 - - [21/May/2024 11:54:59] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 11:54:59 - INFO - 192.168.114.122 - - [21/May/2024 11:54:59] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:54:59 - INFO - 192.168.114.122 - - [21/May/2024 11:54:59] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:08 - INFO - 192.168.114.122 - - [21/May/2024 11:55:08] "GET / HTTP/1.1" 200 -
+2024-05-21 11:55:09 - INFO - 192.168.114.122 - - [21/May/2024 11:55:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:55:09 - INFO - 192.168.114.122 - - [21/May/2024 11:55:09] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:09 - INFO - 192.168.114.122 - - [21/May/2024 11:55:09] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 11:55:09 - INFO - 192.168.114.122 - - [21/May/2024 11:55:09] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:09 - INFO - 192.168.114.122 - - [21/May/2024 11:55:09] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:13 - INFO - 192.168.114.122 - - [21/May/2024 11:55:13] "GET / HTTP/1.1" 200 -
+2024-05-21 11:55:13 - INFO - 192.168.114.122 - - [21/May/2024 11:55:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:55:13 - INFO - 192.168.114.122 - - [21/May/2024 11:55:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:13 - INFO - 192.168.114.122 - - [21/May/2024 11:55:13] "[36mGET /static/website.js HTTP/1.1[0m" 304 -
+2024-05-21 11:55:14 - INFO - 192.168.114.122 - - [21/May/2024 11:55:14] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:14 - INFO - 192.168.114.122 - - [21/May/2024 11:55:14] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:18 - INFO - 192.168.114.122 - - [21/May/2024 11:55:18] "GET / HTTP/1.1" 200 -
+2024-05-21 11:55:18 - INFO - 192.168.114.122 - - [21/May/2024 11:55:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:55:18 - INFO - 192.168.114.122 - - [21/May/2024 11:55:18] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:18 - INFO - 192.168.114.122 - - [21/May/2024 11:55:18] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:55:18 - INFO - 192.168.114.122 - - [21/May/2024 11:55:18] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:18 - INFO - 192.168.114.122 - - [21/May/2024 11:55:18] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:28 - INFO - 192.168.114.122 - - [21/May/2024 11:55:28] "GET / HTTP/1.1" 200 -
+2024-05-21 11:55:28 - INFO - 192.168.114.122 - - [21/May/2024 11:55:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:55:28 - INFO - 192.168.114.122 - - [21/May/2024 11:55:28] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:28 - INFO - 192.168.114.122 - - [21/May/2024 11:55:28] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:55:28 - INFO - 192.168.114.122 - - [21/May/2024 11:55:28] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:55:28 - INFO - 192.168.114.122 - - [21/May/2024 11:55:28] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:10 - INFO - 192.168.114.122 - - [21/May/2024 11:56:10] "GET / HTTP/1.1" 200 -
+2024-05-21 11:56:10 - INFO - 192.168.114.122 - - [21/May/2024 11:56:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:56:10 - INFO - 192.168.114.122 - - [21/May/2024 11:56:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:10 - INFO - 192.168.114.122 - - [21/May/2024 11:56:10] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:56:10 - INFO - 192.168.114.122 - - [21/May/2024 11:56:10] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:10 - INFO - 192.168.114.122 - - [21/May/2024 11:56:10] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:24 - INFO - 192.168.114.122 - - [21/May/2024 11:56:24] "GET / HTTP/1.1" 200 -
+2024-05-21 11:56:24 - INFO - 192.168.114.122 - - [21/May/2024 11:56:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:56:24 - INFO - 192.168.114.122 - - [21/May/2024 11:56:24] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:24 - INFO - 192.168.114.122 - - [21/May/2024 11:56:24] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:56:24 - INFO - 192.168.114.122 - - [21/May/2024 11:56:24] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:24 - INFO - 192.168.114.122 - - [21/May/2024 11:56:24] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:43 - INFO - 192.168.114.122 - - [21/May/2024 11:56:43] "GET / HTTP/1.1" 200 -
+2024-05-21 11:56:43 - INFO - 192.168.114.122 - - [21/May/2024 11:56:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:56:43 - INFO - 192.168.114.122 - - [21/May/2024 11:56:43] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:43 - INFO - 192.168.114.122 - - [21/May/2024 11:56:43] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:56:43 - INFO - 192.168.114.122 - - [21/May/2024 11:56:43] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:43 - INFO - 192.168.114.122 - - [21/May/2024 11:56:43] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:52 - INFO - 192.168.114.122 - - [21/May/2024 11:56:52] "GET / HTTP/1.1" 200 -
+2024-05-21 11:56:52 - INFO - 192.168.114.122 - - [21/May/2024 11:56:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 11:56:52 - INFO - 192.168.114.122 - - [21/May/2024 11:56:52] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:52 - INFO - 192.168.114.122 - - [21/May/2024 11:56:52] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 11:56:52 - INFO - 192.168.114.122 - - [21/May/2024 11:56:52] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 11:56:52 - INFO - 192.168.114.122 - - [21/May/2024 11:56:52] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 11:57:43 - INFO - Received user input: any degree program of uts
+2024-05-21 11:57:43 - INFO - 192.168.114.122 - - [21/May/2024 11:57:43] "[36mGET /static/images/user%2016x16.png HTTP/1.1[0m" 304 -
+2024-05-21 11:57:43 - INFO - 192.168.114.122 - - [21/May/2024 11:57:43] "[36mGET /static/images/favicon-16x16.png HTTP/1.1[0m" 304 -
+2024-05-21 11:57:48 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:57:48 - INFO - Chatbot response: University of Technology Sarawak (UTS) offers a variety of degree programs across different schools, including:
+
+1. School of Business and Management:
+    - Bachelor of Business Administration (Hons)
+    - Bachelor of Accountancy (Hons)
+    - Bachelor of Business (Hons) in Marketing
+    - Bachelor of Technology Management (Hons)
+    
+2. School of Built Environment:
+    - Bachelor of Quantity Surveying (Hons)
+    - Bachelor of Science (Hons) in Architecture
+    - Bachelor of Arts (Hons) in Interior Design
+    - Bachelor of Science (Hons) in Property and Construction Management
+
+3. School of Computing and Creative Media:
+    - Bachelor of Computer Science (Hons)
+    - Bachelor of Arts (Hons) in Industrial Design
+    - Bachelor of Arts (Hons) in Creative Digital Media
+    - Bachelor of Mobile Game Development (Hons)
+
+4. School of Engineering and Technology:
+    - Bachelor of Civil Engineering (Hons)
+    - Bachelor of Mechanical Engineering (Hons)
+    - Bachelor of Electrical Engineering (Hons)
+    - Bachelor of Food Technology (Hons)
+    - Bachelor of Science in Occupational Safety and Health (Honours)
+
+Each program has specific entry requirements, learning outcomes, duration, and accreditation details. For more information on individual programs, admission criteria, and other related inquiries, you can contact UTS at (+6) 084-367300 or via email at enquiry@uts.edu.my.
+2024-05-21 11:57:48 - INFO - 192.168.114.122 - - [21/May/2024 11:57:48] "POST /api HTTP/1.1" 200 -
+2024-05-21 11:58:14 - INFO - Received user input: tell me details about Bachelor of Computer Science (Hons)
+2024-05-21 11:58:19 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-21 11:58:19 - INFO - Chatbot response: The Bachelor of Computer Science (Hons) program at the University of Technology Sarawak (UTS) is designed to provide students with a strong foundation in computer science principles, theories, and practical skills. Here are some details about the program:
+
+1. Program Overview:
+   - Duration: 3 years (full-time)
+   - Accreditation: Malaysian Qualifications Agency (MQA) and Board of Engineers Malaysia (BEM)
+   - Intake: January and July
+
+2. Curriculum:
+   - The program covers a wide range of topics, including computer programming, data structures, algorithms, databases, software engineering, artificial intelligence, machine learning, cybersecurity, and more.
+   - Students will have the opportunity to work on practical projects and undertake industry internships to gain real-world experience.
+   - The program culminates in a final-year project where students can apply their knowledge and skills to solve a practical problem or develop a software application.
+
+3. Career Opportunities:
+   - Graduates of the Bachelor of Computer Science (Hons) program can pursue various career paths in the IT industry, such as software developer, systems analyst, data scientist, cybersecurity specialist, IT consultant, and more.
+   - The program also prepares students for postgraduate studies in computer science or related fields.
+
+4. Admission Requirements:
+   - Pass SPM/SPMV or equivalent with a minimum of 5 credits including Mathematics and one relevant science subject.
+   - Pass STPM/A-Level with a minimum of 2 principals (C) or equivalent.
+   - English Language Requirements: IELTS with a minimum score of 6.0 or equivalent.
+
+For more specific details about the Bachelor of Computer Science (Hons) program at UTS, including entry requirements, course structure, and application procedures, you can visit the UTS website or contact the university's admissions office directly.
+2024-05-21 11:58:19 - INFO - 192.168.114.122 - - [21/May/2024 11:58:19] "POST /api HTTP/1.1" 200 -
+2024-05-21 12:33:13 - INFO - 192.168.114.122 - - [21/May/2024 12:33:13] "GET / HTTP/1.1" 200 -
+2024-05-21 12:33:13 - INFO - 192.168.114.122 - - [21/May/2024 12:33:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-21 12:33:13 - INFO - 192.168.114.122 - - [21/May/2024 12:33:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 12:33:13 - INFO - 192.168.114.122 - - [21/May/2024 12:33:13] "GET /static/website.js HTTP/1.1" 200 -
+2024-05-21 12:33:13 - INFO - 192.168.114.122 - - [21/May/2024 12:33:13] "[36mGET /static/images/Final_Background.png HTTP/1.1[0m" 304 -
+2024-05-21 12:33:13 - INFO - 192.168.114.122 - - [21/May/2024 12:33:13] "[36mGET /static/images/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-05-21 12:55:59 - INFO -  * Detected change in 'c:\\Users\\User\\Documents\\GitHub\\Chat\\UTU.py', reloading
+2024-05-21 12:56:00 - INFO -  * Restarting with stat
+2024-05-21 12:56:01 - WARNING -  * Debugger is active!
+2024-05-21 12:56:01 - INFO -  * Debugger PIN: 241-841-614
