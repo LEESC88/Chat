@@ -6,10 +6,7 @@ def check_for_harmful_words(input_text, harmful_words):
     
     detected_words = [word for word in words if word in harmful_words]
     
-    if detected_words:
-        return True
-    else:
-        return False
+    return bool(detected_words)
 
 def moderate_content(input_text, harmful_words=[]):
     try:
@@ -17,18 +14,19 @@ def moderate_content(input_text, harmful_words=[]):
             return "Invalid input text."
 
         if check_for_harmful_words(input_text, harmful_words):
-
-            random_number = random.random()
+            responses = [
+                "Your message contains inappropriate content. Please refrain from using offensive language.",
+                "We're sorry, but your message has been flagged for inappropriate content.",
+                "Your message has been removed due to violating community guidelines.",
+                "Inappropriate content detected in your message. Please adhere to community standards.",
+                "Message flagged for harmful content. Please avoid using such language."
+            ]
             
-            if random_number < 0.33 :
-                return "Your message contains inappropriate content. Please refrain from using offensive language."
-
-            elif random_number < 0.66 : 
-                return "We're sorry, but your message has been flagged for inappropriate content."
-            
-            else:
-                return "Your message has been removed due to violating community guidelines."
+            return random.choice(responses)
             
         return ""
     except Exception as e:
         return f"Error: {str(e)}"
+#polymorphism
+#Content Polymorphism: This approach ensures that the system doesn't always return the same response for flagged content, making it less predictable and more human-like.
+#Enhanced User Experience: By providing varied responses, users are less likely to feel that the moderation is automated and repetitive.
