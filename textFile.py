@@ -73,5 +73,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#inheritence is define a new class that is a modified version of an existing class.
