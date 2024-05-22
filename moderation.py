@@ -27,6 +27,3 @@ def moderate_content(input_text, harmful_words=[]):
         return ""
     except Exception as e:
         return f"Error: {str(e)}"
-#polymorphism
-#Content Polymorphism: This approach ensures that the system doesn't always return the same response for flagged content, making it less predictable and more human-like.
-#Enhanced User Experience: By providing varied responses, users are less likely to feel that the moderation is automated and repetitive.
