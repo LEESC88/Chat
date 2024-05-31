@@ -47,7 +47,7 @@ body.background-image
 
 .chat-container 
 {
-    height: calc(100vh - 385px);
+    height: calc(100vh - 415px);
 }
 
 .fullscreen .chat-container 
